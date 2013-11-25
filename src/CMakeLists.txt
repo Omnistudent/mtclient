@@ -147,20 +147,24 @@ else()
 		find_package(JPEG REQUIRED)
 		find_package(BZip2 REQUIRED)
 		find_package(PNG REQUIRED)
-		if(APPLE)
+			if(APPLE)
 			FIND_LIBRARY(CARBON_LIB Carbon)
 			FIND_LIBRARY(COCOA_LIB Cocoa)
 			FIND_LIBRARY(IOKIT_LIB IOKit)
+			FIND_LIBRARY(COREFOUNDATION_LIB CoreFoundation )
 			mark_as_advanced(
 				CARBON_LIB
 				COCOA_LIB
 				IOKIT_LIB
+				COREFOUNDATION_LIB
 			)
-			SET(CLIENT_PLATFORM_LIBS ${CLIENT_PLATFORM_LIBS} ${CARBON_LIB} ${COCOA_LIB} ${IOKIT_LIB})
-		endif(APPLE)
+			SET(CLIENT_PLATFORM_LIBS ${CLIENT_PLATFORM_LIBS} ${CARBON_LIB} ${COCOA_LIB} ${IOKIT_LIB} ${COREFOUNDATION_LIB})
+			SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -framework Cocoa")
+	endif(APPLE)
 	endif(BUILD_CLIENT)
 	find_package(ZLIB REQUIRED)
-	set(PLATFORM_LIBS -lpthread -lrt ${CMAKE_DL_LIBS})
+#	set(PLATFORM_LIBS -lpthread -lrt ${CMAKE_DL_LIBS})
+        set(PLATFORM_LIBS -lpthread ${CMAKE_DL_LIBS})
 	#set(CLIENT_PLATFORM_LIBS -lXxf86vm)
 	# This way Xxf86vm is found on OpenBSD too
 	find_library(XXF86VM_LIBRARY Xxf86vm)
@@ -170,7 +174,7 @@ endif()
 
 find_package(Sqlite3 REQUIRED)
 find_package(Json REQUIRED)
-find_package(OpenGLES2)
+#find_package(OpenGLES2)
 
 if(USE_FREETYPE)
 	find_package(Freetype REQUIRED)
