@@ -209,10 +209,30 @@
 		vrLen = 399;
 		vrLoc = 2590;
 	};
+	957435191843FCB400125813 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4551C08A281146649ED201DE /* l_item.cpp */;
+		name = "l_item.cpp: 116";
+		rLen = 0;
+		rLoc = 2792;
+		rType = 0;
+		vrLen = 404;
+		vrLoc = 2616;
+	};
+	957435261843FCDD00125813 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4551C08A281146649ED201DE /* l_item.cpp */;
+		name = "l_item.cpp: 116";
+		rLen = 0;
+		rLoc = 2792;
+		rType = 0;
+		vrLen = 399;
+		vrLoc = 2590;
+	};
 	9C1555C95EAD461792DDEF70 /* Project object */ = {
 		activeBuildConfigurationName = Release;
 		activeExecutable = 957434EE1843F3B700125813 /* minetest */;
-		activeTarget = 00B16596904D417299D556F2 /* ALL_BUILD */;
+		activeTarget = FFC2C255521C4B8E80BE2D44 /* package */;
 		codeSenseManager = 957434FB1843F3D300125813 /* Code sense */;
 		executables = (
 			957434EE1843F3B700125813 /* minetest */,
@@ -241,6 +261,28 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
 			PBXPerProjectTemplateStateSaveDate = 407106488;
 			PBXWorkspaceStateSaveDate = 407106488;
 		};
@@ -255,6 +297,8 @@
 			957435111843F7DC00125813 /* PBXTextBookmark */ = 957435111843F7DC00125813 /* PBXTextBookmark */;
 			957435121843F7DC00125813 /* XCBuildMessageTextBookmark */ = 957435121843F7DC00125813 /* XCBuildMessageTextBookmark */;
 			957435131843F7DC00125813 /* PBXTextBookmark */ = 957435131843F7DC00125813 /* PBXTextBookmark */;
+			957435191843FCB400125813 /* PBXTextBookmark */ = 957435191843FCB400125813 /* PBXTextBookmark */;
+			957435261843FCDD00125813 /* PBXTextBookmark */ = 957435261843FCDD00125813 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 957434FA1843F3D300125813 /* Source Control */;
 		userBuildSettings = {

@@ -1,7 +1,7 @@
 TALL_BUILD
 v7
 r0
-t407107592.714796
+t407108814.099758
 cCheck dependencies
 cPhaseScriptExecution "CMake Rules" /Users/security/mtclient/minetest.build/Release/ALL_BUILD.build/Script-BCF089DB325944129340037A.sh
 
@@ -12,11 +12,11 @@ s138
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies407107591#407107591#0(0"0(0#1#0"8631629536#0"0#
+lSLF07#2@18"Check dependencies407108814#407108814#0(0"0(0#1#0"8636652352#0"0#
 
 CPhaseScriptExecution "CMake Rules" /Users/security/mtclient/minetest.build/Release/ALL_BUILD.build/Script-BCF089DB325944129340037A.sh
-s407107591.758159
-e407107592.714752
+s407108814.071264
+e407108814.099718
 r1
 xPhaseScriptExecution
 xCMake Rules
@@ -25,5 +25,5 @@ oecho ""
 o
 oecho Build\ all\ projects
 oBuild all projects
-lSLF07#2@37"Run custom shell script 'CMake Rules'407107591#407107592#0(54"echo ""echo Build\ all\ projectsBuild all projects3(13@8"echo ""407107591#0#8#0(1@0"0(13@26"echo Build\ all\ projects407107591#9#26#0(1@0"0(13@19"Build all projects407107592#35#19#0(1@0"0(0#0#0"8636188192#146"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/minetest.build/Release/ALL_BUILD.build/Script-BCF089DB325944129340037A.sh0#
+lSLF07#2@37"Run custom shell script 'CMake Rules'407108814#407108814#0(54"echo ""echo Build\ all\ projectsBuild all projects3(13@8"echo ""407108814#0#8#0(1@0"0(13@26"echo Build\ all\ projects407108814#9#26#0(1@0"0(13@19"Build all projects407108814#35#19#0(1@0"0(0#0#0"8638163040#146"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/minetest.build/Release/ALL_BUILD.build/Script-BCF089DB325944129340037A.sh0#
 

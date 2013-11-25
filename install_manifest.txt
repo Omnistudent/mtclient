@@ -1,0 +1,9 @@
+/Users/security/mtclient/_CPack_Packages/Darwin/Bundle/minetest-0.4.8-dev-osx/minetest.app/Contents/Resources/share/doc/minetest/README.txt
+/Users/security/mtclient/_CPack_Packages/Darwin/Bundle/minetest-0.4.8-dev-osx/minetest.app/Contents/Resources/share/doc/minetest/lua_api.txt
+/Users/security/mtclient/_CPack_Packages/Darwin/Bundle/minetest-0.4.8-dev-osx/minetest.app/Contents/Resources/share/doc/minetest/mapformat.txt
+/Users/security/mtclient/_CPack_Packages/Darwin/Bundle/minetest-0.4.8-dev-osx/minetest.app/Contents/Resources/share/doc/minetest/minetest.conf.example
+/man6/minetest.6
+/man6/minetestserver.6
+/hicolor/scalable/apps/minetest-icon.svg
+/Users/security/mtclient/_CPack_Packages/Darwin/Bundle/minetest-0.4.8-dev-osx/minetest.app/Contents/Resources/bin/minetest
+/Users/security/mtclient/_CPack_Packages/Darwin/Bundle/minetest-0.4.8-dev-osx/minetest.app/Contents/Resources/bin/minetestserver

@@ -1,7 +1,7 @@
 Tjsoncpp
 v7
 r0
-t407106835.395072
+t407108813.620293
 cCheck dependencies
 cCompileC src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.o /Users/security/mtclient/src/json/jsoncpp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cLibtool /Users/security/mtclient/src/json/Release/libjsoncpp.a normal i386
@@ -132,7 +132,7 @@ s148
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies407106835#407106835#0(0"0(0#1#0"8636969376#0"0#
+lSLF07#2@18"Check dependencies407108813#407108813#0(0"0(0#1#0"8638148992#0"0#
 
 CCompileC src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.o /Users/security/mtclient/src/json/jsoncpp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s407106540.557632
@@ -158,8 +158,8 @@ xi386
 lSLF07#2@49"Libtool src/json/Release/libjsoncpp.a normal i386407106575#407106575#0(0"0(0#0#0"8627082272#395"    cd /Users/security/mtclient    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/security/mtclient/src/json/Release -filelist /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.LinkFileList -o /Users/security/mtclient/src/json/Release/libjsoncpp.a0#
 
 CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-7AFE8753250E491BBF17BE73.sh
-s407106835.267504
-e407106835.395027
+s407108813.197515
+e407108813.620263
 r1
 xPhaseScriptExecution
 xCMake PostBuild Rules
@@ -167,7 +167,6 @@ x/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-7
 oecho "Depend check for xcode"
 oDepend check for xcode
 ocd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Release
-o/bin/rm -f /Users/security/mtclient/bin/Release/minetest
-o/bin/rm -f /Users/security/mtclient/bin/Release/minetestserver
-lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407106835#407106835#0(329"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Release/bin/rm -f /Users/security/mtclient/bin/Release/minetest/bin/rm -f /Users/security/mtclient/bin/Release/minetestserver5(13@30"echo "Depend check for xcode"407106835#0#30#0(1@0"0(13@23"Depend check for xcode407106835#30#23#0(1@0"0(13@156"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Release407106835#53#156#0(1@0"0(13@57"/bin/rm -f /Users/security/mtclient/bin/Release/minetest407106835#209#57#0(1@0"0(13@63"/bin/rm -f /Users/security/mtclient/bin/Release/minetestserver407106835#266#63#0(1@0"0(0#0#0"8633892320#153"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-7AFE8753250E491BBF17BE73.sh0#
+omake[1]: Nothing to be done for `PostBuild.jsoncpp.Release'.
+lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407108813#407108813#0(270"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Releasemake[1]: Nothing to be done for `PostBuild.jsoncpp.Release'.4(13@30"echo "Depend check for xcode"407108813#0#30#0(1@0"0(13@23"Depend check for xcode407108813#30#23#0(1@0"0(13@156"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Release407108813#53#156#0(1@0"0(13@61"make[1]: Nothing to be done for `PostBuild.jsoncpp.Release'.407108813#209#61#0(1@0"0(0#0#0"8624294144#153"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-7AFE8753250E491BBF17BE73.sh0#
 
