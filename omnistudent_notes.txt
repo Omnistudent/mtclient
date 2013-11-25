@@ -1,0 +1,10 @@
+mkdir mtclient
+cd mtclient
+git init
+touch omnistudent_notes.txt
+gitt add omnistudent_notes.txt 
+git add omnistudent_notes.txt 
+git commit -m "first commit, adding omnistudent_notes.txt"
+git remote add origin https://github.com/Omnistudent/mtclient.git
+git push origin master
+
