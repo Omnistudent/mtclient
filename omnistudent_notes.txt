@@ -144,3 +144,5 @@ change get getTimeNs()
 
 set xcode configuration to release
 
+copied mac files from osxminecraft/misc/mac to same dir
+
