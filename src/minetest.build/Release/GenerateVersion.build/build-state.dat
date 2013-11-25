@@ -1,0 +1,29 @@
+TGenerateVersion
+v7
+r0
+t407106694.892455
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/security/mtclient/src/minetest.build/Release/GenerateVersion.build/Script-0286F77C320B44D6ACFDF46B.sh
+
+N/Users/security/mtclient/src/minetest.build/Release/GenerateVersion.build/Script-0286F77C320B44D6ACFDF46B.sh
+c000000005293BC910000000000000098
+t1385413777
+s152
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies407106694#407106694#0(0"0(0#1#0"8635926816#0"0#
+
+CPhaseScriptExecution "CMake Rules" /Users/security/mtclient/src/minetest.build/Release/GenerateVersion.build/Script-0286F77C320B44D6ACFDF46B.sh
+s407106694.020529
+e407106694.892312
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/security/mtclient/src/minetest.build/Release/GenerateVersion.build/Script-0286F77C320B44D6ACFDF46B.sh
+oecho ""
+o
+ocd /Users/security/mtclient/src && /opt/local/bin/cmake -D GENERATE_VERSION_SOURCE_DIR=/Users/security/mtclient/src -D GENERATE_VERSION_BINARY_DIR=/Users/security/mtclient/src -D VERSION_STRING=0.4.8-dev -D VERSION_EXTRA= -P /Users/security/mtclient/cmake/Modules/GenerateVersion.cmake
+o-- *** Detected git version 4bf23d0-dirty ***
+lSLF07#2@37"Run custom shell script 'CMake Rules'407106694#407106694#0(341"echo ""cd /Users/security/mtclient/src && /opt/local/bin/cmake -D GENERATE_VERSION_SOURCE_DIR=/Users/security/mtclient/src -D GENERATE_VERSION_BINARY_DIR=/Users/security/mtclient/src -D VERSION_STRING=0.4.8-dev -D VERSION_EXTRA= -P /Users/security/mtclient/cmake/Modules/GenerateVersion.cmake-- *** Detected git version 4bf23d0-dirty ***3(13@8"echo ""407106694#0#8#0(1@0"0(13@286"cd /Users/security/mtclient/src && /opt/local/bin/cmake -D GENERATE_VERSION_SOURCE_DIR=/Users/security/mtclient/src -D GENERATE_VERSION_BINARY_DIR=/Users/security/mtclient/src -D VERSION_STRING=0.4.8-dev -D VERSION_EXTRA= -P /Users/security/mtclient/cmake/Modules/GenerateVersion.cmake407106694#9#286#0(1@0"0(13@46"-- *** Detected git version 4bf23d0-dirty ***407106694#295#46#0(1@0"0(0#0#0"8623349536#156"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/minetest.build/Release/GenerateVersion.build/Script-0286F77C320B44D6ACFDF46B.sh0#
+

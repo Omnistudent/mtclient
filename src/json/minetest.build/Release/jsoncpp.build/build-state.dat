@@ -1,0 +1,173 @@
+Tjsoncpp
+v7
+r0
+t407106694.002939
+cCheck dependencies
+cCompileC src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.o /Users/security/mtclient/src/json/jsoncpp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLibtool /Users/security/mtclient/src/json/Release/libjsoncpp.a normal i386
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-7AFE8753250E491BBF17BE73.sh
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004A5C14A60000000000000DCB
+t1247548582
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+N/Users/security/mtclient/src/cmake_config.h
+c000000005293BACA000000000000029D
+t1385413322
+s669
+
+N/Users/security/mtclient/src/config.h
+c00000000529285E50000000000000368
+t1385334245
+s872
+i"cmake_config.h"
+
+N/Users/security/mtclient/src/json/Release/libjsoncpp.a
+t1385413775
+s239928
+
+N/Users/security/mtclient/src/json/json.h
+c00000000529285E5000000000000F9EB
+t1385334245
+s63979
+i<cpptl/config.h>
+i"config.h"
+i"forwards.h"
+i"forwards.h"
+i<string>
+i<vector>
+i<map>
+i<cpptl/smallmap.h>
+i<cpptl/forwards.h>
+i"features.h"
+i"value.h"
+i<deque>
+i<stack>
+i<string>
+i"value.h"
+i<vector>
+i<string>
+i<stdlib.h>
+i<json/config.h>
+
+N/Users/security/mtclient/src/json/jsoncpp.cpp
+c00000000529285E5000000000001A0AB
+t1385334245
+s106667
+i"json.h"
+i<json/assertions.h>
+i<json/reader.h>
+i<json/value.h>
+i"json_tool.h"
+i<utility>
+i<cstdio>
+i<cassert>
+i<cstring>
+i<stdexcept>
+i<stdlib.h>
+i<assert.h>
+i<json/assertions.h>
+i<json/value.h>
+i<json/writer.h>
+i"json_batchallocator.h"
+i<math.h>
+i<sstream>
+i<utility>
+i<stdexcept>
+i<cstring>
+i<cassert>
+i<cpptl/conststring.h>
+i<cstddef>
+i"json_internalarray.inl"
+i"json_internalmap.inl"
+i"json_valueiterator.inl"
+i<json/writer.h>
+i"json_tool.h"
+i<utility>
+i<assert.h>
+i<stdio.h>
+i<string.h>
+i<sstream>
+i<iomanip>
+
+N/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.LinkFileList
+c000000005293BC6C0000000000000065
+t1385413740
+s101
+
+N/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.o
+t1385413775
+s219924
+
+N/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-7AFE8753250E491BBF17BE73.sh
+c000000005293BC6C0000000000000094
+t1385413740
+s148
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies407106693#407106693#0(0"0(0#1#0"8636181952#0"0#
+
+CCompileC src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.o /Users/security/mtclient/src/json/jsoncpp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s407106540.557632
+e407106575.369106
+r1
+xCompileC
+xsrc/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.o
+x/Users/security/mtclient/src/json/jsoncpp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/security/mtclient/src/json/jsoncpp.cpp407106540#407106575#0(0"0(0#0#45"/Users/security/mtclient/src/json/jsoncpp.cpp8620385344#1378"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/json/Release -I/Users/security/mtclient/src/json/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/DerivedSources/i386 -I/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/json/jsoncpp.cpp -o /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.o0#
+
+CLibtool /Users/security/mtclient/src/json/Release/libjsoncpp.a normal i386
+s407106575.369199
+e407106575.996939
+r1
+xLibtool
+x/Users/security/mtclient/src/json/Release/libjsoncpp.a
+xnormal
+xi386
+lSLF07#2@49"Libtool src/json/Release/libjsoncpp.a normal i386407106575#407106575#0(0"0(0#0#0"8627082272#395"    cd /Users/security/mtclient    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/security/mtclient/src/json/Release -filelist /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.LinkFileList -o /Users/security/mtclient/src/json/Release/libjsoncpp.a0#
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-7AFE8753250E491BBF17BE73.sh
+s407106693.387042
+e407106694.002901
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-7AFE8753250E491BBF17BE73.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Release
+o/bin/rm -f /Users/security/mtclient/bin/Release/minetest
+o/bin/rm -f /Users/security/mtclient/bin/Release/minetestserver
+lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407106693#407106694#0(329"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Release/bin/rm -f /Users/security/mtclient/bin/Release/minetest/bin/rm -f /Users/security/mtclient/bin/Release/minetestserver5(13@30"echo "Depend check for xcode"407106693#0#30#0(1@0"0(13@23"Depend check for xcode407106693#30#23#0(1@0"0(13@156"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Release407106693#53#156#0(1@0"0(13@57"/bin/rm -f /Users/security/mtclient/bin/Release/minetest407106693#209#57#0(1@0"0(13@63"/bin/rm -f /Users/security/mtclient/bin/Release/minetestserver407106693#266#63#0(1@0"0(0#0#0"8626806880#153"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-7AFE8753250E491BBF17BE73.sh0#
+

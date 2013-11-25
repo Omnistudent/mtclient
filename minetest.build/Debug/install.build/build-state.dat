@@ -1,0 +1,12 @@
+Tinstall
+v7
+r1
+
+N/Users/security/mtclient/minetest.build/Debug/install.build/Script-1A2EBC7B195A4A1083A1F7CB.sh
+c00000000000000000000000000000000
+t2
+s0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/minetest.build/Debug/install.build/Script-1A2EBC7B195A4A1083A1F7CB.sh
+r0
+

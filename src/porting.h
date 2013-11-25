@@ -196,8 +196,6 @@ bool threadSetPriority(threadid_t tid, int prio);
     #define CLOCK_REALTIME 0
     #define CLOCK_MONOTONIC 0
 
-    change get getTimeNs()
-
             inline u32 getTimeNs()
             {
                     //struct timespec ts;
