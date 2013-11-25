@@ -56,3 +56,91 @@ CMake Error at cmake/Modules/FindOpenGLES2.cmake:44 (create_search_paths):
 Call Stack (most recent call first):
   src/CMakeLists.txt:173 (find_package)
 
+
+// From earlier notes, this is what I need to do:
+
+in src/cmakelists.txt
+
+some changes early in set directories, make to look like van44
+
+
+	if(APPLE)
+			FIND_LIBRARY(CARBON_LIB Carbon)
+			FIND_LIBRARY(COCOA_LIB Cocoa)
+			FIND_LIBRARY(IOKIT_LIB IOKit)
+			mark_as_advanced(
+				CARBON_LIB
+				COCOA_LIB
+				IOKIT_LIB
+			)
+			SET(CLIENT_PLATFORM_LIBS ${CLIENT_PLATFORM_LIBS} ${CARBON_LIB} ${COCOA_LIB} ${IOKIT_LIB})
+		endif(APPLE)
+
+
+to
+
+		if(APPLE)
+			FIND_LIBRARY(CARBON_LIB Carbon)
+			FIND_LIBRARY(COCOA_LIB Cocoa)
+			FIND_LIBRARY(IOKIT_LIB IOKit)
+			FIND_LIBRARY(COREFOUNDATION_LIB CoreFoundation )
+			mark_as_advanced(
+				CARBON_LIB
+				COCOA_LIB
+				IOKIT_LIB
+				COREFOUNDATION_LIB
+			)
+			SET(CLIENT_PLATFORM_LIBS ${CLIENT_PLATFORM_LIBS} ${CARBON_LIB} ${COCOA_LIB} ${IOKIT_LIB} ${COREFOUNDATION_LIB})
+			SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -framework Cocoa")
+	endif(APPLE)
+
+comment out
+
+find_package(OpenGLES2)
+
+change
+
+set(PLATFORM_LIBS -lpthread -lrt ${CMAKE_DL_LIBS})
+
+to
+
+set(PLATFORM_LIBS -lpthread ${CMAKE_DL_LIBS})
+
+in cmakelists.txt
+
+comment out 
+
+install(FILES "misc/minetest.desktop" DESTINATION "${XDG_APPS_DIR}")
+
+in porting.h
+
+after 
+#else // Posix
+	#include <sys/time.h>
+	#include <time.h>
+
+insert
+
+#include <mach/mach_time.h>
+#include <mach/mach.h> // This one makes policy thread work
+#include <mach/mach_init.h>
+#include <mach/thread_policy.h>
+#define CLOCK_REALTIME 0
+#define CLOCK_MONOTONIC 0
+
+change get getTimeNs()
+
+	inline u32 getTimeNs()
+	{
+		struct timespec ts;
+		//clock_gettime(CLOCK_REALTIME, &ts);
+                struct timeval tv;
+                gettimeofday(&tv, NULL);
+              // tv_sec = tv.tv_sec; 
+              // tv_nsec = tv.tv_usec * 1000;
+		return tv.tv_sec * 1000000000 + tv.tv_usec*1000;
+	}
+
+
+set xcode configuration to release
+
