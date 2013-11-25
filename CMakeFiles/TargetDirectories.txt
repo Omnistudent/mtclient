@@ -1,0 +1,7 @@
+/Users/security/mtclient/CMakeFiles/ALL_BUILD.dir
+/Users/security/mtclient/src/CMakeFiles/GenerateVersion.dir
+/Users/security/mtclient/CMakeFiles/ZERO_CHECK.dir
+/Users/security/mtclient/src/json/CMakeFiles/jsoncpp.dir
+/Users/security/mtclient/src/lua/build/CMakeFiles/lua.dir
+/Users/security/mtclient/src/CMakeFiles/minetest.dir
+/Users/security/mtclient/src/CMakeFiles/minetestserver.dir

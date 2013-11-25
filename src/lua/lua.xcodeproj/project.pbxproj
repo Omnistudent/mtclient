@@ -1,0 +1,1101 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              00B16596904D417299D556F2 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 0F7C28DA88DD40BEB38E19C0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            8B3A12D13F054506BDBA2397 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            A4CC462271264A0AADCCCF2E /* PBXTargetDependency */,
+                            5C09B739B04444CC989BA906 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              3C3DDCBB7AD34043A55973E8 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = FC3A4F0C8D7A47859C4FCB5B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            4319B3584C2D4AE585A60E8F /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              FE949912548249F98E1B8C67 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = AB7C950CEEAF45C2B1C0FB81 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            580FC865AF024ED1B2894C63 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            503833404D2C47DEB4CF4611 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+              FFC2C255521C4B8E80BE2D44 /* package */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 3D6F0AE218A94F9F8DD33D27 /* Build configuration list for PBXAggregateTarget "package" */;
+                     buildPhases = (
+                            71F658A2C0AC4D24A08B1EB1 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            503833404D2C47DEB4CF4611 /* PBXTargetDependency */,
+                     );
+                     name = package;
+                     productName = package;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+CE093D9D418C40CC80D841E9 /* /Users/security/mtclient/src/lua/src/lapi.c */ = {isa = PBXBuildFile; fileRef = 2F66D5844A394EC5822ED00A /* /Users/security/mtclient/src/lua/src/lapi.c */; settings = { COMPILER_FLAGS = ""; }; };
+F3C93B0B41D1465AA2EDD0E8 /* /Users/security/mtclient/src/lua/src/lauxlib.c */ = {isa = PBXBuildFile; fileRef = 76E7072AB887474E8A8BE0EE /* /Users/security/mtclient/src/lua/src/lauxlib.c */; settings = { COMPILER_FLAGS = ""; }; };
+90C0E234FB874C0CA8F45F62 /* /Users/security/mtclient/src/lua/src/lbaselib.c */ = {isa = PBXBuildFile; fileRef = EE94D718DA8B41C990764265 /* /Users/security/mtclient/src/lua/src/lbaselib.c */; settings = { COMPILER_FLAGS = ""; }; };
+85E66F10D2AC4DD1852FC012 /* /Users/security/mtclient/src/lua/src/lcode.c */ = {isa = PBXBuildFile; fileRef = 1C0541170782491F808D16DC /* /Users/security/mtclient/src/lua/src/lcode.c */; settings = { COMPILER_FLAGS = ""; }; };
+ACFAD17D5C424E2B89B7795A /* /Users/security/mtclient/src/lua/src/ldblib.c */ = {isa = PBXBuildFile; fileRef = 5ABA108905C04DBDA78EA80E /* /Users/security/mtclient/src/lua/src/ldblib.c */; settings = { COMPILER_FLAGS = ""; }; };
+365AA05589174C91B359EC35 /* /Users/security/mtclient/src/lua/src/ldebug.c */ = {isa = PBXBuildFile; fileRef = 94094E32DF1B4843908E5C8E /* /Users/security/mtclient/src/lua/src/ldebug.c */; settings = { COMPILER_FLAGS = ""; }; };
+CD3B627F676A4F4EBBBDE9BB /* /Users/security/mtclient/src/lua/src/ldo.c */ = {isa = PBXBuildFile; fileRef = 59933A7908EF47E8914BC468 /* /Users/security/mtclient/src/lua/src/ldo.c */; settings = { COMPILER_FLAGS = ""; }; };
+0D6A0865D7A54856984DB0D6 /* /Users/security/mtclient/src/lua/src/ldump.c */ = {isa = PBXBuildFile; fileRef = 0A3C5D1A01654BE2B127B408 /* /Users/security/mtclient/src/lua/src/ldump.c */; settings = { COMPILER_FLAGS = ""; }; };
+2DF71F6C921146C580F32994 /* /Users/security/mtclient/src/lua/src/lfunc.c */ = {isa = PBXBuildFile; fileRef = E72869BC6094439D9FC95B91 /* /Users/security/mtclient/src/lua/src/lfunc.c */; settings = { COMPILER_FLAGS = ""; }; };
+7B6B7A742DDA44EAB2845ED9 /* /Users/security/mtclient/src/lua/src/lgc.c */ = {isa = PBXBuildFile; fileRef = ECD53E4A7F6E4A98B98BE427 /* /Users/security/mtclient/src/lua/src/lgc.c */; settings = { COMPILER_FLAGS = ""; }; };
+62686D26E9264C7BA5F30CB3 /* /Users/security/mtclient/src/lua/src/linit.c */ = {isa = PBXBuildFile; fileRef = 242C9855BA9E4B2CBF74228C /* /Users/security/mtclient/src/lua/src/linit.c */; settings = { COMPILER_FLAGS = ""; }; };
+F223EDCD7E4B460BAFC1FFFF /* /Users/security/mtclient/src/lua/src/liolib.c */ = {isa = PBXBuildFile; fileRef = 28B8B2A42FED457A9F5F7850 /* /Users/security/mtclient/src/lua/src/liolib.c */; settings = { COMPILER_FLAGS = ""; }; };
+4D14F4E0104241BFBDE33B5C /* /Users/security/mtclient/src/lua/src/llex.c */ = {isa = PBXBuildFile; fileRef = 763B2106BE7C4613A93534D3 /* /Users/security/mtclient/src/lua/src/llex.c */; settings = { COMPILER_FLAGS = ""; }; };
+9856846CC59A41A28744C3D4 /* /Users/security/mtclient/src/lua/src/lmathlib.c */ = {isa = PBXBuildFile; fileRef = 713EDECC4AFC4E0987EF1B44 /* /Users/security/mtclient/src/lua/src/lmathlib.c */; settings = { COMPILER_FLAGS = ""; }; };
+135347B97456446F93F8B9E7 /* /Users/security/mtclient/src/lua/src/lmem.c */ = {isa = PBXBuildFile; fileRef = C785CD73C4D9477097A24036 /* /Users/security/mtclient/src/lua/src/lmem.c */; settings = { COMPILER_FLAGS = ""; }; };
+AE53EC2DFC0B46D3A0796F3B /* /Users/security/mtclient/src/lua/src/loadlib.c */ = {isa = PBXBuildFile; fileRef = 947AD30883E443EC880C38F3 /* /Users/security/mtclient/src/lua/src/loadlib.c */; settings = { COMPILER_FLAGS = ""; }; };
+DC934461000B4CC09264DCA4 /* /Users/security/mtclient/src/lua/src/lobject.c */ = {isa = PBXBuildFile; fileRef = 1D22948E026F43C4BA6CF526 /* /Users/security/mtclient/src/lua/src/lobject.c */; settings = { COMPILER_FLAGS = ""; }; };
+CFBC2CC2D13044A5A464FAB7 /* /Users/security/mtclient/src/lua/src/lopcodes.c */ = {isa = PBXBuildFile; fileRef = 856CF7C72EAE4BC48AF0B829 /* /Users/security/mtclient/src/lua/src/lopcodes.c */; settings = { COMPILER_FLAGS = ""; }; };
+F3CE7490C3BC407DBD36D77A /* /Users/security/mtclient/src/lua/src/loslib.c */ = {isa = PBXBuildFile; fileRef = 68C3E5060B38472DAF23DDBC /* /Users/security/mtclient/src/lua/src/loslib.c */; settings = { COMPILER_FLAGS = ""; }; };
+58B9B32145D64E2B8C807B87 /* /Users/security/mtclient/src/lua/src/lparser.c */ = {isa = PBXBuildFile; fileRef = 4DF8F686846D408785AD31EE /* /Users/security/mtclient/src/lua/src/lparser.c */; settings = { COMPILER_FLAGS = ""; }; };
+943EB5ABA00C4231BA131F71 /* /Users/security/mtclient/src/lua/src/lstate.c */ = {isa = PBXBuildFile; fileRef = 059C49EA963442ACA8FF5AC0 /* /Users/security/mtclient/src/lua/src/lstate.c */; settings = { COMPILER_FLAGS = ""; }; };
+4EED914342E74274884C23E5 /* /Users/security/mtclient/src/lua/src/lstring.c */ = {isa = PBXBuildFile; fileRef = 20790C30544D4887AF206914 /* /Users/security/mtclient/src/lua/src/lstring.c */; settings = { COMPILER_FLAGS = ""; }; };
+072726D914544F0AB28176EE /* /Users/security/mtclient/src/lua/src/lstrlib.c */ = {isa = PBXBuildFile; fileRef = F021E24C51B64CB680DCEB62 /* /Users/security/mtclient/src/lua/src/lstrlib.c */; settings = { COMPILER_FLAGS = ""; }; };
+0AD77F01C90E480BB15C3682 /* /Users/security/mtclient/src/lua/src/ltable.c */ = {isa = PBXBuildFile; fileRef = 36C65F20198449589CDB2A78 /* /Users/security/mtclient/src/lua/src/ltable.c */; settings = { COMPILER_FLAGS = ""; }; };
+4064F7F89FEC41D99AB6073A /* /Users/security/mtclient/src/lua/src/ltablib.c */ = {isa = PBXBuildFile; fileRef = 72E7776637C745C1A98F723F /* /Users/security/mtclient/src/lua/src/ltablib.c */; settings = { COMPILER_FLAGS = ""; }; };
+EAADBC7BAB714E428B79ADAC /* /Users/security/mtclient/src/lua/src/ltm.c */ = {isa = PBXBuildFile; fileRef = D1843EC0618F4644991602E8 /* /Users/security/mtclient/src/lua/src/ltm.c */; settings = { COMPILER_FLAGS = ""; }; };
+08BE72E6EE284F23B6C4BAA6 /* /Users/security/mtclient/src/lua/src/lundump.c */ = {isa = PBXBuildFile; fileRef = 8DBF10818EB54BB7BE38B01D /* /Users/security/mtclient/src/lua/src/lundump.c */; settings = { COMPILER_FLAGS = ""; }; };
+FE146672B58B4A1688AAA055 /* /Users/security/mtclient/src/lua/src/lvm.c */ = {isa = PBXBuildFile; fileRef = 7F9C44522BC74B8F9B85932F /* /Users/security/mtclient/src/lua/src/lvm.c */; settings = { COMPILER_FLAGS = ""; }; };
+48337F2F32874E84BC1175AE /* /Users/security/mtclient/src/lua/src/lzio.c */ = {isa = PBXBuildFile; fileRef = 7B9329BF38DF40C198974F64 /* /Users/security/mtclient/src/lua/src/lzio.c */; settings = { COMPILER_FLAGS = ""; }; };
+2973E166FFEF40459DEE93A2 /* /Users/security/mtclient/src/lua/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AF04346032D74DDD8823A5F7 /* /Users/security/mtclient/src/lua/src/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              E7DDBF620AF14EE881A49151 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              4E516C22687C4B85822B6345 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              C1DD9D63F7B942BD9B61D2FE /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              7881D555298444C782FDFC93 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              7DE7F822FDFF47B8BEC938C2 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              3362E155414B4BF5AEFD58C6 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = D94DB94DCC5F43DAB5111C21 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 3C3DDCBB7AD34043A55973E8;
+                     remoteInfo = ZERO_CHECK;
+              };
+              6CAFD708E17C47779B14A02B /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = D94DB94DCC5F43DAB5111C21 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = B5CD81AE4FC0409CBDE4BE6D;
+                     remoteInfo = lua;
+              };
+              4331FA9939B1444AA6D90CA5 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = D94DB94DCC5F43DAB5111C21 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 00B16596904D417299D556F2;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+A3E426927E8047628D272700 /* /Users/security/mtclient/src/lua/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+2F66D5844A394EC5822ED00A /* /Users/security/mtclient/src/lua/src/lapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lapi.c"; path = "src/lapi.c"; sourceTree = SOURCE_ROOT; };
+76E7072AB887474E8A8BE0EE /* /Users/security/mtclient/src/lua/src/lauxlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lauxlib.c"; path = "src/lauxlib.c"; sourceTree = SOURCE_ROOT; };
+EE94D718DA8B41C990764265 /* /Users/security/mtclient/src/lua/src/lbaselib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lbaselib.c"; path = "src/lbaselib.c"; sourceTree = SOURCE_ROOT; };
+1C0541170782491F808D16DC /* /Users/security/mtclient/src/lua/src/lcode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lcode.c"; path = "src/lcode.c"; sourceTree = SOURCE_ROOT; };
+5ABA108905C04DBDA78EA80E /* /Users/security/mtclient/src/lua/src/ldblib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ldblib.c"; path = "src/ldblib.c"; sourceTree = SOURCE_ROOT; };
+94094E32DF1B4843908E5C8E /* /Users/security/mtclient/src/lua/src/ldebug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ldebug.c"; path = "src/ldebug.c"; sourceTree = SOURCE_ROOT; };
+59933A7908EF47E8914BC468 /* /Users/security/mtclient/src/lua/src/ldo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ldo.c"; path = "src/ldo.c"; sourceTree = SOURCE_ROOT; };
+0A3C5D1A01654BE2B127B408 /* /Users/security/mtclient/src/lua/src/ldump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ldump.c"; path = "src/ldump.c"; sourceTree = SOURCE_ROOT; };
+E72869BC6094439D9FC95B91 /* /Users/security/mtclient/src/lua/src/lfunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lfunc.c"; path = "src/lfunc.c"; sourceTree = SOURCE_ROOT; };
+ECD53E4A7F6E4A98B98BE427 /* /Users/security/mtclient/src/lua/src/lgc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lgc.c"; path = "src/lgc.c"; sourceTree = SOURCE_ROOT; };
+242C9855BA9E4B2CBF74228C /* /Users/security/mtclient/src/lua/src/linit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "linit.c"; path = "src/linit.c"; sourceTree = SOURCE_ROOT; };
+28B8B2A42FED457A9F5F7850 /* /Users/security/mtclient/src/lua/src/liolib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "liolib.c"; path = "src/liolib.c"; sourceTree = SOURCE_ROOT; };
+763B2106BE7C4613A93534D3 /* /Users/security/mtclient/src/lua/src/llex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "llex.c"; path = "src/llex.c"; sourceTree = SOURCE_ROOT; };
+713EDECC4AFC4E0987EF1B44 /* /Users/security/mtclient/src/lua/src/lmathlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lmathlib.c"; path = "src/lmathlib.c"; sourceTree = SOURCE_ROOT; };
+C785CD73C4D9477097A24036 /* /Users/security/mtclient/src/lua/src/lmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lmem.c"; path = "src/lmem.c"; sourceTree = SOURCE_ROOT; };
+947AD30883E443EC880C38F3 /* /Users/security/mtclient/src/lua/src/loadlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "loadlib.c"; path = "src/loadlib.c"; sourceTree = SOURCE_ROOT; };
+1D22948E026F43C4BA6CF526 /* /Users/security/mtclient/src/lua/src/lobject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lobject.c"; path = "src/lobject.c"; sourceTree = SOURCE_ROOT; };
+856CF7C72EAE4BC48AF0B829 /* /Users/security/mtclient/src/lua/src/lopcodes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lopcodes.c"; path = "src/lopcodes.c"; sourceTree = SOURCE_ROOT; };
+68C3E5060B38472DAF23DDBC /* /Users/security/mtclient/src/lua/src/loslib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "loslib.c"; path = "src/loslib.c"; sourceTree = SOURCE_ROOT; };
+4DF8F686846D408785AD31EE /* /Users/security/mtclient/src/lua/src/lparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lparser.c"; path = "src/lparser.c"; sourceTree = SOURCE_ROOT; };
+059C49EA963442ACA8FF5AC0 /* /Users/security/mtclient/src/lua/src/lstate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lstate.c"; path = "src/lstate.c"; sourceTree = SOURCE_ROOT; };
+20790C30544D4887AF206914 /* /Users/security/mtclient/src/lua/src/lstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lstring.c"; path = "src/lstring.c"; sourceTree = SOURCE_ROOT; };
+F021E24C51B64CB680DCEB62 /* /Users/security/mtclient/src/lua/src/lstrlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lstrlib.c"; path = "src/lstrlib.c"; sourceTree = SOURCE_ROOT; };
+36C65F20198449589CDB2A78 /* /Users/security/mtclient/src/lua/src/ltable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ltable.c"; path = "src/ltable.c"; sourceTree = SOURCE_ROOT; };
+72E7776637C745C1A98F723F /* /Users/security/mtclient/src/lua/src/ltablib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ltablib.c"; path = "src/ltablib.c"; sourceTree = SOURCE_ROOT; };
+D1843EC0618F4644991602E8 /* /Users/security/mtclient/src/lua/src/ltm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "ltm.c"; path = "src/ltm.c"; sourceTree = SOURCE_ROOT; };
+8DBF10818EB54BB7BE38B01D /* /Users/security/mtclient/src/lua/src/lundump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lundump.c"; path = "src/lundump.c"; sourceTree = SOURCE_ROOT; };
+7F9C44522BC74B8F9B85932F /* /Users/security/mtclient/src/lua/src/lvm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lvm.c"; path = "src/lvm.c"; sourceTree = SOURCE_ROOT; };
+7B9329BF38DF40C198974F64 /* /Users/security/mtclient/src/lua/src/lzio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "lzio.c"; path = "src/lzio.c"; sourceTree = SOURCE_ROOT; };
+AF04346032D74DDD8823A5F7 /* /Users/security/mtclient/src/lua/src/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+7742DF2877DD4DF9A7A8D691 /* lua */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "liblua.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              ABE68A431D9042B69119DE21  = {
+                     isa = PBXGroup;
+                     children = (
+                            A76065296BAF4B5CB5EE9CDF /* Sources */,
+                            873CCE26C85A4805881111DD /* Resources */,
+                            18EDC1BC183F4E7C98A2295A /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              A76065296BAF4B5CB5EE9CDF /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            135CF7E7FB1E40CC9C3831F7 /* ALL_BUILD */,
+                            A4C56327993845888523198C /* ZERO_CHECK */,
+                            7BECA3FF3ACD46D4B2258720 /* lua */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              873CCE26C85A4805881111DD /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              135CF7E7FB1E40CC9C3831F7 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5C7E0F85A05F49F99AFF371E /* CMake Rules */,
+                            A3E426927E8047628D272700 /* /Users/security/mtclient/src/lua/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              5C7E0F85A05F49F99AFF371E /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              A4C56327993845888523198C /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            E2E8DC726B42441BB1F43781 /* CMake Rules */,
+                            A3E426927E8047628D272700 /* /Users/security/mtclient/src/lua/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              E2E8DC726B42441BB1F43781 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              7BECA3FF3ACD46D4B2258720 /* lua */ = {
+                     isa = PBXGroup;
+                     children = (
+                            EE87CFAC7324411CADADD670 /* Source Files */,
+                            AF04346032D74DDD8823A5F7 /* /Users/security/mtclient/src/lua/src/CMakeLists.txt */,
+                     );
+                     name = lua;
+                     sourceTree = "<group>";
+              };
+              EE87CFAC7324411CADADD670 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            2F66D5844A394EC5822ED00A /* /Users/security/mtclient/src/lua/src/lapi.c */,
+                            76E7072AB887474E8A8BE0EE /* /Users/security/mtclient/src/lua/src/lauxlib.c */,
+                            EE94D718DA8B41C990764265 /* /Users/security/mtclient/src/lua/src/lbaselib.c */,
+                            1C0541170782491F808D16DC /* /Users/security/mtclient/src/lua/src/lcode.c */,
+                            5ABA108905C04DBDA78EA80E /* /Users/security/mtclient/src/lua/src/ldblib.c */,
+                            94094E32DF1B4843908E5C8E /* /Users/security/mtclient/src/lua/src/ldebug.c */,
+                            59933A7908EF47E8914BC468 /* /Users/security/mtclient/src/lua/src/ldo.c */,
+                            0A3C5D1A01654BE2B127B408 /* /Users/security/mtclient/src/lua/src/ldump.c */,
+                            E72869BC6094439D9FC95B91 /* /Users/security/mtclient/src/lua/src/lfunc.c */,
+                            ECD53E4A7F6E4A98B98BE427 /* /Users/security/mtclient/src/lua/src/lgc.c */,
+                            242C9855BA9E4B2CBF74228C /* /Users/security/mtclient/src/lua/src/linit.c */,
+                            28B8B2A42FED457A9F5F7850 /* /Users/security/mtclient/src/lua/src/liolib.c */,
+                            763B2106BE7C4613A93534D3 /* /Users/security/mtclient/src/lua/src/llex.c */,
+                            713EDECC4AFC4E0987EF1B44 /* /Users/security/mtclient/src/lua/src/lmathlib.c */,
+                            C785CD73C4D9477097A24036 /* /Users/security/mtclient/src/lua/src/lmem.c */,
+                            947AD30883E443EC880C38F3 /* /Users/security/mtclient/src/lua/src/loadlib.c */,
+                            1D22948E026F43C4BA6CF526 /* /Users/security/mtclient/src/lua/src/lobject.c */,
+                            856CF7C72EAE4BC48AF0B829 /* /Users/security/mtclient/src/lua/src/lopcodes.c */,
+                            68C3E5060B38472DAF23DDBC /* /Users/security/mtclient/src/lua/src/loslib.c */,
+                            4DF8F686846D408785AD31EE /* /Users/security/mtclient/src/lua/src/lparser.c */,
+                            059C49EA963442ACA8FF5AC0 /* /Users/security/mtclient/src/lua/src/lstate.c */,
+                            20790C30544D4887AF206914 /* /Users/security/mtclient/src/lua/src/lstring.c */,
+                            F021E24C51B64CB680DCEB62 /* /Users/security/mtclient/src/lua/src/lstrlib.c */,
+                            36C65F20198449589CDB2A78 /* /Users/security/mtclient/src/lua/src/ltable.c */,
+                            72E7776637C745C1A98F723F /* /Users/security/mtclient/src/lua/src/ltablib.c */,
+                            D1843EC0618F4644991602E8 /* /Users/security/mtclient/src/lua/src/ltm.c */,
+                            8DBF10818EB54BB7BE38B01D /* /Users/security/mtclient/src/lua/src/lundump.c */,
+                            7F9C44522BC74B8F9B85932F /* /Users/security/mtclient/src/lua/src/lvm.c */,
+                            7B9329BF38DF40C198974F64 /* /Users/security/mtclient/src/lua/src/lzio.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              18EDC1BC183F4E7C98A2295A /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            7742DF2877DD4DF9A7A8D691 /* lua */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              B5CD81AE4FC0409CBDE4BE6D /* lua */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = A0E2AD5395894273ADB3E017 /* Build configuration list for PBXNativeTarget "lua" */;
+                     buildPhases = (
+                            618823BA823A4CEA99443DCE /* Sources */,
+                            B410238D0B9640D9AA138626 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                     );
+                     name = lua;
+                     productName = lua;
+                     productReference = 7742DF2877DD4DF9A7A8D691 /* lua */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              D94DB94DCC5F43DAB5111C21 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 9ABACD7BDE4746FDB73ABF80 /* Build configuration list for PBXProject  "lua" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            4E516C22687C4B85822B6345 /* Debug */,
+                            C1DD9D63F7B942BD9B61D2FE /* Release */,
+                            7881D555298444C782FDFC93 /* MinSizeRel */,
+                            7DE7F822FDFF47B8BEC938C2 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = ABE68A431D9042B69119DE21;
+                     projectDirPath = ".";
+                     projectRoot = "";
+                     targets = (
+                            00B16596904D417299D556F2 /* ALL_BUILD */,
+                            3C3DDCBB7AD34043A55973E8 /* ZERO_CHECK */,
+                            FE949912548249F98E1B8C67 /* install */,
+                            FFC2C255521C4B8E80BE2D44 /* package */,
+                            B5CD81AE4FC0409CBDE4BE6D /* lua */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              1086B90386DA47FB9B625835 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              8B3A12D13F054506BDBA2397 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/security/mtclient/src/lua -f /Users/security/mtclient/src/lua/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              1CA35DE57AF149FFAD4097D9 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              4319B3584C2D4AE585A60E8F /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/security/mtclient/src/lua -f /Users/security/mtclient/src/lua/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              4300B7589B6249BD90638865 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              580FC865AF024ED1B2894C63 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/security/mtclient/src/lua -f /Users/security/mtclient/src/lua/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              70905CCBB4724EE9B4DA6299 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              71F658A2C0AC4D24A08B1EB1 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/security/mtclient/src/lua -f /Users/security/mtclient/src/lua/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              B410238D0B9640D9AA138626 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/security/mtclient/src/lua/build -f /Users/security/mtclient/src/lua/build/CMakeScripts/lua_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              618823BA823A4CEA99443DCE /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            CE093D9D418C40CC80D841E9 /* /Users/security/mtclient/src/lua/src/lapi.c */,
+                            F3C93B0B41D1465AA2EDD0E8 /* /Users/security/mtclient/src/lua/src/lauxlib.c */,
+                            90C0E234FB874C0CA8F45F62 /* /Users/security/mtclient/src/lua/src/lbaselib.c */,
+                            85E66F10D2AC4DD1852FC012 /* /Users/security/mtclient/src/lua/src/lcode.c */,
+                            ACFAD17D5C424E2B89B7795A /* /Users/security/mtclient/src/lua/src/ldblib.c */,
+                            365AA05589174C91B359EC35 /* /Users/security/mtclient/src/lua/src/ldebug.c */,
+                            CD3B627F676A4F4EBBBDE9BB /* /Users/security/mtclient/src/lua/src/ldo.c */,
+                            0D6A0865D7A54856984DB0D6 /* /Users/security/mtclient/src/lua/src/ldump.c */,
+                            2DF71F6C921146C580F32994 /* /Users/security/mtclient/src/lua/src/lfunc.c */,
+                            7B6B7A742DDA44EAB2845ED9 /* /Users/security/mtclient/src/lua/src/lgc.c */,
+                            62686D26E9264C7BA5F30CB3 /* /Users/security/mtclient/src/lua/src/linit.c */,
+                            F223EDCD7E4B460BAFC1FFFF /* /Users/security/mtclient/src/lua/src/liolib.c */,
+                            4D14F4E0104241BFBDE33B5C /* /Users/security/mtclient/src/lua/src/llex.c */,
+                            9856846CC59A41A28744C3D4 /* /Users/security/mtclient/src/lua/src/lmathlib.c */,
+                            135347B97456446F93F8B9E7 /* /Users/security/mtclient/src/lua/src/lmem.c */,
+                            AE53EC2DFC0B46D3A0796F3B /* /Users/security/mtclient/src/lua/src/loadlib.c */,
+                            DC934461000B4CC09264DCA4 /* /Users/security/mtclient/src/lua/src/lobject.c */,
+                            CFBC2CC2D13044A5A464FAB7 /* /Users/security/mtclient/src/lua/src/lopcodes.c */,
+                            F3CE7490C3BC407DBD36D77A /* /Users/security/mtclient/src/lua/src/loslib.c */,
+                            58B9B32145D64E2B8C807B87 /* /Users/security/mtclient/src/lua/src/lparser.c */,
+                            943EB5ABA00C4231BA131F71 /* /Users/security/mtclient/src/lua/src/lstate.c */,
+                            4EED914342E74274884C23E5 /* /Users/security/mtclient/src/lua/src/lstring.c */,
+                            072726D914544F0AB28176EE /* /Users/security/mtclient/src/lua/src/lstrlib.c */,
+                            0AD77F01C90E480BB15C3682 /* /Users/security/mtclient/src/lua/src/ltable.c */,
+                            4064F7F89FEC41D99AB6073A /* /Users/security/mtclient/src/lua/src/ltablib.c */,
+                            EAADBC7BAB714E428B79ADAC /* /Users/security/mtclient/src/lua/src/ltm.c */,
+                            08BE72E6EE284F23B6C4BAA6 /* /Users/security/mtclient/src/lua/src/lundump.c */,
+                            FE146672B58B4A1688AAA055 /* /Users/security/mtclient/src/lua/src/lvm.c */,
+                            48337F2F32874E84BC1175AE /* /Users/security/mtclient/src/lua/src/lzio.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              A4CC462271264A0AADCCCF2E /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 3C3DDCBB7AD34043A55973E8 /* ZERO_CHECK */;
+                     targetProxy = 3362E155414B4BF5AEFD58C6 /* PBXContainerItemProxy */;
+              };
+              5C09B739B04444CC989BA906 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = B5CD81AE4FC0409CBDE4BE6D /* lua */;
+                     targetProxy = 6CAFD708E17C47779B14A02B /* PBXContainerItemProxy */;
+              };
+              503833404D2C47DEB4CF4611 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 00B16596904D417299D556F2 /* ALL_BUILD */;
+                     targetProxy = 4331FA9939B1444AA6D90CA5 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              5329AF5B63D940D0A131CB5C /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            SDKROOT = "/Developer/SDKs/MacOSX10.6.sdk";
+                            SYMROOT = /Users/security/mtclient/src/lua/build;
+                     };
+                     name = Debug;
+              };
+              983971270EA94DD6AEDC5D17 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            SDKROOT = "/Developer/SDKs/MacOSX10.6.sdk";
+                            SYMROOT = /Users/security/mtclient/src/lua/build;
+                     };
+                     name = Release;
+              };
+              E26C20B917914ECA9E147C9E /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            SDKROOT = "/Developer/SDKs/MacOSX10.6.sdk";
+                            SYMROOT = /Users/security/mtclient/src/lua/build;
+                     };
+                     name = MinSizeRel;
+              };
+              0DD8650DC76B4531864643B9 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            SDKROOT = "/Developer/SDKs/MacOSX10.6.sdk";
+                            SYMROOT = /Users/security/mtclient/src/lua/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              61B6D91FB579439ABF1D4107 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              B90EA7055D88484693A8C3DB /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              BB2B47ED678D4B06A80D7314 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              3C326B30A5D946978F79B482 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              D4322099C60945CB953E975B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              318F31E04ED54506A09195B0 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              036D4A4FD07047FBB817B53A /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              3CD642384C2345FAA2C22050 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              59278796A60D4544A0B31E80 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              F6745D5FF8964AA899189EF9 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              DF95EDBD1BFC4F92A5E9E25D /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              2A22B93DF02742D188F6EAC3 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              C0297F8134C84015BFC3DD01 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              8856D731B2B4414DB5A08A87 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              EB74D4BB10264403B63DBFC6 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              209EE3A6187248AD9C004238 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = i386;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              0859408F2801414681F45179 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/security/mtclient/src/lua/src, /Users/security/mtclient/src/lua/build, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "  -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99                  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = lua;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              C199DAA366604BCBA8D6DC51 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/security/mtclient/src/lua/src, /Users/security/mtclient/src/lua/build, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "  -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99     -DNDEBUG          ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = lua;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              1AA7A0F3D6044EFCBA6802B9 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/security/mtclient/src/lua/src, /Users/security/mtclient/src/lua/build, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "  -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99     -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = lua;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              932E14D03817482EBE20462E /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", USE_CMAKE_CONFIG_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/security/mtclient/src/lua/src, /Users/security/mtclient/src/lua/build, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "  -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99          ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = lua;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/security/mtclient/src/lua/build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              9ABACD7BDE4746FDB73ABF80 /* Build configuration list for PBXProject  "lua" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            5329AF5B63D940D0A131CB5C /* Debug */,
+                            983971270EA94DD6AEDC5D17 /* Release */,
+                            E26C20B917914ECA9E147C9E /* MinSizeRel */,
+                            0DD8650DC76B4531864643B9 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              0F7C28DA88DD40BEB38E19C0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            61B6D91FB579439ABF1D4107 /* Debug */,
+                            B90EA7055D88484693A8C3DB /* Release */,
+                            BB2B47ED678D4B06A80D7314 /* MinSizeRel */,
+                            3C326B30A5D946978F79B482 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              FC3A4F0C8D7A47859C4FCB5B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            D4322099C60945CB953E975B /* Debug */,
+                            318F31E04ED54506A09195B0 /* Release */,
+                            036D4A4FD07047FBB817B53A /* MinSizeRel */,
+                            3CD642384C2345FAA2C22050 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              AB7C950CEEAF45C2B1C0FB81 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            59278796A60D4544A0B31E80 /* Debug */,
+                            F6745D5FF8964AA899189EF9 /* Release */,
+                            DF95EDBD1BFC4F92A5E9E25D /* MinSizeRel */,
+                            2A22B93DF02742D188F6EAC3 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              3D6F0AE218A94F9F8DD33D27 /* Build configuration list for PBXAggregateTarget "package" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C0297F8134C84015BFC3DD01 /* Debug */,
+                            8856D731B2B4414DB5A08A87 /* Release */,
+                            EB74D4BB10264403B63DBFC6 /* MinSizeRel */,
+                            209EE3A6187248AD9C004238 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A0E2AD5395894273ADB3E017 /* Build configuration list for PBXNativeTarget "lua" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            0859408F2801414681F45179 /* Debug */,
+                            C199DAA366604BCBA8D6DC51 /* Release */,
+                            1AA7A0F3D6044EFCBA6802B9 /* MinSizeRel */,
+                            932E14D03817482EBE20462E /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = D94DB94DCC5F43DAB5111C21;
+}
