@@ -12,3 +12,20 @@ git add omnistudent_notes.txt
 git commit -m "second commit, changing omnistudent_notes.txt"
 git push origin master
 
+download 
+minetest-master.zip
+minetest_game-master.zip
+to mtclient
+
+unzip minetest-master.zip
+mv minetest_game-master.zip minetest-master/games
+cd minetest-master/games
+unzip minetest_game-master.zip
+mv minetest_game-master minetest_game
+rm minetest_game-master.zip
+cd ..
+cd ..
+rm minetest-master.zip
+// disable line checking, see http://stackoverflow.com/questions/1967370/git-replacing-lf-with-crlf
+git config core.autocrlf false
+
