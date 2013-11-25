@@ -39,3 +39,20 @@ git commit -m "Second REAL commit, moved minetest-master files up one dir"
 
 git push origin master
 
+tried making /Users/security/mtc and doing 
+git clone https://github.com/Omnistudent/mtclient mtclient
+to it
+then 
+cmake -v -G Xcode .
+
+which failed at
+CMake Error at CMakeLists.txt:171 (install):
+  install FILES given no DESTINATION!
+
+and  
+
+CMake Error at cmake/Modules/FindOpenGLES2.cmake:44 (create_search_paths):
+  Unknown CMake command "create_search_paths".
+Call Stack (most recent call first):
+  src/CMakeLists.txt:173 (find_package)
+
