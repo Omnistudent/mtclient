@@ -29,3 +29,13 @@ rm minetest-master.zip
 // disable line checking, see http://stackoverflow.com/questions/1967370/git-replacing-lf-with-crlf
 git config core.autocrlf false
 
+git add .
+git add omnistudent_notes.txt 
+git commit -m "FIRST REAL COMMIT, containing zipped source and game files"
+git push origin master
+// moved all files out of minetest-master and up a directory, deleted minetest-master
+git add .
+git commit -m "Second REAL commit, moved minetest-master files up one dir"
+
+git push origin master
+
