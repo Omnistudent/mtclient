@@ -9,6 +9,13 @@
 	3C3DDCBB7AD34043A55973E8 /* ZERO_CHECK */ = {
 		activeExec = 0;
 	};
+	4551C08A281146649ED201DE /* l_item.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {558, 7280}}";
+			sepNavSelRange = "{2792, 0}";
+			sepNavVisRange = "{2590, 399}";
+		};
+	};
 	7AD6DDAF1742432DA12C5DC1 /* minetestserver */ = {
 		activeExec = 0;
 		executables = (
@@ -119,6 +126,88 @@
 		name = porting.h;
 		path = /Users/security/mtclient/src/util/../porting.h;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 3549}}";
+			sepNavSelRange = "{6022, 0}";
+			sepNavVisRange = "{5246, 375}";
+		};
+	};
+	957435081843F50F00125813 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Redefinition of 'irr::u32 porting::getTimeNs()'";
+		fRef = 957435011843F48100125813 /* porting.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 231;
+		rType = 1;
+	};
+	957435091843F50F00125813 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 957435031843F48100125813 /* porting.h */;
+		name = "porting.h: 268";
+		rLen = 0;
+		rLoc = 6022;
+		rType = 0;
+		vrLen = 270;
+		vrLoc = 5246;
+	};
+	9574350E1843F7D600125813 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 957435031843F48100125813 /* porting.h */;
+		name = "porting.h: 268";
+		rLen = 0;
+		rLoc = 6022;
+		rType = 0;
+		vrLen = 318;
+		vrLoc = 5246;
+	};
+	9574350F1843F7D600125813 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Comparison is always false due to limited range of data type";
+		fRef = 4551C08A281146649ED201DE /* l_item.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 115;
+		rType = 1;
+	};
+	957435101843F7D600125813 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4551C08A281146649ED201DE /* l_item.cpp */;
+		name = "l_item.cpp: 116";
+		rLen = 0;
+		rLoc = 2792;
+		rType = 0;
+		vrLen = 310;
+		vrLoc = 2616;
+	};
+	957435111843F7DC00125813 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 957435031843F48100125813 /* porting.h */;
+		name = "porting.h: 268";
+		rLen = 0;
+		rLoc = 6022;
+		rType = 0;
+		vrLen = 375;
+		vrLoc = 5246;
+	};
+	957435121843F7DC00125813 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Comparison is always false due to limited range of data type";
+		fRef = 4551C08A281146649ED201DE /* l_item.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 115;
+		rType = 1;
+	};
+	957435131843F7DC00125813 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4551C08A281146649ED201DE /* l_item.cpp */;
+		name = "l_item.cpp: 116";
+		rLen = 0;
+		rLoc = 2792;
+		rType = 0;
+		vrLen = 399;
+		vrLoc = 2590;
 	};
 	9C1555C95EAD461792DDEF70 /* Project object */ = {
 		activeBuildConfigurationName = Release;
@@ -158,6 +247,14 @@
 		perUserProjectItems = {
 			957435001843F48100125813 /* XCBuildMessageTextBookmark */ = 957435001843F48100125813 /* XCBuildMessageTextBookmark */;
 			957435021843F48100125813 /* PBXTextBookmark */ = 957435021843F48100125813 /* PBXTextBookmark */;
+			957435081843F50F00125813 /* XCBuildMessageTextBookmark */ = 957435081843F50F00125813 /* XCBuildMessageTextBookmark */;
+			957435091843F50F00125813 /* PBXTextBookmark */ = 957435091843F50F00125813 /* PBXTextBookmark */;
+			9574350E1843F7D600125813 /* PBXTextBookmark */ = 9574350E1843F7D600125813 /* PBXTextBookmark */;
+			9574350F1843F7D600125813 /* XCBuildMessageTextBookmark */ = 9574350F1843F7D600125813 /* XCBuildMessageTextBookmark */;
+			957435101843F7D600125813 /* PBXTextBookmark */ = 957435101843F7D600125813 /* PBXTextBookmark */;
+			957435111843F7DC00125813 /* PBXTextBookmark */ = 957435111843F7DC00125813 /* PBXTextBookmark */;
+			957435121843F7DC00125813 /* XCBuildMessageTextBookmark */ = 957435121843F7DC00125813 /* XCBuildMessageTextBookmark */;
+			957435131843F7DC00125813 /* PBXTextBookmark */ = 957435131843F7DC00125813 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 957434FA1843F3D300125813 /* Source Control */;
 		userBuildSettings = {

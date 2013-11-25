@@ -229,12 +229,12 @@ bool threadSetPriority(threadid_t tid, int prio);
 		return tv.tv_sec * 1000000 + tv.tv_usec;
 	}
 	
-	inline u32 getTimeNs()
-	{
-		struct timespec ts;
-		clock_gettime(CLOCK_REALTIME, &ts);
-		return ts.tv_sec * 1000000000 + ts.tv_nsec;
-	}
+	//inline u32 getTimeNs()
+	//{
+	//	struct timespec ts;
+	//	clock_gettime(CLOCK_REALTIME, &ts);
+	//	return ts.tv_sec * 1000000000 + ts.tv_nsec;
+	//}
 	
 	/*#include <sys/timeb.h>
 	inline u32 getTimeMs()
