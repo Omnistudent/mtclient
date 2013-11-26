@@ -2,6 +2,7 @@ minetest-0.4.8-dev-osx.dmg
 .DS_Store
 *.pbxuser
 *.mode1v3
+*.swp
 minetest-mac.xcodeproj/xcuserdata/*
 minetest-mac.xcodeproj/project.xcworkspace/xcuserdata/*
 build/
