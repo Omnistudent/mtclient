@@ -612,7 +612,7 @@ public:
 	{
 		return (myrand()%(max-min+1))+min;
 	}
-arivate:
+private:
 	KeyList keydown;
 	v2s32 mousepos;
 	v2s32 mousespeed;

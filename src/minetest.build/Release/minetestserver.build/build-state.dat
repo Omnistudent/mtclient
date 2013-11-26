@@ -1,7 +1,7 @@
 Tminetestserver
 v7
 r0
-t407160843.384487
+t407165928.584253
 cCheck dependencies
 cCompileC src/minetest.build/Release/minetestserver.build/Objects-normal/i386/jmutex.o /Users/security/mtclient/src/jthread/pthread/jmutex.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC src/minetest.build/Release/minetestserver.build/Objects-normal/i386/jthread.o /Users/security/mtclient/src/jthread/pthread/jthread.cpp normal i386 c++ com.apple.compilers.gcc.4_2
@@ -323,7 +323,7 @@ t1242688292
 s139
 
 N/Users/security/mtclient/bin/Release/minetestserver
-t1385468043
+t1385473128
 s3601300
 
 N/Users/security/mtclient/src/activeobject.h
@@ -459,9 +459,9 @@ t1385417144
 s621
 
 N/Users/security/mtclient/src/cmake_config_githash.h
-c0000000052948F9D00000000000000E5
-t1385467805
-s229
+c000000005294A44D00000000000000DF
+t1385473101
+s223
 
 N/Users/security/mtclient/src/collision.cpp
 c00000000529285E50000000000004437
@@ -1362,9 +1362,9 @@ s1026
 i"lua.h"
 
 N/Users/security/mtclient/src/main.cpp
-c0000000052949053000000000000B87B
-t1385467987
-s47227
+c000000005294A3AC000000000000B8F4
+t1385472940
+s47348
 i"irrlicht.h"
 i"main.h"
 i"mainmenumanager.h"
@@ -1937,7 +1937,7 @@ t1385414616
 s24492
 
 N/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/main.o
-t1385468040
+t1385473120
 s135800
 
 N/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/map.o
@@ -2146,8 +2146,8 @@ t1385414765
 s59116
 
 N/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/version.o
-t1385467897
-s832
+t1385473114
+s824
 
 N/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/voxel.o
 t1385414768
@@ -3908,7 +3908,7 @@ s17163
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies407160799#407160799#0(0"0(0#1#0"8600777728#0"0#
+lSLF07#2@18"Check dependencies407165902#407165902#0(0"0(0#1#0"8613050336#0"0#
 
 CCompileC src/minetest.build/Release/minetestserver.build/Objects-normal/i386/ban.o /Users/security/mtclient/src/ban.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s407107341.727945
@@ -4589,8 +4589,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@44"Compile /Users/security/mtclient/src/log.cpp407107413#407107416#0(0"0(0#0#36"/Users/security/mtclient/src/log.cpp8624534080#1387"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -DSERVER -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/log.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/log.o0#
 
 CCompileC src/minetest.build/Release/minetestserver.build/Objects-normal/i386/main.o /Users/security/mtclient/src/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s407160799.188797
-e407160840.830468
+s407165902.223058
+e407165920.548069
 r1
 xCompileC
 xsrc/minetest.build/Release/minetestserver.build/Objects-normal/i386/main.o
@@ -4599,7 +4599,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@45"Compile /Users/security/mtclient/src/main.cpp407160799#407160840#0(0"0(0#0#37"/Users/security/mtclient/src/main.cpp8603269280#1389"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -DSERVER -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/main.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/main.o0#
+lSLF07#2@45"Compile /Users/security/mtclient/src/main.cpp407165902#407165920#0(0"0(0#0#37"/Users/security/mtclient/src/main.cpp8612313760#1389"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -DSERVER -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/main.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/main.o0#
 
 CCompileC src/minetest.build/Release/minetestserver.build/Objects-normal/i386/map.o /Users/security/mtclient/src/map.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s407110307.250779
@@ -5272,8 +5272,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@48"Compile /Users/security/mtclient/src/treegen.cpp407107560#407107566#0(0"0(0#0#40"/Users/security/mtclient/src/treegen.cpp8638061248#1395"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -DSERVER -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/treegen.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/treegen.o0#
 
 CCompileC src/minetest.build/Release/minetestserver.build/Objects-normal/i386/version.o /Users/security/mtclient/src/version.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s407160696.333488
-e407160697.482407
+s407165914.036919
+e407165914.142890
 r1
 xCompileC
 xsrc/minetest.build/Release/minetestserver.build/Objects-normal/i386/version.o
@@ -5282,7 +5282,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@48"Compile /Users/security/mtclient/src/version.cpp407160696#407160697#0(0"0(0#0#40"/Users/security/mtclient/src/version.cpp8612450816#1395"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -DSERVER -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/version.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/version.o0#
+lSLF07#2@48"Compile /Users/security/mtclient/src/version.cpp407165914#407165914#0(0"0(0#0#40"/Users/security/mtclient/src/version.cpp8609831552#1395"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -DSERVER -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/version.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/version.o0#
 
 CCompileC src/minetest.build/Release/minetestserver.build/Objects-normal/i386/voxel.o /Users/security/mtclient/src/voxel.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s407107566.063338
@@ -5311,18 +5311,18 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@56"Compile /Users/security/mtclient/src/voxelalgorithms.cpp407107568#407107569#0(0"0(0#0#48"/Users/security/mtclient/src/voxelalgorithms.cpp8618028640#1411"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -DSERVER -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetestserver.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/voxelalgorithms.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/voxelalgorithms.o0#
 
 CLd /Users/security/mtclient/bin/Release/minetestserver normal i386
-s407160840.834069
-e407160843.265255
+s407165920.548275
+e407165928.553683
 r1
 xLd
 x/Users/security/mtclient/bin/Release/minetestserver
 xnormal
 xi386
-lSLF07#2@56"Link /Users/security/mtclient/bin/Release/minetestserver407160840#407160843#0(0"0(0#0#0"8609441280#710"    cd /Users/security/mtclient    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/security/mtclient/bin/Release -F/Users/security/mtclient/bin/Release -filelist /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/minetestserver.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -Wl,-search_paths_first -Wl,-headerpad_max_install_names /usr/lib/libz.dylib /usr/lib/libsqlite3.dylib /Users/security/mtclient/src/json/Release/libjsoncpp.a /Users/security/mtclient/src/lua/build/Release/liblua.a -lpthread /usr/lib/libcurl.dylib -o /Users/security/mtclient/bin/Release/minetestserver0#
+lSLF07#2@56"Link /Users/security/mtclient/bin/Release/minetestserver407165920#407165928#0(0"0(0#0#0"8615361824#710"    cd /Users/security/mtclient    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/security/mtclient/bin/Release -F/Users/security/mtclient/bin/Release -filelist /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/minetestserver.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -Wl,-search_paths_first -Wl,-headerpad_max_install_names /usr/lib/libz.dylib /usr/lib/libsqlite3.dylib /Users/security/mtclient/src/json/Release/libjsoncpp.a /Users/security/mtclient/src/lua/build/Release/liblua.a -lpthread /usr/lib/libcurl.dylib -o /Users/security/mtclient/bin/Release/minetestserver0#
 
 CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Script-1C507B57141D4C459C29F2DC.sh
-s407160843.265500
-e407160843.384417
+s407165928.553902
+e407165928.584201
 r1
 xPhaseScriptExecution
 xCMake PostBuild Rules
@@ -5331,7 +5331,7 @@ oecho "Depend check for xcode"
 oDepend check for xcode
 ocd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetestserver.Release
 omake[1]: Nothing to be done for `PostBuild.minetestserver.Release'.
-lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407160843#407160843#0(284"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetestserver.Releasemake[1]: Nothing to be done for `PostBuild.minetestserver.Release'.4(13@30"echo "Depend check for xcode"407160843#0#30#0(1@0"0(13@23"Depend check for xcode407160843#30#23#0(1@0"0(13@163"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetestserver.Release407160843#53#163#0(1@0"0(13@68"make[1]: Nothing to be done for `PostBuild.minetestserver.Release'.407160843#216#68#0(1@0"0(0#0#0"8609159904#155"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Script-1C507B57141D4C459C29F2DC.sh0#
+lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407165928#407165928#0(284"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetestserver.Releasemake[1]: Nothing to be done for `PostBuild.minetestserver.Release'.4(13@30"echo "Depend check for xcode"407165928#0#30#0(1@0"0(13@23"Depend check for xcode407165928#30#23#0(1@0"0(13@163"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetestserver.Release407165928#53#163#0(1@0"0(13@68"make[1]: Nothing to be done for `PostBuild.minetestserver.Release'.407165928#216#68#0(1@0"0(0#0#0"8606219168#155"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Script-1C507B57141D4C459C29F2DC.sh0#
 
 CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Script-21422FC3DC2C45E0813D16F4.sh
 s407136151.046384
