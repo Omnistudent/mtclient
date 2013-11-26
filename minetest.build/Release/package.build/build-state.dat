@@ -1,100 +1,0 @@
-Tpackage
-v7
-r0
-t407136246.480155
-cCheck dependencies
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/minetest.build/Release/package.build/Script-32D7678A00BA4747B36515C9.sh
-
-N/Users/security/mtclient/minetest.build/Release/package.build/Script-2C7A1364C968486F812E11D5.sh
-c000000005293C54E0000000000000082
-t1385416014
-s130
-
-N/Users/security/mtclient/minetest.build/Release/package.build/Script-32D7678A00BA4747B36515C9.sh
-c00000000529430170000000000000082
-t1385443351
-s130
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies407136151#407136151#0(0"0(0#1#0"8605918336#0"0#
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/minetest.build/Release/package.build/Script-2C7A1364C968486F812E11D5.sh
-s407108814.112018
-e407108818.191879
-r0
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/security/mtclient/minetest.build/Release/package.build/Script-2C7A1364C968486F812E11D5.sh
-ocd /Users/security/mtclient && /opt/local/bin/cpack -C Release --config ./CPackConfig.cmake
-oCPack: Create package using Bundle
-oCPack: Install projects
-oCPack: - Install project: minetest
-oCMake Error at /Users/security/mtclient/cmake_install.cmake:39 (FILE):
-o  file cannot create directory: /usr/local/share/minetest.  Maybe need
-o  administrative privileges.
-o
-o
-oCMake Error at /Users/security/mtclient/cmake_install.cmake:51 (FILE):
-o  file cannot create directory: /usr/local/share/minetest.  Maybe need
-o  administrative privileges.
-o
-o
-oCMake Error at /Users/security/mtclient/cmake_install.cmake:63 (FILE):
-o  file cannot create directory: /usr/local/share/minetest/games.  Maybe need
-o  administrative privileges.
-o
-o
-oCMake Error at /Users/security/mtclient/cmake_install.cmake:75 (FILE):
-o  file cannot create directory:
-o  /usr/local/share/minetest/games/minetest_game.  Maybe need administrative
-o  privileges.
-o
-o
-oCMake Error at /Users/security/mtclient/cmake_install.cmake:87 (FILE):
-o  file cannot create directory:
-o  /usr/local/share/minetest/games/minetest_game.  Maybe need administrative
-o  privileges.
-o
-o
-oCMake Error at /Users/security/mtclient/cmake_install.cmake:99 (FILE):
-o  file cannot create directory:
-o  /usr/local/share/minetest/games/minetest_game.  Maybe need administrative
-o  privileges.
-o
-o
-oCMake Error at /Users/security/mtclient/cmake_install.cmake:111 (FILE):
-o  file cannot create directory:
-o  /usr/local/share/minetest/games/minetest_game.  Maybe need administrative
-o  privileges.
-o
-o
-oCMake Error at /Users/security/mtclient/cmake_install.cmake:123 (FILE):
-o  file cannot create directory: /usr/local/share/minetest/textures/base.
-o  Maybe need administrative privileges.
-o
-o
-oCMake Error at /Users/security/mtclient/cmake_install.cmake:135 (FILE):
-o  file cannot create directory: /usr/local/share/minetest.  Maybe need
-o  administrative privileges.
-o
-o
-oCPack Error: Error when generating package: minetest
-omake: *** [package_buildpart_0] Error 1
-lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407108814#407108818#0(1986"cd /Users/security/mtclient && /opt/local/bin/cpack -C Release --config ./CPackConfig.cmakeCPack: Create package using BundleCPack: Install projectsCPack: - Install project: minetestCMake Error at /Users/security/mtclient/cmake_install.cmake:39 (FILE):  file cannot create directory: /usr/local/share/minetest.  Maybe need  administrative privileges.CMake Error at /Users/security/mtclient/cmake_install.cmake:51 (FILE):  file cannot create directory: /usr/local/share/minetest.  Maybe need  administrative privileges.CMake Error at /Users/security/mtclient/cmake_install.cmake:63 (FILE):  file cannot create directory: /usr/local/share/minetest/games.  Maybe need  administrative privileges.CMake Error at /Users/security/mtclient/cmake_install.cmake:75 (FILE):  file cannot create directory:  /usr/local/share/minetest/games/minetest_game.  Maybe need administrative  privileges.CMake Error at /Users/security/mtclient/cmake_install.cmake:87 (FILE):  file cannot create directory:  /usr/local/share/minetest/games/minetest_game.  Maybe need administrative  privileges.CMake Error at /Users/security/mtclient/cmake_install.cmake:99 (FILE):  file cannot create directory:  /usr/local/share/minetest/games/minetest_game.  Maybe need administrative  privileges.CMake Error at /Users/security/mtclient/cmake_install.cmake:111 (FILE):  file cannot create directory:  /usr/local/share/minetest/games/minetest_game.  Maybe need administrative  privileges.CMake Error at /Users/security/mtclient/cmake_install.cmake:123 (FILE):  file cannot create directory: /usr/local/share/minetest/textures/base.  Maybe need administrative privileges.CMake Error at /Users/security/mtclient/cmake_install.cmake:135 (FILE):  file cannot create directory: /usr/local/share/minetest.  Maybe need  administrative privileges.CPack Error: Error when generating package: minetestmake: *** [package_buildpart_0] Error 1Command /bin/sh failed with exit code 238(13@92"cd /Users/security/mtclient && /opt/local/bin/cpack -C Release --config ./CPackConfig.cmake407108814#0#92#0(1@0"0(13@35"CPack: Create package using Bundle407108815#92#35#0(1@0"0(13@24"CPack: Install projects407108815#127#24#0(1@0"0(13@35"CPack: - Install project: minetest407108815#151#35#0(1@0"0(13@71"CMake Error at /Users/security/mtclient/cmake_install.cmake:39 (FILE):407108815#186#71#0(1@0"0(13@71"  file cannot create directory: /usr/local/share/minetest.  Maybe need407108815#257#71#0(1@0"0(13@29"  administrative privileges.407108815#328#29#0(1@0"0(13@71"CMake Error at /Users/security/mtclient/cmake_install.cmake:51 (FILE):407108815#359#71#0(1@0"0(13@71"  file cannot create directory: /usr/local/share/minetest.  Maybe need407108815#430#71#0(1@0"0(13@29"  administrative privileges.407108815#501#29#0(1@0"0(13@71"CMake Error at /Users/security/mtclient/cmake_install.cmake:63 (FILE):407108815#532#71#0(1@0"0(13@77"  file cannot create directory: /usr/local/share/minetest/games.  Maybe need407108815#603#77#0(1@0"0(13@29"  administrative privileges.407108815#680#29#0(1@0"0(13@71"CMake Error at /Users/security/mtclient/cmake_install.cmake:75 (FILE):407108815#711#71#0(1@0"0(13@32"  file cannot create directory:407108815#782#32#0(1@0"0(13@76"  /usr/local/share/minetest/games/minetest_game.  Maybe need administrative407108815#814#76#0(1@0"0(13@14"  privileges.407108815#890#14#0(1@0"0(13@71"CMake Error at /Users/security/mtclient/cmake_install.cmake:87 (FILE):407108815#906#71#0(1@0"0(13@32"  file cannot create directory:407108815#977#32#0(1@0"0(13@76"  /usr/local/share/minetest/games/minetest_game.  Maybe need administrative407108815#1009#76#0(1@0"0(13@14"  privileges.407108815#1085#14#0(1@0"0(13@71"CMake Error at /Users/security/mtclient/cmake_install.cmake:99 (FILE):407108815#1101#71#0(1@0"0(13@32"  file cannot create directory:407108815#1172#32#0(1@0"0(13@76"  /usr/local/share/minetest/games/minetest_game.  Maybe need administrative407108815#1204#76#0(1@0"0(13@14"  privileges.407108815#1280#14#0(1@0"0(13@72"CMake Error at /Users/security/mtclient/cmake_install.cmake:111 (FILE):407108815#1296#72#0(1@0"0(13@32"  file cannot create directory:407108815#1368#32#0(1@0"0(13@76"  /usr/local/share/minetest/games/minetest_game.  Maybe need administrative407108815#1400#76#0(1@0"0(13@14"  privileges.407108815#1476#14#0(1@0"0(13@72"CMake Error at /Users/security/mtclient/cmake_install.cmake:123 (FILE):407108815#1492#72#0(1@0"0(13@73"  file cannot create directory: /usr/local/share/minetest/textures/base.407108815#1564#73#0(1@0"0(13@40"  Maybe need administrative privileges.407108815#1637#40#0(1@0"0(13@72"CMake Error at /Users/security/mtclient/cmake_install.cmake:135 (FILE):407108815#1679#72#0(1@0"0(13@71"  file cannot create directory: /usr/local/share/minetest.  Maybe need407108815#1751#71#0(1@0"0(13@29"  administrative privileges.407108815#1822#29#0(1@0"0(13@53"CPack Error: Error when generating package: minetest407108818#1853#53#0(1@0"0(13@40"make: *** [package_buildpart_0] Error 1407108818#1906#40#0(1@0"0(4@39"Command /bin/sh failed with exit code 2407108818#18446744073709551615#0#0(1@0"0(0#0#0"8632008032#144"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/minetest.build/Release/package.build/Script-2C7A1364C968486F812E11D5.sh2#
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/minetest.build/Release/package.build/Script-32D7678A00BA4747B36515C9.sh
-s407136151.261183
-e407136246.480019
-r1
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/security/mtclient/minetest.build/Release/package.build/Script-32D7678A00BA4747B36515C9.sh
-ocd /Users/security/mtclient && /opt/local/bin/cpack -C Release --config ./CPackConfig.cmake
-oCPack: Create package using Bundle
-oCPack: Install projects
-oCPack: - Install project: minetest
-oCPack: Create package
-oCPack: - package: /Users/security/mtclient/minetest-0.4.8-dev-osx.dmg generated.
-lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407136151#407136246#0(289"cd /Users/security/mtclient && /opt/local/bin/cpack -C Release --config ./CPackConfig.cmakeCPack: Create package using BundleCPack: Install projectsCPack: - Install project: minetestCPack: Create packageCPack: - package: /Users/security/mtclient/minetest-0.4.8-dev-osx.dmg generated.6(13@92"cd /Users/security/mtclient && /opt/local/bin/cpack -C Release --config ./CPackConfig.cmake407136151#0#92#0(1@0"0(13@35"CPack: Create package using Bundle407136154#92#35#0(1@0"0(13@24"CPack: Install projects407136154#127#24#0(1@0"0(13@35"CPack: - Install project: minetest407136154#151#35#0(1@0"0(13@22"CPack: Create package407136185#186#22#0(1@0"0(13@81"CPack: - package: /Users/security/mtclient/minetest-0.4.8-dev-osx.dmg generated.407136246#208#81#0(1@0"0(0#0#0"8603818880#144"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/minetest.build/Release/package.build/Script-32D7678A00BA4747B36515C9.sh0#
-

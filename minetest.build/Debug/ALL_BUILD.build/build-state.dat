@@ -1,37 +1,0 @@
-TALL_BUILD
-v7
-r0
-t407134643.593769
-cCheck dependencies
-cPhaseScriptExecution "CMake Rules" /Users/security/mtclient/minetest.build/Debug/ALL_BUILD.build/Script-DBDC4E5E3F3945C680187DAE.sh
-
-N/Users/security/mtclient/minetest.build/Debug/ALL_BUILD.build/Script-BCF089DB325944129340037A.sh
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/security/mtclient/minetest.build/Debug/ALL_BUILD.build/Script-DBDC4E5E3F3945C680187DAE.sh
-c0000000052942A33000000000000008A
-t1385441843
-s138
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies407134643#407134643#0(0"0(0#1#0"8604172160#0"0#
-
-CPhaseScriptExecution "CMake Rules" /Users/security/mtclient/minetest.build/Debug/ALL_BUILD.build/Script-BCF089DB325944129340037A.sh
-r0
-
-CPhaseScriptExecution "CMake Rules" /Users/security/mtclient/minetest.build/Debug/ALL_BUILD.build/Script-DBDC4E5E3F3945C680187DAE.sh
-s407134643.319470
-e407134643.593725
-r1
-xPhaseScriptExecution
-xCMake Rules
-x/Users/security/mtclient/minetest.build/Debug/ALL_BUILD.build/Script-DBDC4E5E3F3945C680187DAE.sh
-oecho ""
-o
-oecho Build\ all\ projects
-oBuild all projects
-lSLF07#2@37"Run custom shell script 'CMake Rules'407134643#407134643#0(54"echo ""echo Build\ all\ projectsBuild all projects3(13@8"echo ""407134643#0#8#0(1@0"0(13@26"echo Build\ all\ projects407134643#9#26#0(1@0"0(13@19"Build all projects407134643#35#19#0(1@0"0(0#0#0"8606179360#144"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/minetest.build/Debug/ALL_BUILD.build/Script-DBDC4E5E3F3945C680187DAE.sh0#
-

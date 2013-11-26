@@ -1,33 +1,0 @@
-Tinstall
-v7
-r0
-t407108688.282519
-cCheck dependencies
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/minetest.build/Release/install.build/Script-1A2EBC7B195A4A1083A1F7CB.sh
-
-N/Users/security/mtclient/minetest.build/Release/install.build/Script-1A2EBC7B195A4A1083A1F7CB.sh
-c000000005293C4D00000000000000082
-t1385415888
-s130
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies407108687#407108688#0(0"0(0#1#0"8632921248#0"0#
-
-CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/minetest.build/Release/install.build/Script-1A2EBC7B195A4A1083A1F7CB.sh
-s407108688.012743
-e407108688.282486
-r0
-xPhaseScriptExecution
-xCMake PostBuild Rules
-x/Users/security/mtclient/minetest.build/Release/install.build/Script-1A2EBC7B195A4A1083A1F7CB.sh
-o/opt/local/bin/cmake -DBUILD_TYPE=Release -P cmake_install.cmake
-o-- Install configuration: "Release"
-oCMake Error at cmake_install.cmake:39 (FILE):
-o  file cannot create directory: /usr/local/share/minetest.  Maybe need
-o  administrative privileges.
-o
-o
-omake: *** [install_buildpart_0] Error 1
-lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407108688#407108688#0(329"/opt/local/bin/cmake -DBUILD_TYPE=Release -P cmake_install.cmake-- Install configuration: "Release"CMake Error at cmake_install.cmake:39 (FILE):  file cannot create directory: /usr/local/share/minetest.  Maybe need  administrative privileges.make: *** [install_buildpart_0] Error 1Command /bin/sh failed with exit code 27(13@65"/opt/local/bin/cmake -DBUILD_TYPE=Release -P cmake_install.cmake407108688#0#65#0(1@0"0(13@36"-- Install configuration: "Release"407108688#65#36#0(1@0"0(13@46"CMake Error at cmake_install.cmake:39 (FILE):407108688#101#46#0(1@0"0(13@71"  file cannot create directory: /usr/local/share/minetest.  Maybe need407108688#147#71#0(1@0"0(13@29"  administrative privileges.407108688#218#29#0(1@0"0(13@40"make: *** [install_buildpart_0] Error 1407108688#249#40#0(1@0"0(4@39"Command /bin/sh failed with exit code 2407108688#18446744073709551615#0#0(1@0"0(0#0#0"8632738880#144"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/minetest.build/Release/install.build/Script-1A2EBC7B195A4A1083A1F7CB.sh2#
-
