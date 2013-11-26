@@ -31,8 +31,8 @@
 #include "camera.h"
 #include "string.h"
 //#include "brainaction.h"
-#include "myinv.h"
-#include "actionFactory.h"
+#include "ai/myinv.h"
+#include "ai/actionFactory.h"
 
 #include "ai/brain_utilities.h"
 

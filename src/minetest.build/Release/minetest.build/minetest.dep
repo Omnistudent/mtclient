@@ -1,8 +1,8 @@
-0f859f090a08782def1c11cb5644fbfd c9b61bda05839c3287cf0b5fe45edffe ffffffffffffffffffffffffffffffff 14055320 /Users/security/mtclient/bin/Release/minetest
-000000005294abd500000000000007de b0ba31e3562a9a1f09994af6870c6672 ffffffffffffffffffffffffffffffff 832 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/version.o
-0000000056a0e1ba000000000004bf7b 3d14b428944508f836e55c3c806c73a3 ffffffffffffffffffffffffffffffff 218528 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/main.o
+0f859f095a82931cef1c11cb5644da7c c9b61bda05839c3287cf0b5fe45edffe ffffffffffffffffffffffffffffffff 14055320 /Users/security/mtclient/bin/Release/minetest
+000000000285d66d00000000000128eb 5db4ab1ad7fbf14fa0e7e16ed19e8ca4 ffffffffffffffffffffffffffffffff 308096 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/game.o
 00000000509ebd7000000000000069bc f23405153b1501f0121d9af5744e5a91 ffffffffffffffffffffffffffffffff 11092 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/voxelalgorithms.o
 0000000018cfab2c0000000000007010 87db75a12b90af6aca19e195e78d2889 ffffffffffffffffffffffffffffffff 19568 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/voxel.o
+000000005294e79200000000000007de b0ba31e3562a9a1f09994af6870c6672 ffffffffffffffffffffffffffffffff 832 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/version.o
 00000000004cc5eb000000000001c94a 5c61139e1de98df65d172045ff175f7d ffffffffffffffffffffffffffffffff 59116 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/treegen.o
 0000000018836ec00000000000012bf9 3e56280ce8137994bef7e03e29e4492f ffffffffffffffffffffffffffffffff 30756 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/tool.o
 0000000000000000000000000000d1e6 b5af13d5d5e631209cfe18e1bc2d2acb ffffffffffffffffffffffffffffffff 127144 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/tile.o
@@ -45,6 +45,7 @@
 000000001a8f5654000000000001ee43 ce6be5e593b8b6821059820c8a66e0bd ffffffffffffffffffffffffffffffff 139124 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/mapblock_mesh.o
 000000001ac393b90000000000015daf bd74b26f58cc270492f39dac1bc514ee ffffffffffffffffffffffffffffffff 78652 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/mapblock.o
 000000001a9cf8310000000000054329 e91cee9734f38ff5a434e9158d8f4ae0 ffffffffffffffffffffffffffffffff 247392 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/map.o
+0000000056a0e1ba000000000004bf7b 3d14b428944508f836e55c3c806c73a3 ffffffffffffffffffffffffffffffff 218528 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/main.o
 0000000018ce914200000000000029b7 7fd859630ba112dbf9dc84b6ea6746da ffffffffffffffffffffffffffffffff 24492 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/log.o
 00000000004dff830000000000001149 30df7d6e4564848abcd3bb4347962f39 ffffffffffffffffffffffffffffffff 29864 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/localplayer.o
 00000000481dd3b1000000000000069d 37b9ea38b26889e0d5ca5c296ffed12d ffffffffffffffffffffffffffffffff 512 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/light.o
@@ -66,7 +67,6 @@
 00000000526d6db5000000000001baa7 94799da70ccfa2fd8371e60250c73bf6 ffffffffffffffffffffffffffffffff 74500 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/guiChatConsole.o
 000000004c3c613d0000000000003273 33aa8666313313055c945f76019f80e2 ffffffffffffffffffffffffffffffff 1616 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/gettext.o
 00000000529285e50000000000000f34 b71d516efa2fb7f9485448440a69f410 ffffffffffffffffffffffffffffffff 24964 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/genericobject.o
-00000000520f711b000000000001096a 5db4ab1ad7fbf14fa0e7e16ed19e8ca4 ffffffffffffffffffffffffffffffff 308160 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/game.o
 000000001aa094a4000000000000099d 79ea21a1bf91813f03e8014a0fb60532 ffffffffffffffffffffffffffffffff 49788 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/filesys.o
 000000004a5c14a7000000000000182b 4e9740a4a9e64ec549c3566370be4c81 ffffffffffffffffffffffffffffffff 16720 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/filecache.o
 00000000020c3893000000000001c909 37c903594f63c5c4100796cb9a60674b ffffffffffffffffffffffffffffffff 230148 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/environment.o

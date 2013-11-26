@@ -383,6 +383,88 @@ s1584
 i"irr_aabb3d.h"
 i<string>
 
+N/Users/security/mtclient/src/ai/actionFactory.h
+c00000000528B6161000000000000078D
+t1384866145
+s1933
+i"brainaction.h"
+i"clientmap.h"
+i"environment.h"
+i"util/string.h"
+i"util/directiontables.h"
+i"nodedef.h"
+i"camera.h"
+i"string.h"
+
+N/Users/security/mtclient/src/ai/brain.h
+c000000005294E8BB00000000000025BB
+t1385490619
+s9659
+i"client.h"
+i"chat.h"
+i"clientmap.h"
+i"environment.h"
+i"util/string.h"
+i"util/directiontables.h"
+i"nodedef.h"
+i"camera.h"
+i"string.h"
+i"ai/myinv.h"
+i"ai/actionFactory.h"
+i"ai/brain_utilities.h"
+i<iostream>
+i<ctime>
+i"ai/neuralNetwork.h"
+i"ai/neuralNetworkTrainer.h"
+
+N/Users/security/mtclient/src/ai/brain_utilities.h
+c00000000528C48B40000000000000091
+t1384925364
+s145
+
+N/Users/security/mtclient/src/ai/brainaction.h
+c00000000528B09A400000000000009E7
+t1384843684
+s2535
+i"irrlichttypes_extrabloated.h"
+i"chat.h"
+i"util/string.h"
+
+N/Users/security/mtclient/src/ai/dataReader.h
+c00000000485D0CBA0000000000000BF0
+t1214057658
+s3056
+i<vector>
+i<string>
+
+N/Users/security/mtclient/src/ai/myinv.h
+c00000000529216D20000000000000AEA
+t1385305810
+s2794
+i"client.h"
+i"chat.h"
+i"clientmap.h"
+i"environment.h"
+i"util/string.h"
+i"util/directiontables.h"
+i"nodedef.h"
+i"camera.h"
+i"string.h"
+
+N/Users/security/mtclient/src/ai/neuralNetwork.h
+c00000000528DE0AF00000000000006E0
+t1385029807
+s1760
+i"dataReader.h"
+
+N/Users/security/mtclient/src/ai/neuralNetworkTrainer.h
+c00000000485D142A0000000000000AFA
+t1214059562
+s2810
+i<fstream>
+i<vector>
+i"neuralNetwork.h"
+
 N/Users/security/mtclient/src/ban.cpp
 c00000000529285E50000000000000FAE
 t1385334245
@@ -656,9 +738,9 @@ t1385417144
 s621
 
 N/Users/security/mtclient/src/cmake_config_githash.h
-c0000000052948C7100000000000000DF
-t1385466993
-s223
+c000000005294E79200000000000000E5
+t1385490322
+s229
 
 N/Users/security/mtclient/src/collision.cpp
 c00000000529285E50000000000004437
@@ -1246,9 +1328,9 @@ i<vector>
 i"exceptions.h"
 
 N/Users/security/mtclient/src/game.cpp
-c00000000529285E500000000000163C5
-t1385334245
-s91077
+c000000005294E63B000000000001646A
+t1385489979
+s91242
 i"game.h"
 i"irrlichttypes_extrabloated.h"
 i<IGUICheckBox.h>
@@ -1293,6 +1375,7 @@ i"clientmap.h"
 i"hud.h"
 i"sky.h"
 i"sound.h"
+i"ai/brain.h"
 i"sound_openal.h"
 i"event_manager.h"
 i<iomanip>
@@ -1300,9 +1383,9 @@ i<list>
 i"util/directiontables.h"
 
 N/Users/security/mtclient/src/game.h
-c00000000529285E50000000000000C32
-t1385334245
-s3122
+c000000005294A5530000000000000C60
+t1385473363
+s3168
 i"irrlichttypes_extrabloated.h"
 i<string>
 i"keycode.h"
@@ -2031,9 +2114,9 @@ s1026
 i"lua.h"
 
 N/Users/security/mtclient/src/main.cpp
-c00000000529285E5000000000000B77E
-t1385334245
-s46974
+c000000005294ABD0000000000000BA5A
+t1385475024
+s47706
 i"irrlicht.h"
 i"main.h"
 i"mainmenumanager.h"
@@ -3001,15 +3084,35 @@ c00000000000000000000000000000000
 t2
 s0
 
+N/Users/security/mtclient/src/minetest.build/Debug/minetest.build/Script-58631AAA3BB94D13BDA164A2.sh
+c00000000000000000000000000000000
+t2
+s0
+
 N/Users/security/mtclient/src/minetest.build/Debug/minetest.build/Script-65CFBB8878A847378B5E6C72.sh
 c00000000529423CA000000000000008B
 t1385440202
 s139
 
+N/Users/security/mtclient/src/minetest.build/Debug/minetest.build/Script-6A935BCD60F540E2A8A33DCA.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/security/mtclient/src/minetest.build/Debug/minetest.build/Script-B2DEB9239C334AEEBA1B6055.sh
+c00000000000000000000000000000000
+t2
+s0
+
 N/Users/security/mtclient/src/minetest.build/Debug/minetest.build/Script-F2CBF413FF3D45E4B7A04957.sh
 c0000000052948C73000000000000008B
 t1385466995
 s139
+
+N/Users/security/mtclient/src/minetest.build/Debug/minetest.build/Script-F55A02A53C2042F9842A5D40.sh
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/security/mtclient/src/modalMenu.h
 c00000000529285E50000000000000DB9
@@ -7015,6 +7118,9 @@ lSLF07#2@48"Link /Users/security/mtclient/bin/Debug/minetest407159796#407159820#
 CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/minetest.build/Debug/minetest.build/Script-5234A675472746F8B139E36E.sh
 r0
 
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/minetest.build/Debug/minetest.build/Script-58631AAA3BB94D13BDA164A2.sh
+r0
+
 CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/minetest.build/Debug/minetest.build/Script-65CFBB8878A847378B5E6C72.sh
 s407133995.639405
 e407133996.305396
@@ -7028,6 +7134,12 @@ ocd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/secur
 omake[1]: Nothing to be done for `PostBuild.minetest.Debug'.
 lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407133995#407133996#0(268"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetest.Debugmake[1]: Nothing to be done for `PostBuild.minetest.Debug'.4(13@30"echo "Depend check for xcode"407133996#0#30#0(1@0"0(13@23"Depend check for xcode407133996#30#23#0(1@0"0(13@155"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetest.Debug407133996#53#155#0(1@0"0(13@60"make[1]: Nothing to be done for `PostBuild.minetest.Debug'.407133996#208#60#0(1@0"0(0#0#0"8608049632#147"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/minetest.build/Debug/minetest.build/Script-65CFBB8878A847378B5E6C72.sh0#
 
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/minetest.build/Debug/minetest.build/Script-6A935BCD60F540E2A8A33DCA.sh
+r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/minetest.build/Debug/minetest.build/Script-B2DEB9239C334AEEBA1B6055.sh
+r0
+
 CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/minetest.build/Debug/minetest.build/Script-F2CBF413FF3D45E4B7A04957.sh
 s407159820.710782
 e407159820.748324
@@ -7040,4 +7152,7 @@ oDepend check for xcode
 ocd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetest.Debug
 omake[1]: Nothing to be done for `PostBuild.minetest.Debug'.
 lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407159820#407159820#0(268"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetest.Debugmake[1]: Nothing to be done for `PostBuild.minetest.Debug'.4(13@30"echo "Depend check for xcode"407159820#0#30#0(1@0"0(13@23"Depend check for xcode407159820#30#23#0(1@0"0(13@155"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetest.Debug407159820#53#155#0(1@0"0(13@60"make[1]: Nothing to be done for `PostBuild.minetest.Debug'.407159820#208#60#0(1@0"0(0#0#0"8605027520#147"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/minetest.build/Debug/minetest.build/Script-F2CBF413FF3D45E4B7A04957.sh0#
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/minetest.build/Debug/minetest.build/Script-F55A02A53C2042F9842A5D40.sh
+r0
 
