@@ -612,7 +612,7 @@ public:
 	{
 		return (myrand()%(max-min+1))+min;
 	}
-private:
+arivate:
 	KeyList keydown;
 	v2s32 mousepos;
 	v2s32 mousespeed;
@@ -1771,6 +1771,10 @@ int main(int argc, char *argv[])
 			/*
 				Run game
 			*/
+
+		        std::string commander= cmd_args.get("master");
+		        std::string input_type= cmd_args.get("input_type");
+
 			the_game(
 				kill,
 				random_input,
