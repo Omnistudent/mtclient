@@ -907,6 +907,8 @@ bool nodePlacementPrediction(Client &client,
 void the_game(
 	bool &kill,
 	bool random_input,
+        std::string input_type,
+        std::string master,
 	InputHandler *input,
 	IrrlichtDevice *device,
 	gui::IGUIFont* font,
@@ -925,6 +927,9 @@ void the_game(
 	TextDestPlayerInventory* current_textdest = 0;
 	video::IVideoDriver* driver = device->getVideoDriver();
 	scene::ISceneManager* smgr = device->getSceneManager();
+
+
+        printf("type was %s master was %s\n",input_type.c_str(),master.c_str());
 	
 	// Calculate text height using the font
 	u32 text_height = font->getDimension(L"Random test string").Height;

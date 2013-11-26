@@ -128,6 +128,8 @@ struct SubgameSpec;
 void the_game(
 	bool &kill,
 	bool random_input,
+	std::string input_type,
+	std::string master,
 	InputHandler *input,
 	IrrlichtDevice *device,
 	gui::IGUIFont* font,

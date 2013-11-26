@@ -1772,12 +1772,17 @@ int main(int argc, char *argv[])
 				Run game
 			*/
 
-		        std::string commander= cmd_args.get("master");
-		        std::string input_type= cmd_args.get("input_type");
+		        std::string commander="";
+		        std::string input_type="";
+
+		        commander= cmd_args.get("master");
+		        input_type= cmd_args.get("input_type");
 
 			the_game(
 				kill,
 				random_input,
+                                input_type,
+                                commander,
 				input,
 				device,
 				font,
