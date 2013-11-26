@@ -1774,9 +1774,14 @@ int main(int argc, char *argv[])
 
 		        std::string commander="";
 		        std::string input_type="";
-
-		        commander= cmd_args.get("master");
+                        if (cmd_args.exists("master"))
+                        {
+		            commander= cmd_args.get("master");
+                        }
+                        if (cmd_args.exists("input_type"))
+                        {
 		        input_type= cmd_args.get("input_type");
+                        }
 
 			the_game(
 				kill,
