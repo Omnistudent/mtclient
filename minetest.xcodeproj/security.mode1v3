@@ -557,7 +557,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1153, 264}}</string>
 								<key>RubberWindowFrame</key>
-								<string>42 185 1153 546 0 0 1280 778 </string>
+								<string>74 190 1153 546 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -565,8 +565,6 @@
 							<string>264pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -583,7 +581,7 @@
 								<key>Frame</key>
 								<string>{{0, 269}, {1153, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>42 185 1153 546 0 0 1280 778 </string>
+								<string>74 190 1153 546 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -615,7 +613,7 @@
 			<key>WindowContentMinSize</key>
 			<string>486 300</string>
 			<key>WindowString</key>
-			<string>42 185 1153 546 0 0 1280 778 </string>
+			<string>74 190 1153 546 0 0 1280 778 </string>
 			<key>WindowToolGUID</key>
 			<string>957434F81843F3D300125813</string>
 			<key>WindowToolIsVisible</key>
