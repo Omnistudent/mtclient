@@ -796,12 +796,12 @@ int main(int argc, char *argv[])
 	allowed_options.insert(std::make_pair("random-input", ValueSpec(VALUETYPE_FLAG,
 			_("Enable random user input, for testing"))));
 	allowed_options.insert(std::make_pair("server", ValueSpec(VALUETYPE_FLAG,
+			_("Run dedicated server"))));
 // I inserted these
 	allowed_options.insert(std::make_pair("master", ValueSpec(VALUETYPE_STRING,
 			_("name of the bots master"))));
 	allowed_options.insert(std::make_pair("input_type", ValueSpec(VALUETYPE_STRING,
 			_("Input type: user random ai"))));
-			_("Run dedicated server"))));
 	allowed_options.insert(std::make_pair("name", ValueSpec(VALUETYPE_STRING,
 			_("Set player name"))));
 	allowed_options.insert(std::make_pair("password", ValueSpec(VALUETYPE_STRING,
