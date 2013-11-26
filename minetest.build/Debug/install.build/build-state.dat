@@ -1,12 +1,41 @@
 Tinstall
 v7
-r1
+r0
+t407134645.273066
+cCheck dependencies
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/minetest.build/Debug/install.build/Script-B4749FA6E73146F4BF6233CE.sh
 
 N/Users/security/mtclient/minetest.build/Debug/install.build/Script-1A2EBC7B195A4A1083A1F7CB.sh
 c00000000000000000000000000000000
 t2
 s0
 
+N/Users/security/mtclient/minetest.build/Debug/install.build/Script-B4749FA6E73146F4BF6233CE.sh
+c0000000052942A330000000000000082
+t1385441843
+s130
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies407134643#407134643#0(0"0(0#1#0"8603805600#0"0#
+
 CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/minetest.build/Debug/install.build/Script-1A2EBC7B195A4A1083A1F7CB.sh
 r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/minetest.build/Debug/install.build/Script-B4749FA6E73146F4BF6233CE.sh
+s407134643.805289
+e407134645.272978
+r0
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/security/mtclient/minetest.build/Debug/install.build/Script-B4749FA6E73146F4BF6233CE.sh
+o/opt/local/bin/cmake -DBUILD_TYPE=Debug -P cmake_install.cmake
+o-- Install configuration: "Debug"
+oCMake Error at cmake_install.cmake:31 (FILE):
+o  file cannot create directory: /usr/local/./bin/share/.  Maybe need
+o  administrative privileges.
+o
+o
+omake: *** [install_buildpart_0] Error 1
+lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407134643#407134645#0(323"/opt/local/bin/cmake -DBUILD_TYPE=Debug -P cmake_install.cmake-- Install configuration: "Debug"CMake Error at cmake_install.cmake:31 (FILE):  file cannot create directory: /usr/local/./bin/share/.  Maybe need  administrative privileges.make: *** [install_buildpart_0] Error 1Command /bin/sh failed with exit code 27(13@63"/opt/local/bin/cmake -DBUILD_TYPE=Debug -P cmake_install.cmake407134643#0#63#0(1@0"0(13@34"-- Install configuration: "Debug"407134645#63#34#0(1@0"0(13@46"CMake Error at cmake_install.cmake:31 (FILE):407134645#97#46#0(1@0"0(13@69"  file cannot create directory: /usr/local/./bin/share/.  Maybe need407134645#143#69#0(1@0"0(13@29"  administrative privileges.407134645#212#29#0(1@0"0(13@40"make: *** [install_buildpart_0] Error 1407134645#243#40#0(1@0"0(4@39"Command /bin/sh failed with exit code 2407134645#18446744073709551615#0#0(1@0"0(0#0#0"8604495200#142"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/minetest.build/Debug/install.build/Script-B4749FA6E73146F4BF6233CE.sh2#
 

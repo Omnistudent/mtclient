@@ -7,6 +7,14 @@ c00000000000000000000000000000000
 t2
 s0
 
+N/Users/security/mtclient/minetest.build/Debug/package.build/Script-32D7678A00BA4747B36515C9.sh
+c00000000000000000000000000000000
+t2
+s0
+
 CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/minetest.build/Debug/package.build/Script-2C7A1364C968486F812E11D5.sh
+r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/minetest.build/Debug/package.build/Script-32D7678A00BA4747B36515C9.sh
 r0
 

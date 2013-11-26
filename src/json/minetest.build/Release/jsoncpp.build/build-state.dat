@@ -1,11 +1,11 @@
 Tjsoncpp
 v7
 r0
-t407108813.620293
+t407136140.261843
 cCheck dependencies
 cCompileC src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.o /Users/security/mtclient/src/json/jsoncpp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cLibtool /Users/security/mtclient/src/json/Release/libjsoncpp.a normal i386
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-7AFE8753250E491BBF17BE73.sh
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-2DF2225740704AEB89CF772A.sh
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004A769DAB00000000000000EE
@@ -38,9 +38,9 @@ t1247548583
 s5937
 
 N/Users/security/mtclient/src/cmake_config.h
-c000000005293BACA000000000000029D
-t1385413322
-s669
+c000000005293C9B8000000000000026D
+t1385417144
+s621
 
 N/Users/security/mtclient/src/config.h
 c00000000529285E50000000000000368
@@ -49,7 +49,7 @@ s872
 i"cmake_config.h"
 
 N/Users/security/mtclient/src/json/Release/libjsoncpp.a
-t1385413775
+t1385417206
 s239928
 
 N/Users/security/mtclient/src/json/json.h
@@ -122,8 +122,13 @@ t1385413740
 s101
 
 N/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.o
-t1385413775
+t1385417206
 s219924
+
+N/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-2DF2225740704AEB89CF772A.sh
+c000000005293C9ED0000000000000094
+t1385417197
+s148
 
 N/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-7AFE8753250E491BBF17BE73.sh
 c000000005293BC6C0000000000000094
@@ -132,11 +137,11 @@ s148
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies407108813#407108813#0(0"0(0#1#0"8638148992#0"0#
+lSLF07#2@18"Check dependencies407136139#407136140#0(0"0(0#1#0"8608952128#0"0#
 
 CCompileC src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.o /Users/security/mtclient/src/json/jsoncpp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s407106540.557632
-e407106575.369106
+s407109997.057688
+e407110006.381713
 r1
 xCompileC
 xsrc/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.o
@@ -145,17 +150,30 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@53"Compile /Users/security/mtclient/src/json/jsoncpp.cpp407106540#407106575#0(0"0(0#0#45"/Users/security/mtclient/src/json/jsoncpp.cpp8620385344#1378"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/json/Release -I/Users/security/mtclient/src/json/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/DerivedSources/i386 -I/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/json/jsoncpp.cpp -o /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.o0#
+lSLF07#2@53"Compile /Users/security/mtclient/src/json/jsoncpp.cpp407109997#407110006#0(0"0(0#0#45"/Users/security/mtclient/src/json/jsoncpp.cpp8603998592#1378"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/json/Release -I/Users/security/mtclient/src/json/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/DerivedSources/i386 -I/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/json/jsoncpp.cpp -o /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.o0#
 
 CLibtool /Users/security/mtclient/src/json/Release/libjsoncpp.a normal i386
-s407106575.369199
-e407106575.996939
+s407110006.381857
+e407110006.657913
 r1
 xLibtool
 x/Users/security/mtclient/src/json/Release/libjsoncpp.a
 xnormal
 xi386
-lSLF07#2@49"Libtool src/json/Release/libjsoncpp.a normal i386407106575#407106575#0(0"0(0#0#0"8627082272#395"    cd /Users/security/mtclient    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/security/mtclient/src/json/Release -filelist /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.LinkFileList -o /Users/security/mtclient/src/json/Release/libjsoncpp.a0#
+lSLF07#2@49"Libtool src/json/Release/libjsoncpp.a normal i386407110006#407110006#0(0"0(0#0#0"8614668992#395"    cd /Users/security/mtclient    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/security/mtclient/src/json/Release -filelist /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.LinkFileList -o /Users/security/mtclient/src/json/Release/libjsoncpp.a0#
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-2DF2225740704AEB89CF772A.sh
+s407136140.051826
+e407136140.261803
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-2DF2225740704AEB89CF772A.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Release
+omake[1]: Nothing to be done for `PostBuild.jsoncpp.Release'.
+lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407136140#407136140#0(270"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Releasemake[1]: Nothing to be done for `PostBuild.jsoncpp.Release'.4(13@30"echo "Depend check for xcode"407136140#0#30#0(1@0"0(13@23"Depend check for xcode407136140#30#23#0(1@0"0(13@156"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Release407136140#53#156#0(1@0"0(13@61"make[1]: Nothing to be done for `PostBuild.jsoncpp.Release'.407136140#209#61#0(1@0"0(0#0#0"8618090688#153"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-2DF2225740704AEB89CF772A.sh0#
 
 CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-7AFE8753250E491BBF17BE73.sh
 s407108813.197515

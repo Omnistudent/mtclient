@@ -1,6 +1,39 @@
 Tlua
 v7
-r1
+r0
+t407132932.047561
+cCheck dependencies
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lapi.o /Users/security/mtclient/src/lua/src/lapi.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lauxlib.o /Users/security/mtclient/src/lua/src/lauxlib.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lbaselib.o /Users/security/mtclient/src/lua/src/lbaselib.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lcode.o /Users/security/mtclient/src/lua/src/lcode.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldblib.o /Users/security/mtclient/src/lua/src/ldblib.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldebug.o /Users/security/mtclient/src/lua/src/ldebug.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldo.o /Users/security/mtclient/src/lua/src/ldo.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldump.o /Users/security/mtclient/src/lua/src/ldump.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lfunc.o /Users/security/mtclient/src/lua/src/lfunc.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lgc.o /Users/security/mtclient/src/lua/src/lgc.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/linit.o /Users/security/mtclient/src/lua/src/linit.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/liolib.o /Users/security/mtclient/src/lua/src/liolib.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/llex.o /Users/security/mtclient/src/lua/src/llex.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lmathlib.o /Users/security/mtclient/src/lua/src/lmathlib.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lmem.o /Users/security/mtclient/src/lua/src/lmem.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/loadlib.o /Users/security/mtclient/src/lua/src/loadlib.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lobject.o /Users/security/mtclient/src/lua/src/lobject.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lopcodes.o /Users/security/mtclient/src/lua/src/lopcodes.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/loslib.o /Users/security/mtclient/src/lua/src/loslib.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lparser.o /Users/security/mtclient/src/lua/src/lparser.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lstate.o /Users/security/mtclient/src/lua/src/lstate.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lstring.o /Users/security/mtclient/src/lua/src/lstring.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lstrlib.o /Users/security/mtclient/src/lua/src/lstrlib.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ltable.o /Users/security/mtclient/src/lua/src/ltable.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ltablib.o /Users/security/mtclient/src/lua/src/ltablib.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ltm.o /Users/security/mtclient/src/lua/src/ltm.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lundump.o /Users/security/mtclient/src/lua/src/lundump.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lvm.o /Users/security/mtclient/src/lua/src/lvm.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lzio.o /Users/security/mtclient/src/lua/src/lzio.c normal i386 c com.apple.compilers.gcc.4_2
+cLibtool /Users/security/mtclient/src/lua/build/Debug/liblua.a normal i386
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Script-F48D9019F73644089FC023FC.sh
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004A769DAB00000000000000EE
@@ -98,134 +131,139 @@ t1242688292
 s12695
 
 N/Users/security/mtclient/src/lua/build/Debug/liblua.a
-t2
-s0
+t1385440127
+s605936
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lapi.o
-t2
-s0
+t1385440120
+s40148
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lauxlib.o
-t2
-s0
+t1385440119
+s27144
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lbaselib.o
-t2
-s0
+t1385440122
+s30524
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lcode.o
-t2
-s0
+t1385440122
+s36828
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldblib.o
-t2
-s0
+t1385440123
+s19876
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldebug.o
-t2
-s0
+t1385440123
+s27652
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldo.o
-t2
-s0
+t1385440123
+s23064
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldump.o
-t2
-s0
+t1385440123
+s11744
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lfunc.o
-t2
-s0
+t1385440123
+s11908
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lgc.o
-t2
-s0
+t1385440124
+s24012
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/linit.o
-t2
-s0
+t1385440124
+s3244
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/liolib.o
-t2
-s0
+t1385440124
+s24916
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/llex.o
-t2
-s0
+t1385440124
+s27056
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lmathlib.o
-t2
-s0
+t1385440124
+s13516
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lmem.o
-t2
-s0
+t1385440124
+s8332
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/loadlib.o
-t2
-s0
+t1385440125
+s20276
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lobject.o
-t2
-s0
+t1385440125
+s17464
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lopcodes.o
-t2
-s0
+t1385440125
+s2844
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/loslib.o
-t2
-s0
+t1385440125
+s13292
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lparser.o
-t2
-s0
+t1385440125
+s47632
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lstate.o
-t2
-s0
+t1385440125
+s12204
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lstring.o
-t2
-s0
+t1385440125
+s10220
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lstrlib.o
-t2
-s0
+t1385440126
+s37892
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ltable.o
-t2
-s0
+t1385440126
+s21916
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ltablib.o
-t2
-s0
+t1385440126
+s12048
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ltm.o
-t2
-s0
+t1385440126
+s9776
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lua.LinkFileList
-c00000000000000000000000000000000
-t2
-s0
+c000000005294236F0000000000000B2D
+t1385440111
+s2861
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lundump.o
-t2
-s0
+t1385440126
+s15312
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lvm.o
-t2
-s0
+t1385440126
+s37332
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lzio.o
-t2
-s0
+t1385440126
+s9696
 
 N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Script-E17B6388A1F247C194D62D54.sh
 c00000000000000000000000000000000
 t2
 s0
+
+N/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Script-F48D9019F73644089FC023FC.sh
+c000000005294236F000000000000009A
+t1385440111
+s154
 
 N/Users/security/mtclient/src/lua/src/lapi.c
 c00000000529285E500000000000058B4
@@ -812,96 +850,417 @@ s1556
 i"lua.h"
 i"lmem.h"
 
-CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lapi.o /Users/security/mtclient/src/lua/src/lapi.c normal i386 c com.apple.compilers.gcc.4_2
+CCheck dependencies
 r0
+lSLF07#2@18"Check dependencies407132908#407132911#0(0"0(0#1#0"8615939680#0"0#
+
+CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lapi.o /Users/security/mtclient/src/lua/src/lapi.c normal i386 c com.apple.compilers.gcc.4_2
+s407132911.604268
+e407132920.139480
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lapi.o
+x/Users/security/mtclient/src/lua/src/lapi.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/security/mtclient/src/lua/src/lapi.c407132911#407132920#0(0"0(0#0#43"/Users/security/mtclient/src/lua/src/lapi.c8607228128#936"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lapi.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lapi.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lauxlib.o /Users/security/mtclient/src/lua/src/lauxlib.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132911.664231
+e407132920.040311
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lauxlib.o
+x/Users/security/mtclient/src/lua/src/lauxlib.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/security/mtclient/src/lua/src/lauxlib.c407132911#407132920#0(0"0(0#0#46"/Users/security/mtclient/src/lua/src/lauxlib.c8600614016#942"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lauxlib.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lauxlib.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lbaselib.o /Users/security/mtclient/src/lua/src/lbaselib.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132920.040492
+e407132923.002149
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lbaselib.o
+x/Users/security/mtclient/src/lua/src/lbaselib.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/security/mtclient/src/lua/src/lbaselib.c407132920#407132923#0(0"0(0#0#47"/Users/security/mtclient/src/lua/src/lbaselib.c8600920896#944"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lbaselib.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lbaselib.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lcode.o /Users/security/mtclient/src/lua/src/lcode.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132920.139576
+e407132923.020455
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lcode.o
+x/Users/security/mtclient/src/lua/src/lcode.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/security/mtclient/src/lua/src/lcode.c407132920#407132923#0(0"0(0#0#44"/Users/security/mtclient/src/lua/src/lcode.c8615825120#938"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lcode.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lcode.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldblib.o /Users/security/mtclient/src/lua/src/ldblib.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132923.002292
+e407132923.267008
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldblib.o
+x/Users/security/mtclient/src/lua/src/ldblib.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/security/mtclient/src/lua/src/ldblib.c407132923#407132923#0(0"0(0#0#45"/Users/security/mtclient/src/lua/src/ldblib.c8615371680#940"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/ldblib.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldblib.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldebug.o /Users/security/mtclient/src/lua/src/ldebug.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132923.020544
+e407132923.316267
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldebug.o
+x/Users/security/mtclient/src/lua/src/ldebug.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/security/mtclient/src/lua/src/ldebug.c407132923#407132923#0(0"0(0#0#45"/Users/security/mtclient/src/lua/src/ldebug.c8615182496#940"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/ldebug.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldebug.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldo.o /Users/security/mtclient/src/lua/src/ldo.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132923.267100
+e407132923.894993
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldo.o
+x/Users/security/mtclient/src/lua/src/ldo.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/security/mtclient/src/lua/src/ldo.c407132923#407132923#0(0"0(0#0#42"/Users/security/mtclient/src/lua/src/ldo.c8606492416#934"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/ldo.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldo.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldump.o /Users/security/mtclient/src/lua/src/ldump.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132923.316364
+e407132923.829304
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldump.o
+x/Users/security/mtclient/src/lua/src/ldump.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/security/mtclient/src/lua/src/ldump.c407132923#407132923#0(0"0(0#0#44"/Users/security/mtclient/src/lua/src/ldump.c8600407296#938"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/ldump.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ldump.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lfunc.o /Users/security/mtclient/src/lua/src/lfunc.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132923.829395
+e407132923.974731
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lfunc.o
+x/Users/security/mtclient/src/lua/src/lfunc.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/security/mtclient/src/lua/src/lfunc.c407132923#407132923#0(0"0(0#0#44"/Users/security/mtclient/src/lua/src/lfunc.c8618001696#938"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lfunc.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lfunc.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lgc.o /Users/security/mtclient/src/lua/src/lgc.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132923.895088
+e407132924.205437
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lgc.o
+x/Users/security/mtclient/src/lua/src/lgc.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/security/mtclient/src/lua/src/lgc.c407132923#407132924#0(0"0(0#0#42"/Users/security/mtclient/src/lua/src/lgc.c8617457088#934"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lgc.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lgc.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/linit.o /Users/security/mtclient/src/lua/src/linit.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132923.974842
+e407132924.070753
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/linit.o
+x/Users/security/mtclient/src/lua/src/linit.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/security/mtclient/src/lua/src/linit.c407132923#407132924#0(0"0(0#0#44"/Users/security/mtclient/src/lua/src/linit.c8616028608#938"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/linit.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/linit.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/liolib.o /Users/security/mtclient/src/lua/src/liolib.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132924.070849
+e407132924.608086
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/liolib.o
+x/Users/security/mtclient/src/lua/src/liolib.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/security/mtclient/src/lua/src/liolib.c407132924#407132924#0(0"0(0#0#45"/Users/security/mtclient/src/lua/src/liolib.c8615843232#940"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/liolib.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/liolib.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/llex.o /Users/security/mtclient/src/lua/src/llex.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132924.206153
+e407132924.855697
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/llex.o
+x/Users/security/mtclient/src/lua/src/llex.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/security/mtclient/src/lua/src/llex.c407132924#407132924#0(0"0(0#0#43"/Users/security/mtclient/src/lua/src/llex.c8615618816#936"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/llex.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/llex.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lmathlib.o /Users/security/mtclient/src/lua/src/lmathlib.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132924.608235
+e407132924.815288
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lmathlib.o
+x/Users/security/mtclient/src/lua/src/lmathlib.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/security/mtclient/src/lua/src/lmathlib.c407132924#407132924#0(0"0(0#0#47"/Users/security/mtclient/src/lua/src/lmathlib.c8615379104#944"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lmathlib.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lmathlib.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lmem.o /Users/security/mtclient/src/lua/src/lmem.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132924.815389
+e407132924.919455
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lmem.o
+x/Users/security/mtclient/src/lua/src/lmem.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/security/mtclient/src/lua/src/lmem.c407132924#407132924#0(0"0(0#0#43"/Users/security/mtclient/src/lua/src/lmem.c8615182752#936"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lmem.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lmem.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/loadlib.o /Users/security/mtclient/src/lua/src/loadlib.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132924.855794
+e407132925.237898
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/loadlib.o
+x/Users/security/mtclient/src/lua/src/loadlib.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/security/mtclient/src/lua/src/loadlib.c: In function 'll_sym':
+o/Users/security/mtclient/src/lua/src/loadlib.c:76: warning: ISO C forbids conversion of object pointer to function pointer type
+lSLF07#2@54"Compile /Users/security/mtclient/src/lua/src/loadlib.c407132924#407132925#0(198"/Users/security/mtclient/src/lua/src/loadlib.c: In function 'll_sym':/Users/security/mtclient/src/lua/src/loadlib.c:76: warning: ISO C forbids conversion of object pointer to function pointer type1(22@67"ISO C forbids conversion of object pointer to function pointer type407132925#70#128#0(6@46"/Users/security/mtclient/src/lua/src/loadlib.c407027045#76#0#76#0#0"0(0#0#46"/Users/security/mtclient/src/lua/src/loadlib.c8614918912#942"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/loadlib.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/loadlib.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lobject.o /Users/security/mtclient/src/lua/src/lobject.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132924.919557
+e407132925.202793
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lobject.o
+x/Users/security/mtclient/src/lua/src/lobject.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/security/mtclient/src/lua/src/lobject.c407132924#407132925#0(0"0(0#0#46"/Users/security/mtclient/src/lua/src/lobject.c8614579648#942"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lobject.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lobject.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lopcodes.o /Users/security/mtclient/src/lua/src/lopcodes.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132925.202890
+e407132925.297419
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lopcodes.o
+x/Users/security/mtclient/src/lua/src/lopcodes.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/security/mtclient/src/lua/src/lopcodes.c407132925#407132925#0(0"0(0#0#47"/Users/security/mtclient/src/lua/src/lopcodes.c8614140832#944"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lopcodes.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lopcodes.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/loslib.o /Users/security/mtclient/src/lua/src/loslib.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132925.237992
+e407132925.515082
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/loslib.o
+x/Users/security/mtclient/src/lua/src/loslib.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/security/mtclient/src/lua/src/loslib.c407132925#407132925#0(0"0(0#0#45"/Users/security/mtclient/src/lua/src/loslib.c8611686976#940"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/loslib.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/loslib.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lparser.o /Users/security/mtclient/src/lua/src/lparser.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132925.297514
+e407132925.945375
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lparser.o
+x/Users/security/mtclient/src/lua/src/lparser.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/security/mtclient/src/lua/src/lparser.c407132925#407132925#0(0"0(0#0#46"/Users/security/mtclient/src/lua/src/lparser.c8609742688#942"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lparser.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lparser.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lstate.o /Users/security/mtclient/src/lua/src/lstate.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132925.515179
+e407132925.611130
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lstate.o
+x/Users/security/mtclient/src/lua/src/lstate.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/security/mtclient/src/lua/src/lstate.c407132925#407132925#0(0"0(0#0#45"/Users/security/mtclient/src/lua/src/lstate.c8606582304#940"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lstate.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lstate.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lstring.o /Users/security/mtclient/src/lua/src/lstring.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132925.611228
+e407132925.762013
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lstring.o
+x/Users/security/mtclient/src/lua/src/lstring.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/security/mtclient/src/lua/src/lstring.c407132925#407132925#0(0"0(0#0#46"/Users/security/mtclient/src/lua/src/lstring.c8604449696#942"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lstring.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lstring.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lstrlib.o /Users/security/mtclient/src/lua/src/lstrlib.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132925.762111
+e407132926.258218
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lstrlib.o
+x/Users/security/mtclient/src/lua/src/lstrlib.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/security/mtclient/src/lua/src/lstrlib.c407132925#407132926#0(0"0(0#0#46"/Users/security/mtclient/src/lua/src/lstrlib.c8602757856#942"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lstrlib.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lstrlib.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ltable.o /Users/security/mtclient/src/lua/src/ltable.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132925.945465
+e407132926.206527
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ltable.o
+x/Users/security/mtclient/src/lua/src/ltable.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/security/mtclient/src/lua/src/ltable.c407132925#407132926#0(0"0(0#0#45"/Users/security/mtclient/src/lua/src/ltable.c8617869472#940"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/ltable.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ltable.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ltablib.o /Users/security/mtclient/src/lua/src/ltablib.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132926.206713
+e407132926.395996
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ltablib.o
+x/Users/security/mtclient/src/lua/src/ltablib.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/security/mtclient/src/lua/src/ltablib.c407132926#407132926#0(0"0(0#0#46"/Users/security/mtclient/src/lua/src/ltablib.c8615855072#942"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/ltablib.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ltablib.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ltm.o /Users/security/mtclient/src/lua/src/ltm.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132926.258311
+e407132926.469926
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ltm.o
+x/Users/security/mtclient/src/lua/src/ltm.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/security/mtclient/src/lua/src/ltm.c407132926#407132926#0(0"0(0#0#42"/Users/security/mtclient/src/lua/src/ltm.c8615816768#934"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/ltm.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/ltm.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lundump.o /Users/security/mtclient/src/lua/src/lundump.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132926.396091
+e407132926.533619
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lundump.o
+x/Users/security/mtclient/src/lua/src/lundump.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/security/mtclient/src/lua/src/lundump.c407132926#407132926#0(0"0(0#0#46"/Users/security/mtclient/src/lua/src/lundump.c8615630144#942"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lundump.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lundump.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lvm.o /Users/security/mtclient/src/lua/src/lvm.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132926.470021
+e407132926.794239
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lvm.o
+x/Users/security/mtclient/src/lua/src/lvm.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/security/mtclient/src/lua/src/lvm.c407132926#407132926#0(0"0(0#0#42"/Users/security/mtclient/src/lua/src/lvm.c8615554368#934"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lvm.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lvm.o0#
 
 CCompileC src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lzio.o /Users/security/mtclient/src/lua/src/lzio.c normal i386 c com.apple.compilers.gcc.4_2
-r0
+s407132926.533714
+e407132926.650068
+r1
+xCompileC
+xsrc/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lzio.o
+x/Users/security/mtclient/src/lua/src/lzio.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/security/mtclient/src/lua/src/lzio.c407132926#407132926#0(0"0(0#0#43"/Users/security/mtclient/src/lua/src/lzio.c8615336256#936"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -DCMAKE_INTDIR="Debug" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/src/lua/build/Debug -I/Users/security/mtclient/src/lua/build/Debug/include -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/lua/build -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources/i386 -I/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/DerivedSources -DLUA_USE_DLOPEN -pipe -Wall -Wextra -Wshadow -W -pedantic -std=gnu99 -c /Users/security/mtclient/src/lua/src/lzio.c -o /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lzio.o0#
 
 CLibtool /Users/security/mtclient/src/lua/build/Debug/liblua.a normal i386
-r0
+s407132926.794319
+e407132927.435221
+r1
+xLibtool
+x/Users/security/mtclient/src/lua/build/Debug/liblua.a
+xnormal
+xi386
+lSLF07#2@48"Libtool src/lua/build/Debug/liblua.a normal i386407132926#407132927#0(0"0(0#0#0"8614846400#392"    cd /Users/security/mtclient    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/security/mtclient/src/lua/build/Debug -filelist /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Objects-normal/i386/lua.LinkFileList -o /Users/security/mtclient/src/lua/build/Debug/liblua.a0#
 
 CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Script-E17B6388A1F247C194D62D54.sh
 r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Script-F48D9019F73644089FC023FC.sh
+s407132927.435327
+e407132932.047451
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Script-F48D9019F73644089FC023FC.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/security/mtclient/src/lua && make -C /Users/security/mtclient/src/lua -f /Users/security/mtclient/src/lua/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Debug
+omake[1]: Nothing to be done for `PostBuild.lua.Debug'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Debug
+o/bin/rm -f /Users/security/mtclient/bin/Debug/minetest
+o/bin/rm -f /Users/security/mtclient/bin/Debug/minetestserver
+lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407132927#407132933#0(601"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient/src/lua && make -C /Users/security/mtclient/src/lua -f /Users/security/mtclient/src/lua/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Debugmake[1]: Nothing to be done for `PostBuild.lua.Debug'.echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Debug/bin/rm -f /Users/security/mtclient/bin/Debug/minetest/bin/rm -f /Users/security/mtclient/bin/Debug/minetestserver9(13@30"echo "Depend check for xcode"407132928#0#30#0(1@0"0(13@23"Depend check for xcode407132928#30#23#0(1@0"0(13@174"cd /Users/security/mtclient/src/lua && make -C /Users/security/mtclient/src/lua -f /Users/security/mtclient/src/lua/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Debug407132928#53#174#0(1@0"0(13@55"make[1]: Nothing to be done for `PostBuild.lua.Debug'.407132928#227#55#0(1@0"0(13@30"echo "Depend check for xcode"407132928#282#30#0(1@0"0(13@23"Depend check for xcode407132928#312#23#0(1@0"0(13@150"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Debug407132928#335#150#0(1@0"0(13@55"/bin/rm -f /Users/security/mtclient/bin/Debug/minetest407132931#485#55#0(1@0"0(13@61"/bin/rm -f /Users/security/mtclient/bin/Debug/minetestserver407132932#540#61#0(1@0"0(0#0#0"8616039488#152"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/lua/build/minetest.build/Debug/lua.build/Script-F48D9019F73644089FC023FC.sh0#
 

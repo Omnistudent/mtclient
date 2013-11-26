@@ -1,12 +1,37 @@
 TZERO_CHECK
 v7
-r1
+r0
+t407132908.314900
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/security/mtclient/minetest.build/Debug/ZERO_CHECK.build/Script-372B9F9EFC554BB4A94FBAD3.sh
 
 N/Users/security/mtclient/minetest.build/Debug/ZERO_CHECK.build/Script-26650A071AEC474F8ACD3CA6.sh
 c00000000000000000000000000000000
 t2
 s0
 
+N/Users/security/mtclient/minetest.build/Debug/ZERO_CHECK.build/Script-372B9F9EFC554BB4A94FBAD3.sh
+c000000005294236A000000000000008B
+t1385440106
+s139
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies407132905#407132906#0(0"0(0#1#0"8617407648#0"0#
+
 CPhaseScriptExecution "CMake Rules" /Users/security/mtclient/minetest.build/Debug/ZERO_CHECK.build/Script-26650A071AEC474F8ACD3CA6.sh
 r0
+
+CPhaseScriptExecution "CMake Rules" /Users/security/mtclient/minetest.build/Debug/ZERO_CHECK.build/Script-372B9F9EFC554BB4A94FBAD3.sh
+s407132906.244099
+e407132908.314777
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/security/mtclient/minetest.build/Debug/ZERO_CHECK.build/Script-372B9F9EFC554BB4A94FBAD3.sh
+oecho ""
+o
+omake -f /Users/security/mtclient/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF07#2@37"Run custom shell script 'CMake Rules'407132906#407132908#0(126"echo ""make -f /Users/security/mtclient/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(13@8"echo ""407132907#0#8#0(1@0"0(13@62"make -f /Users/security/mtclient/CMakeScripts/ReRunCMake.make407132907#9#62#0(1@0"0(13@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.407132908#71#55#0(1@0"0(0#0#0"8617670368#145"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/minetest.build/Debug/ZERO_CHECK.build/Script-372B9F9EFC554BB4A94FBAD3.sh0#
 
