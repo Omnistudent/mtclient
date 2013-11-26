@@ -1,11 +1,11 @@
 Tjsoncpp
 v7
 r0
-t407132997.423119
+t407159792.656231
 cCheck dependencies
 cCompileC src/json/minetest.build/Debug/jsoncpp.build/Objects-normal/i386/jsoncpp.o /Users/security/mtclient/src/json/jsoncpp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cLibtool /Users/security/mtclient/src/json/Debug/libjsoncpp.a normal i386
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/json/minetest.build/Debug/jsoncpp.build/Script-2DF2225740704AEB89CF772A.sh
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/json/minetest.build/Debug/jsoncpp.build/Script-277CD05DD33E484D8D03D28C.sh
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004A769DAB00000000000000EE
@@ -125,6 +125,11 @@ N/Users/security/mtclient/src/json/minetest.build/Debug/jsoncpp.build/Objects-no
 t1385440192
 s841252
 
+N/Users/security/mtclient/src/json/minetest.build/Debug/jsoncpp.build/Script-277CD05DD33E484D8D03D28C.sh
+c0000000052948C700000000000000094
+t1385466992
+s148
+
 N/Users/security/mtclient/src/json/minetest.build/Debug/jsoncpp.build/Script-2DF2225740704AEB89CF772A.sh
 c00000000529423860000000000000094
 t1385440134
@@ -137,7 +142,7 @@ s0
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies407132932#407132935#0(0"0(0#1#0"8615709824#0"0#
+lSLF07#2@18"Check dependencies407159792#407159792#0(0"0(0#1#0"8614677248#0"0#
 
 CCompileC src/json/minetest.build/Debug/jsoncpp.build/Objects-normal/i386/jsoncpp.o /Users/security/mtclient/src/json/jsoncpp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s407132935.160048
@@ -161,6 +166,20 @@ x/Users/security/mtclient/src/json/Debug/libjsoncpp.a
 xnormal
 xi386
 lSLF07#2@47"Libtool src/json/Debug/libjsoncpp.a normal i386407132993#407132994#0(0"0(0#0#0"8609438656#389"    cd /Users/security/mtclient    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/security/mtclient/src/json/Debug -filelist /Users/security/mtclient/src/json/minetest.build/Debug/jsoncpp.build/Objects-normal/i386/jsoncpp.LinkFileList -o /Users/security/mtclient/src/json/Debug/libjsoncpp.a0#
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/json/minetest.build/Debug/jsoncpp.build/Script-277CD05DD33E484D8D03D28C.sh
+s407159792.587342
+e407159792.656179
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/security/mtclient/src/json/minetest.build/Debug/jsoncpp.build/Script-277CD05DD33E484D8D03D28C.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Debug
+o/bin/rm -f /Users/security/mtclient/bin/Debug/minetest
+o/bin/rm -f /Users/security/mtclient/bin/Debug/minetestserver
+lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407159792#407159792#0(323"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Debug/bin/rm -f /Users/security/mtclient/bin/Debug/minetest/bin/rm -f /Users/security/mtclient/bin/Debug/minetestserver5(13@30"echo "Depend check for xcode"407159792#0#30#0(1@0"0(13@23"Depend check for xcode407159792#30#23#0(1@0"0(13@154"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Debug407159792#53#154#0(1@0"0(13@55"/bin/rm -f /Users/security/mtclient/bin/Debug/minetest407159792#207#55#0(1@0"0(13@61"/bin/rm -f /Users/security/mtclient/bin/Debug/minetestserver407159792#262#61#0(1@0"0(0#0#0"8610458336#151"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/json/minetest.build/Debug/jsoncpp.build/Script-277CD05DD33E484D8D03D28C.sh0#
 
 CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/json/minetest.build/Debug/jsoncpp.build/Script-2DF2225740704AEB89CF772A.sh
 s407132994.644816

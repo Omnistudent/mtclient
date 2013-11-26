@@ -4,7 +4,7 @@
 #ifndef CMAKE_CONFIG_GITHASH_H
 #define CMAKE_CONFIG_GITHASH_H
 
-#define CMAKE_VERSION_GITHASH "4669575-dirty"
+#define CMAKE_VERSION_GITHASH "9a2ece6-dirty"
 
 #endif
 

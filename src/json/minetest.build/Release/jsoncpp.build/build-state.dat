@@ -1,11 +1,11 @@
 Tjsoncpp
 v7
 r0
-t407136140.261843
+t407159841.877979
 cCheck dependencies
 cCompileC src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.o /Users/security/mtclient/src/json/jsoncpp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cLibtool /Users/security/mtclient/src/json/Release/libjsoncpp.a normal i386
-cPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-2DF2225740704AEB89CF772A.sh
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-277CD05DD33E484D8D03D28C.sh
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004A769DAB00000000000000EE
@@ -125,6 +125,11 @@ N/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Objects-
 t1385417206
 s219924
 
+N/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-277CD05DD33E484D8D03D28C.sh
+c0000000052948CA10000000000000094
+t1385467041
+s148
+
 N/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-2DF2225740704AEB89CF772A.sh
 c000000005293C9ED0000000000000094
 t1385417197
@@ -137,7 +142,7 @@ s148
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies407136139#407136140#0(0"0(0#1#0"8608952128#0"0#
+lSLF07#2@18"Check dependencies407159841#407159841#0(0"0(0#1#0"8615670752#0"0#
 
 CCompileC src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.o /Users/security/mtclient/src/json/jsoncpp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s407109997.057688
@@ -161,6 +166,20 @@ x/Users/security/mtclient/src/json/Release/libjsoncpp.a
 xnormal
 xi386
 lSLF07#2@49"Libtool src/json/Release/libjsoncpp.a normal i386407110006#407110006#0(0"0(0#0#0"8614668992#395"    cd /Users/security/mtclient    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/security/mtclient/src/json/Release -filelist /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Objects-normal/i386/jsoncpp.LinkFileList -o /Users/security/mtclient/src/json/Release/libjsoncpp.a0#
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-277CD05DD33E484D8D03D28C.sh
+s407159841.793523
+e407159841.877937
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-277CD05DD33E484D8D03D28C.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Release
+o/bin/rm -f /Users/security/mtclient/bin/Release/minetest
+o/bin/rm -f /Users/security/mtclient/bin/Release/minetestserver
+lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407159841#407159841#0(329"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Release/bin/rm -f /Users/security/mtclient/bin/Release/minetest/bin/rm -f /Users/security/mtclient/bin/Release/minetestserver5(13@30"echo "Depend check for xcode"407159841#0#30#0(1@0"0(13@23"Depend check for xcode407159841#30#23#0(1@0"0(13@156"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.jsoncpp.Release407159841#53#156#0(1@0"0(13@57"/bin/rm -f /Users/security/mtclient/bin/Release/minetest407159841#209#57#0(1@0"0(13@63"/bin/rm -f /Users/security/mtclient/bin/Release/minetestserver407159841#266#63#0(1@0"0(0#0#0"8614231904#153"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-277CD05DD33E484D8D03D28C.sh0#
 
 CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/json/minetest.build/Release/jsoncpp.build/Script-2DF2225740704AEB89CF772A.sh
 s407136140.051826
