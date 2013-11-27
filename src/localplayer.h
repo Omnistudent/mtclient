@@ -47,6 +47,8 @@ public:
 	void move(f32 dtime, ClientEnvironment *env, f32 pos_max_d,
 			std::list<CollisionInfo> *collision_info);
 	void move(f32 dtime, ClientEnvironment *env, f32 pos_max_d);
+        std::string getBlocktype(v3f posit,Map &map );
+
 
 	void applyControl(float dtime);
 

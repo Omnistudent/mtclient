@@ -1,7 +1,7 @@
 
 #include "brain.h"
 
-Brain::Brain(Client* c,Camera* k)                         
+Brain::Brain(Client* c,Camera* k,std::string mastername)                         
 {
 
     //Manager for inventory
@@ -14,6 +14,7 @@ Brain::Brain(Client* c,Camera* k)
     time_last_move=-1;
     time_last_dig=-1;
     time_last_extend=-1;
+
     
     happiness=100;
 
@@ -62,6 +63,7 @@ Brain::Brain(Client* c,Camera* k)
 
     clientobj=c;
     kamera=k;
+    master=mastername;
 }
 
 // Functions called from other objects
@@ -1499,7 +1501,7 @@ double *inputNeurons = new( double[nInput] );
     {
         if (ba->subacts.size()<1)
         {
-            v3f masterposition=getYawToMaster_pos(player,env);
+            v3f masterposition=getYawToMaster_pos(player,env,master);
 
             if (masterposition.X==-666666 and masterposition.Y ==-666666 and masterposition.Z==-666666)
             {
@@ -1758,10 +1760,14 @@ void Brain::step(float tim)
 //////////////////////////////////////////////////////////
 
 
-v3f Brain::getYawToMaster_pos(LocalPlayer *player,ClientEnvironment *m_env)
+v3f Brain::getYawToMaster_pos(LocalPlayer *player,ClientEnvironment *m_env,std::string mastername)
 {
-        std::string mastername="uuu";
+        //std::string mastername="uuu";
         std::vector<DistanceSortedActiveObject> objects1;
+
+
+        //LocalPlayerplayer *master=m_env->getPlayer(mastername);
+        //v3f pos1 = master->getPosition();
         m_env->getActiveObjects(player->getPosition(), 400.0, objects1);
 	for(u32 i=0; i<objects1.size(); i++)
 	{
@@ -1776,6 +1782,7 @@ v3f Brain::getYawToMaster_pos(LocalPlayer *player,ClientEnvironment *m_env)
 	}
         printf("getYawToMaster_pos returned nothing\n");
         return v3f(-666666,-666666,-666666);
+        //return pos1;
 }
 
 f32 Brain::getPitchToPosition(LocalPlayer *player,float posx, float posy, float posz ,ClientEnvironment *m_env)

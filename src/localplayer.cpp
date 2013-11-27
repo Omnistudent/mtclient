@@ -354,6 +354,13 @@ void LocalPlayer::move(f32 dtime, ClientEnvironment *env, f32 pos_max_d)
 {
 	move(dtime, env, pos_max_d, NULL);
 }
+std::string LocalPlayer::getBlocktype(v3f posit,Map &map){
+
+	INodeDefManager *nodemgr = m_gamedef->ndef();
+	v3s16 front_node = floatToInt(posit - v3f(0,0,0), BS);
+	std::string front_node_type = nodemgr->get(map.getNodeNoEx(front_node)).name;
+        return front_node_type;
+}
 
 void LocalPlayer::applyControl(float dtime)
 {

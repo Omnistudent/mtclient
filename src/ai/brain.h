@@ -50,7 +50,7 @@
 class Brain{
 public:
 	//Brain2();
-	Brain(Client* c,Camera* k);
+	Brain(Client* c,Camera* k,std::string mastername);
 	
 	Client* clientobj;
         Myinv* myInvManager;
@@ -58,6 +58,8 @@ public:
 	std::list<ChatLine> currentchatlist;
 	std::list<ChatLine> formerchatlist;
 	void step(float tim);
+
+        std::string master;
 	
 	void addMessline(ChatLine linnne);
     const bool getDigStatus();
@@ -152,7 +154,7 @@ public:
     bool getLeftClicked();
 
     std::string getYawToMaster_string(LocalPlayer *player,ClientEnvironment *m_env);
-    v3f getYawToMaster_pos(LocalPlayer *player,ClientEnvironment *m_env);
+    v3f getYawToMaster_pos(LocalPlayer *player,ClientEnvironment *m_env,std::string master);
     f32 getYawToMaster_yaw(LocalPlayer *player,v3f masterpos);
     f32 getDistToMaster(LocalPlayer *player,v3f masterpos);
 

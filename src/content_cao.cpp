@@ -778,6 +778,10 @@ public:
 		return m_is_player;
 	}
 
+	std::string pname()
+	{
+		return m_name;
+	}
 	bool isLocalPlayer()
 	{
 		return m_is_local_player;

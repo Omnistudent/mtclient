@@ -1291,7 +1291,7 @@ void the_game(
 	Camera camera(smgr, draw_control, gamedef);
 	if (!camera.successfullyCreated(error_message))
 		return;
-        Brain *brain=new Brain(&client,&camera);
+        Brain *brain=new Brain(&client,&camera,master);
 
 
 	f32 camera_yaw = 0; // "right/left"
