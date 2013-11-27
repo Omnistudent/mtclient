@@ -1,7 +1,7 @@
 Tlua
 v7
 r0
-t407183786.833477
+t407219370.977580
 cCheck dependencies
 cCompileC src/lua/build/minetest.build/Release/lua.build/Objects-normal/i386/lapi.o /Users/security/mtclient/src/lua/src/lapi.c normal i386 c com.apple.compilers.gcc.4_2
 cCompileC src/lua/build/minetest.build/Release/lua.build/Objects-normal/i386/lauxlib.o /Users/security/mtclient/src/lua/src/lauxlib.c normal i386 c com.apple.compilers.gcc.4_2
@@ -877,7 +877,7 @@ i"lmem.h"
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies407183786#407183786#0(0"0(0#1#0"8614260768#0"0#
+lSLF07#2@18"Check dependencies407219369#407219370#0(0"0(0#1#0"8611745504#0"0#
 
 CCompileC src/lua/build/minetest.build/Release/lua.build/Objects-normal/i386/lapi.o /Users/security/mtclient/src/lua/src/lapi.c normal i386 c com.apple.compilers.gcc.4_2
 s407106540.698129
@@ -1287,8 +1287,8 @@ o/bin/rm -f /Users/security/mtclient/bin/Release/minetestserver
 lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407159841#407159841#0(611"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient/src/lua && make -C /Users/security/mtclient/src/lua -f /Users/security/mtclient/src/lua/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Releasemake[1]: Nothing to be done for `PostBuild.lua.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Release/bin/rm -f /Users/security/mtclient/bin/Release/minetest/bin/rm -f /Users/security/mtclient/bin/Release/minetestserver9(13@30"echo "Depend check for xcode"407159841#0#30#0(1@0"0(13@23"Depend check for xcode407159841#30#23#0(1@0"0(13@176"cd /Users/security/mtclient/src/lua && make -C /Users/security/mtclient/src/lua -f /Users/security/mtclient/src/lua/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Release407159841#53#176#0(1@0"0(13@57"make[1]: Nothing to be done for `PostBuild.lua.Release'.407159841#229#57#0(1@0"0(13@30"echo "Depend check for xcode"407159841#286#30#0(1@0"0(13@23"Depend check for xcode407159841#316#23#0(1@0"0(13@152"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Release407159841#339#152#0(1@0"0(13@57"/bin/rm -f /Users/security/mtclient/bin/Release/minetest407159841#491#57#0(1@0"0(13@63"/bin/rm -f /Users/security/mtclient/bin/Release/minetestserver407159841#548#63#0(1@0"0(0#0#0"8610240736#154"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/lua/build/minetest.build/Release/lua.build/Script-08D2A1293B3A4940A4DE7E5E.sh0#
 
 CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/lua/build/minetest.build/Release/lua.build/Script-2473D3ABA9EC489796F71A9D.sh
-s407183786.704596
-e407183786.833444
+s407219370.559341
+e407219370.977541
 r1
 xPhaseScriptExecution
 xCMake PostBuild Rules
@@ -1300,8 +1300,8 @@ omake[1]: Nothing to be done for `PostBuild.lua.Release'.
 oecho "Depend check for xcode"
 oDepend check for xcode
 ocd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Release
-omake[1]: Nothing to be done for `PostBuild.lua.Release'.
-lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407183786#407183786#0(548"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient/src/lua && make -C /Users/security/mtclient/src/lua -f /Users/security/mtclient/src/lua/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Releasemake[1]: Nothing to be done for `PostBuild.lua.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Releasemake[1]: Nothing to be done for `PostBuild.lua.Release'.8(13@30"echo "Depend check for xcode"407183786#0#30#0(1@0"0(13@23"Depend check for xcode407183786#30#23#0(1@0"0(13@176"cd /Users/security/mtclient/src/lua && make -C /Users/security/mtclient/src/lua -f /Users/security/mtclient/src/lua/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Release407183786#53#176#0(1@0"0(13@57"make[1]: Nothing to be done for `PostBuild.lua.Release'.407183786#229#57#0(1@0"0(13@30"echo "Depend check for xcode"407183786#286#30#0(1@0"0(13@23"Depend check for xcode407183786#316#23#0(1@0"0(13@152"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Release407183786#339#152#0(1@0"0(13@57"make[1]: Nothing to be done for `PostBuild.lua.Release'.407183786#491#57#0(1@0"0(0#0#0"8604780704#154"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/lua/build/minetest.build/Release/lua.build/Script-2473D3ABA9EC489796F71A9D.sh0#
+o/bin/rm -f /Users/security/mtclient/bin/Release/minetest
+lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407219370#407219370#0(548"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient/src/lua && make -C /Users/security/mtclient/src/lua -f /Users/security/mtclient/src/lua/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Releasemake[1]: Nothing to be done for `PostBuild.lua.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Release/bin/rm -f /Users/security/mtclient/bin/Release/minetest8(13@30"echo "Depend check for xcode"407219370#0#30#0(1@0"0(13@23"Depend check for xcode407219370#30#23#0(1@0"0(13@176"cd /Users/security/mtclient/src/lua && make -C /Users/security/mtclient/src/lua -f /Users/security/mtclient/src/lua/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Release407219370#53#176#0(1@0"0(13@57"make[1]: Nothing to be done for `PostBuild.lua.Release'.407219370#229#57#0(1@0"0(13@30"echo "Depend check for xcode"407219370#286#30#0(1@0"0(13@23"Depend check for xcode407219370#316#23#0(1@0"0(13@152"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.lua.Release407219370#339#152#0(1@0"0(13@57"/bin/rm -f /Users/security/mtclient/bin/Release/minetest407219370#491#57#0(1@0"0(0#0#0"8613059200#154"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/lua/build/minetest.build/Release/lua.build/Script-2473D3ABA9EC489796F71A9D.sh0#
 
 CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/lua/build/minetest.build/Release/lua.build/Script-48EE1CA294B44CF5A72DF903.sh
 s407183565.609269

@@ -1,7 +1,7 @@
 TGenerateVersion
 v7
 r0
-t407183787.429432
+t407219373.305976
 cCheck dependencies
 cPhaseScriptExecution "CMake Rules" /Users/security/mtclient/src/minetest.build/Release/GenerateVersion.build/Script-7E50D9426D4140AB80AD62F8.sh
 
@@ -42,7 +42,7 @@ s152
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies407183786#407183786#0(0"0(0#1#0"8603650656#0"0#
+lSLF07#2@18"Check dependencies407219370#407219370#0(0"0(0#1#0"8611628160#0"0#
 
 CPhaseScriptExecution "CMake Rules" /Users/security/mtclient/src/minetest.build/Release/GenerateVersion.build/Script-0286F77C320B44D6ACFDF46B.sh
 s407108813.673914
@@ -84,8 +84,8 @@ o-- *** Detected git version 4669575-dirty ***
 lSLF07#2@37"Run custom shell script 'CMake Rules'407136138#407136150#0(341"echo ""cd /Users/security/mtclient/src && /opt/local/bin/cmake -D GENERATE_VERSION_SOURCE_DIR=/Users/security/mtclient/src -D GENERATE_VERSION_BINARY_DIR=/Users/security/mtclient/src -D VERSION_STRING=0.4.8-dev -D VERSION_EXTRA= -P /Users/security/mtclient/cmake/Modules/GenerateVersion.cmake-- *** Detected git version 4669575-dirty ***3(13@8"echo ""407136138#0#8#0(1@0"0(13@286"cd /Users/security/mtclient/src && /opt/local/bin/cmake -D GENERATE_VERSION_SOURCE_DIR=/Users/security/mtclient/src -D GENERATE_VERSION_BINARY_DIR=/Users/security/mtclient/src -D VERSION_STRING=0.4.8-dev -D VERSION_EXTRA= -P /Users/security/mtclient/cmake/Modules/GenerateVersion.cmake407136138#9#286#0(1@0"0(13@46"-- *** Detected git version 4669575-dirty ***407136150#295#46#0(1@0"0(0#0#0"8609352768#156"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/minetest.build/Release/GenerateVersion.build/Script-7B02AA8B61134962AA1559A3.sh0#
 
 CPhaseScriptExecution "CMake Rules" /Users/security/mtclient/src/minetest.build/Release/GenerateVersion.build/Script-7E50D9426D4140AB80AD62F8.sh
-s407183786.817925
-e407183787.429388
+s407219370.586292
+e407219373.305904
 r1
 xPhaseScriptExecution
 xCMake Rules
@@ -93,8 +93,8 @@ x/Users/security/mtclient/src/minetest.build/Release/GenerateVersion.build/Scrip
 oecho ""
 o
 ocd /Users/security/mtclient/src && /opt/local/bin/cmake -D GENERATE_VERSION_SOURCE_DIR=/Users/security/mtclient/src -D GENERATE_VERSION_BINARY_DIR=/Users/security/mtclient/src -D VERSION_STRING=0.4.8-dev -D VERSION_EXTRA= -P /Users/security/mtclient/cmake/Modules/GenerateVersion.cmake
-o-- *** Detected git version 1bdfd89-dirty ***
-lSLF07#2@37"Run custom shell script 'CMake Rules'407183786#407183788#0(341"echo ""cd /Users/security/mtclient/src && /opt/local/bin/cmake -D GENERATE_VERSION_SOURCE_DIR=/Users/security/mtclient/src -D GENERATE_VERSION_BINARY_DIR=/Users/security/mtclient/src -D VERSION_STRING=0.4.8-dev -D VERSION_EXTRA= -P /Users/security/mtclient/cmake/Modules/GenerateVersion.cmake-- *** Detected git version 1bdfd89-dirty ***3(13@8"echo ""407183786#0#8#0(1@0"0(13@286"cd /Users/security/mtclient/src && /opt/local/bin/cmake -D GENERATE_VERSION_SOURCE_DIR=/Users/security/mtclient/src -D GENERATE_VERSION_BINARY_DIR=/Users/security/mtclient/src -D VERSION_STRING=0.4.8-dev -D VERSION_EXTRA= -P /Users/security/mtclient/cmake/Modules/GenerateVersion.cmake407183786#9#286#0(1@0"0(13@46"-- *** Detected git version 1bdfd89-dirty ***407183787#295#46#0(1@0"0(0#0#0"8616456352#156"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/minetest.build/Release/GenerateVersion.build/Script-7E50D9426D4140AB80AD62F8.sh0#
+o-- *** Detected git version 22c8dd9-dirty ***
+lSLF07#2@37"Run custom shell script 'CMake Rules'407219370#407219373#0(341"echo ""cd /Users/security/mtclient/src && /opt/local/bin/cmake -D GENERATE_VERSION_SOURCE_DIR=/Users/security/mtclient/src -D GENERATE_VERSION_BINARY_DIR=/Users/security/mtclient/src -D VERSION_STRING=0.4.8-dev -D VERSION_EXTRA= -P /Users/security/mtclient/cmake/Modules/GenerateVersion.cmake-- *** Detected git version 22c8dd9-dirty ***3(13@8"echo ""407219370#0#8#0(1@0"0(13@286"cd /Users/security/mtclient/src && /opt/local/bin/cmake -D GENERATE_VERSION_SOURCE_DIR=/Users/security/mtclient/src -D GENERATE_VERSION_BINARY_DIR=/Users/security/mtclient/src -D VERSION_STRING=0.4.8-dev -D VERSION_EXTRA= -P /Users/security/mtclient/cmake/Modules/GenerateVersion.cmake407219370#9#286#0(1@0"0(13@46"-- *** Detected git version 22c8dd9-dirty ***407219373#295#46#0(1@0"0(0#0#0"8616914784#156"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/minetest.build/Release/GenerateVersion.build/Script-7E50D9426D4140AB80AD62F8.sh0#
 
 CPhaseScriptExecution "CMake Rules" /Users/security/mtclient/src/minetest.build/Release/GenerateVersion.build/Script-BF8FB2F5741D49269A79DD01.sh
 s407167828.491011

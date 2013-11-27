@@ -1,7 +1,7 @@
 Tminetest
 v7
 r0
-t407183974.523719
+t407219438.043182
 cCheck dependencies
 cCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/jmutex.o /Users/security/mtclient/src/jthread/pthread/jmutex.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/jthread.o /Users/security/mtclient/src/jthread/pthread/jthread.cpp normal i386 c++ com.apple.compilers.gcc.4_2
@@ -144,7 +144,13 @@ cCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/treegen.
 cCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/version.o /Users/security/mtclient/src/version.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/voxel.o /Users/security/mtclient/src/voxel.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/voxelalgorithms.o /Users/security/mtclient/src/voxelalgorithms.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-cLd /Users/security/mtclient/bin/Release/minetest normal i386
+cCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/brain.o /Users/security/mtclient/src/ai/brain.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/myinv.o /Users/security/mtclient/src/ai/myinv.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/neuralNetwork.o /Users/security/mtclient/src/ai/neuralNetwork.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/actionFactory.o /Users/security/mtclient/src/ai/actionFactory.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/brainaction.o /Users/security/mtclient/src/ai/brainaction.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/dataReader.o /Users/security/mtclient/src/ai/dataReader.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/neuralNetworkTrainer.o /Users/security/mtclient/src/ai/neuralNetworkTrainer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/minetest.build/Release/minetest.build/Script-F55A02A53C2042F9842A5D40.sh
 
 N/Developer/SDKs/MacOSX10.6.sdk
@@ -373,8 +379,8 @@ t1242688292
 s139
 
 N/Users/security/mtclient/bin/Release/minetest
-t1385491173
-s14055320
+t2
+s0
 
 N/Users/security/mtclient/src/activeobject.h
 c00000000529285E50000000000000630
@@ -382,6 +388,13 @@ t1385334245
 s1584
 i"irr_aabb3d.h"
 i<string>
+
+N/Users/security/mtclient/src/ai/actionFactory.cpp
+c00000000528C5DBC000000000000493F
+t1384930748
+s18751
+i"actionFactory.h"
+i"ai/ai_utilites.h"
 
 N/Users/security/mtclient/src/ai/actionFactory.h
 c00000000528B6161000000000000078D
@@ -395,6 +408,19 @@ i"util/directiontables.h"
 i"nodedef.h"
 i"camera.h"
 i"string.h"
+
+N/Users/security/mtclient/src/ai/ai_utilites.h
+c00000000528B60640000000000000489
+t1384865892
+s1161
+i"client.h"
+i"environment.h"
+
+N/Users/security/mtclient/src/ai/brain.cpp
+c00000000529220C10000000000012CF9
+t1385308353
+s77049
+i"brain.h"
 
 N/Users/security/mtclient/src/ai/brain.h
 c000000005294E8BB00000000000025BB
@@ -422,6 +448,13 @@ c00000000528C48B40000000000000091
 t1384925364
 s145
 
+N/Users/security/mtclient/src/ai/brainaction.cpp
+c00000000528A458200000000000008DA
+t1384793474
+s2266
+i"brainaction.h"
+i"util/string.h"
+
 N/Users/security/mtclient/src/ai/brainaction.h
 c00000000528B09A400000000000009E7
 t1384843684
@@ -430,12 +463,29 @@ i"irrlichttypes_extrabloated.h"
 i"chat.h"
 i"util/string.h"
 
+N/Users/security/mtclient/src/ai/dataReader.cpp
+c000000004E7FA5E00000000000001B7B
+t1316988384
+s7035
+i"dataReader.h"
+i<iostream>
+i<fstream>
+i<string>
+i<math.h>
+i<algorithm>
+
 N/Users/security/mtclient/src/ai/dataReader.h
 c00000000485D0CBA0000000000000BF0
 t1214057658
 s3056
 i<vector>
 i<string>
+
+N/Users/security/mtclient/src/ai/myinv.cpp
+c000000005292170600000000000072B4
+t1385305862
+s29364
+i"myinv.h"
 
 N/Users/security/mtclient/src/ai/myinv.h
 c00000000529216D20000000000000AEA
@@ -451,11 +501,30 @@ i"nodedef.h"
 i"camera.h"
 i"string.h"
 
+N/Users/security/mtclient/src/ai/neuralNetwork.cpp
+c00000000528DE0A10000000000002875
+t1385029793
+s10357
+i<iostream>
+i<vector>
+i<fstream>
+i<math.h>
+i"neuralNetwork.h"
+
 N/Users/security/mtclient/src/ai/neuralNetwork.h
 c00000000528DE0AF00000000000006E0
 t1385029807
 s1760
 i"dataReader.h"
+
+N/Users/security/mtclient/src/ai/neuralNetworkTrainer.cpp
+c00000000485D14400000000000002DF4
+t1214059584
+s11764
+i<iostream>
+i<fstream>
+i<math.h>
+i"neuralNetworkTrainer.h"
 
 N/Users/security/mtclient/src/ai/neuralNetworkTrainer.h
 c00000000485D142A0000000000000AFA
@@ -738,8 +807,8 @@ t1385417144
 s621
 
 N/Users/security/mtclient/src/cmake_config_githash.h
-c000000005294E79200000000000000E5
-t1385490322
+c00000000529572D200000000000000E5
+t1385525970
 s229
 
 N/Users/security/mtclient/src/collision.cpp
@@ -1328,9 +1397,9 @@ i<vector>
 i"exceptions.h"
 
 N/Users/security/mtclient/src/game.cpp
-c000000005294E63B000000000001646A
-t1385489979
-s91242
+c000000005295728D000000000001649C
+t1385525901
+s91292
 i"game.h"
 i"irrlichttypes_extrabloated.h"
 i<IGUICheckBox.h>
@@ -2510,6 +2579,10 @@ s2207
 i"irrlichttypes_extrabloated.h"
 i<string>
 
+N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/actionFactory.o
+t1385526637
+s31452
+
 N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/ban.o
 t1385414116
 s32044
@@ -2521,6 +2594,14 @@ s6204
 N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/biome.o
 t1385414117
 s18220
+
+N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/brain.o
+t2
+s0
+
+N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/brainaction.o
+t1385526634
+s5136
 
 N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/c_content.o
 t1385417217
@@ -2610,6 +2691,10 @@ N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-norm
 t1385414203
 s140748
 
+N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/dataReader.o
+t1385526635
+s13292
+
 N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/database-dummy.o
 t1385414200
 s26288
@@ -2659,8 +2744,8 @@ t1385414225
 s49788
 
 N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/game.o
-t1385491152
-s308096
+t1385526251
+s308224
 
 N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/genericobject.o
 t1385414256
@@ -2875,17 +2960,29 @@ t1385414383
 s63856
 
 N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/minetest.LinkFileList
-c000000005293BC9600000000000036A9
-t1385413782
-s13993
+c000000005295752D000000000000396C
+t1385526573
+s14700
 
 N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/mods.o
 t1385417424
 s117732
 
+N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/myinv.o
+t1385526627
+s72812
+
 N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/nameidmapping.o
 t1385414385
 s15212
+
+N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/neuralNetwork.o
+t1385526632
+s14676
+
+N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/neuralNetworkTrainer.o
+t1385526637
+s13956
 
 N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/nodedef.o
 t1385414395
@@ -3068,7 +3165,7 @@ t1385414471
 s59116
 
 N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/version.o
-t1385490324
+t1385525973
 s832
 
 N/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/voxel.o
@@ -5240,7 +5337,20 @@ s17163
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies407183787#407183790#0(0"0(0#1#0"8615452192#0"0#
+lSLF07#2@18"Check dependencies407219373#407219373#0(0"0(0#1#0"8613768384#0"0#
+
+CCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/actionFactory.o /Users/security/mtclient/src/ai/actionFactory.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s407219432.313607
+e407219437.909500
+r1
+xCompileC
+xsrc/minetest.build/Release/minetest.build/Objects-normal/i386/actionFactory.o
+x/Users/security/mtclient/src/ai/actionFactory.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/security/mtclient/src/ai/actionFactory.cpp407219432#407219437#0(0"0(0#0#49"/Users/security/mtclient/src/ai/actionFactory.cpp8604384032#1435"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/ai/actionFactory.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/actionFactory.o0#
 
 CCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/ban.o /Users/security/mtclient/src/ban.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s407106913.662315
@@ -5280,6 +5390,75 @@ xi386
 xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@46"Compile /Users/security/mtclient/src/biome.cpp407106914#407106917#0(0"0(0#0#38"/Users/security/mtclient/src/biome.cpp8627614720#1416"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/biome.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/biome.o0#
+
+CCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/brain.o /Users/security/mtclient/src/ai/brain.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s407219373.380555
+e407219432.385195
+r0
+xCompileC
+xsrc/minetest.build/Release/minetest.build/Objects-normal/i386/brain.o
+x/Users/security/mtclient/src/ai/brain.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/security/mtclient/src/ai/brain.cpp: In member function 'bool Brain::performAction(LocalPlayer*, Brainaction*, ClientEnvironment*)':
+o/Users/security/mtclient/src/ai/brain.cpp:823: warning: unused variable 'result2'
+o/Users/security/mtclient/src/ai/brain.cpp:1221: warning: unused variable 'torch_distance'
+o/Users/security/mtclient/src/ai/brain.cpp:1073: warning: unused variable 'poslistdum0'
+o/Users/security/mtclient/src/ai/brain.cpp:1379: warning: deprecated conversion from string constant to 'char*'
+o/Users/security/mtclient/src/ai/brain.cpp:1461: error: 'class LocalPlayer' has no member named 'getBlocktype'
+o/Users/security/mtclient/src/ai/brain.cpp: In member function 'void Brain::step(float)':
+o/Users/security/mtclient/src/ai/brain.cpp:1721: warning: unused variable 'performSuccess'
+o/Users/security/mtclient/src/ai/brain.cpp: In member function 'v3f Brain::getYawToMaster_pos(LocalPlayer*, ClientEnvironment*)':
+o/Users/security/mtclient/src/ai/brain.cpp:1771: error: 'class ClientActiveObject' has no member named 'pname'
+o/Users/security/mtclient/src/ai/brain.cpp: In member function 'v3f Brain::getNearestByType(LocalPlayer*, ClientEnvironment*, int, std::string)':
+o/Users/security/mtclient/src/ai/brain.cpp:1881: error: 'class LocalPlayer' has no member named 'getBlocktype'
+o/Users/security/mtclient/src/ai/brain.cpp: In member function 'std::string Brain::getAsoluteMaterial(LocalPlayer*, ClientEnvironment*, int, int, int)':
+o/Users/security/mtclient/src/ai/brain.cpp:2203: error: 'class LocalPlayer' has no member named 'getBlocktype'
+o/Users/security/mtclient/src/ai/brain.cpp: In member function 'std::string Brain::getDirectionMaterial(LocalPlayer*, ClientEnvironment*, int, int, int)':
+o/Users/security/mtclient/src/ai/brain.cpp:2213: error: 'class LocalPlayer' has no member named 'getBlocktype'
+lSLF07#2@49"Compile /Users/security/mtclient/src/ai/brain.cpp407219373#407219432#0(1818"/Users/security/mtclient/src/ai/brain.cpp: In member function 'bool Brain::performAction(LocalPlayer*, Brainaction*, ClientEnvironment*)':/Users/security/mtclient/src/ai/brain.cpp:823: warning: unused variable 'result2'/Users/security/mtclient/src/ai/brain.cpp:1221: warning: unused variable 'torch_distance'/Users/security/mtclient/src/ai/brain.cpp:1073: warning: unused variable 'poslistdum0'/Users/security/mtclient/src/ai/brain.cpp:1379: warning: deprecated conversion from string constant to 'char*'/Users/security/mtclient/src/ai/brain.cpp:1461: error: 'class LocalPlayer' has no member named 'getBlocktype'/Users/security/mtclient/src/ai/brain.cpp: In member function 'void Brain::step(float)':/Users/security/mtclient/src/ai/brain.cpp:1721: warning: unused variable 'performSuccess'/Users/security/mtclient/src/ai/brain.cpp: In member function 'v3f Brain::getYawToMaster_pos(LocalPlayer*, ClientEnvironment*)':/Users/security/mtclient/src/ai/brain.cpp:1771: error: 'class ClientActiveObject' has no member named 'pname'/Users/security/mtclient/src/ai/brain.cpp: In member function 'v3f Brain::getNearestByType(LocalPlayer*, ClientEnvironment*, int, std::string)':/Users/security/mtclient/src/ai/brain.cpp:1881: error: 'class LocalPlayer' has no member named 'getBlocktype'/Users/security/mtclient/src/ai/brain.cpp: In member function 'std::string Brain::getAsoluteMaterial(LocalPlayer*, ClientEnvironment*, int, int, int)':/Users/security/mtclient/src/ai/brain.cpp:2203: error: 'class LocalPlayer' has no member named 'getBlocktype'/Users/security/mtclient/src/ai/brain.cpp: In member function 'std::string Brain::getDirectionMaterial(LocalPlayer*, ClientEnvironment*, int, int, int)':/Users/security/mtclient/src/ai/brain.cpp:2213: error: 'class LocalPlayer' has no member named 'getBlocktype'10(22@25"Unused variable 'result2'407219383#139#82#0(6@41"/Users/security/mtclient/src/ai/brain.cpp407001153#823#0#823#0#19"unused variable '*'0(22@32"Unused variable 'torch_distance'407219384#221#90#0(6@41"/Users/security/mtclient/src/ai/brain.cpp407001153#1221#0#1221#0#19"unused variable '*'0(22@29"Unused variable 'poslistdum0'407219384#311#87#0(6@41"/Users/security/mtclient/src/ai/brain.cpp407001153#1073#0#1073#0#19"unused variable '*'0(22@53"Deprecated conversion from string constant to 'char*'407219384#398#111#0(6@41"/Users/security/mtclient/src/ai/brain.cpp407001153#1379#0#1379#0#49"deprecated conversion from string constant to '*'0(4@54"'class LocalPlayer' has no member named 'getBlocktype'407219384#509#110#0(6@41"/Users/security/mtclient/src/ai/brain.cpp407001153#1461#0#1461#0#27"'*' has no member named '*'0(22@32"Unused variable 'performSuccess'407219384#708#90#0(6@41"/Users/security/mtclient/src/ai/brain.cpp407001153#1721#0#1721#0#19"unused variable '*'0(4@54"'class ClientActiveObject' has no member named 'pname'407219384#927#110#0(6@41"/Users/security/mtclient/src/ai/brain.cpp407001153#1771#0#1771#0#27"'*' has no member named '*'0(4@54"'class LocalPlayer' has no member named 'getBlocktype'407219384#1182#110#0(6@41"/Users/security/mtclient/src/ai/brain.cpp407001153#1881#0#1881#0#27"'*' has no member named '*'0(4@54"'class LocalPlayer' has no member named 'getBlocktype'407219385#1444#110#0(6@41"/Users/security/mtclient/src/ai/brain.cpp407001153#2203#0#2203#0#27"'*' has no member named '*'0(4@54"'class LocalPlayer' has no member named 'getBlocktype'407219386#1708#110#0(6@41"/Users/security/mtclient/src/ai/brain.cpp407001153#2213#0#2213#0#27"'*' has no member named '*'0(0#0#41"/Users/security/mtclient/src/ai/brain.cpp8603906752#1419"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/ai/brain.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/brain.o1#
+
+CCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/brainaction.o /Users/security/mtclient/src/ai/brainaction.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s407219432.385293
+e407219434.289972
+r1
+xCompileC
+xsrc/minetest.build/Release/minetest.build/Objects-normal/i386/brainaction.o
+x/Users/security/mtclient/src/ai/brainaction.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setDestinationCoords(v3f)':
+o/Users/security/mtclient/src/ai/brainaction.cpp:57: warning: no return statement in function returning non-void
+o/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setActionCoords(v3f)':
+o/Users/security/mtclient/src/ai/brainaction.cpp:63: warning: no return statement in function returning non-void
+o/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'std::string Brainaction::setBrainAction(std::string)':
+o/Users/security/mtclient/src/ai/brainaction.cpp:73: warning: no return statement in function returning non-void
+o/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setDestinationTolerance(float)':
+o/Users/security/mtclient/src/ai/brainaction.cpp:85: warning: no return statement in function returning non-void
+o/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setDestinationYaw(float)':
+o/Users/security/mtclient/src/ai/brainaction.cpp:90: warning: no return statement in function returning non-void
+o/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setDestinationPitch(float)':
+o/Users/security/mtclient/src/ai/brainaction.cpp:94: warning: no return statement in function returning non-void
+o/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setWaitedTime(float)':
+o/Users/security/mtclient/src/ai/brainaction.cpp:108: warning: no return statement in function returning non-void
+o/Users/security/mtclient/src/ai/brainaction.cpp:108: warning: control reaches end of non-void function
+o/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setDestinationPitch(float)':
+o/Users/security/mtclient/src/ai/brainaction.cpp:94: warning: control reaches end of non-void function
+o/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setDestinationYaw(float)':
+o/Users/security/mtclient/src/ai/brainaction.cpp:90: warning: control reaches end of non-void function
+o/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setDestinationTolerance(float)':
+o/Users/security/mtclient/src/ai/brainaction.cpp:85: warning: control reaches end of non-void function
+o/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'std::string Brainaction::setBrainAction(std::string)':
+o/Users/security/mtclient/src/ai/brainaction.cpp:73: warning: control reaches end of non-void function
+o/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setActionCoords(v3f)':
+o/Users/security/mtclient/src/ai/brainaction.cpp:63: warning: control reaches end of non-void function
+o/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setDestinationCoords(v3f)':
+o/Users/security/mtclient/src/ai/brainaction.cpp:57: warning: control reaches end of non-void function
+lSLF07#2@55"Compile /Users/security/mtclient/src/ai/brainaction.cpp407219432#407219434#0(2997"/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setDestinationCoords(v3f)':/Users/security/mtclient/src/ai/brainaction.cpp:57: warning: no return statement in function returning non-void/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setActionCoords(v3f)':/Users/security/mtclient/src/ai/brainaction.cpp:63: warning: no return statement in function returning non-void/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'std::string Brainaction::setBrainAction(std::string)':/Users/security/mtclient/src/ai/brainaction.cpp:73: warning: no return statement in function returning non-void/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setDestinationTolerance(float)':/Users/security/mtclient/src/ai/brainaction.cpp:85: warning: no return statement in function returning non-void/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setDestinationYaw(float)':/Users/security/mtclient/src/ai/brainaction.cpp:90: warning: no return statement in function returning non-void/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setDestinationPitch(float)':/Users/security/mtclient/src/ai/brainaction.cpp:94: warning: no return statement in function returning non-void/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setWaitedTime(float)':/Users/security/mtclient/src/ai/brainaction.cpp:108: warning: no return statement in function returning non-void/Users/security/mtclient/src/ai/brainaction.cpp:108: warning: control reaches end of non-void function/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setDestinationPitch(float)':/Users/security/mtclient/src/ai/brainaction.cpp:94: warning: control reaches end of non-void function/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setDestinationYaw(float)':/Users/security/mtclient/src/ai/brainaction.cpp:90: warning: control reaches end of non-void function/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setDestinationTolerance(float)':/Users/security/mtclient/src/ai/brainaction.cpp:85: warning: control reaches end of non-void function/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'std::string Brainaction::setBrainAction(std::string)':/Users/security/mtclient/src/ai/brainaction.cpp:73: warning: control reaches end of non-void function/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setActionCoords(v3f)':/Users/security/mtclient/src/ai/brainaction.cpp:63: warning: control reaches end of non-void function/Users/security/mtclient/src/ai/brainaction.cpp: In member function 'int Brainaction::setDestinationCoords(v3f)':/Users/security/mtclient/src/ai/brainaction.cpp:57: warning: control reaches end of non-void function14(22@50"No return statement in function returning non-void407219433#114#112#0(6@47"/Users/security/mtclient/src/ai/brainaction.cpp406486274#57#0#57#0#50"no return statement in function returning non-void0(22@50"No return statement in function returning non-void407219433#335#112#0(6@47"/Users/security/mtclient/src/ai/brainaction.cpp406486274#63#0#63#0#50"no return statement in function returning non-void0(22@50"No return statement in function returning non-void407219433#571#112#0(6@47"/Users/security/mtclient/src/ai/brainaction.cpp406486274#73#0#73#0#50"no return statement in function returning non-void0(22@50"No return statement in function returning non-void407219433#802#112#0(6@47"/Users/security/mtclient/src/ai/brainaction.cpp406486274#85#0#85#0#50"no return statement in function returning non-void0(22@50"No return statement in function returning non-void407219433#1027#112#0(6@47"/Users/security/mtclient/src/ai/brainaction.cpp406486274#90#0#90#0#50"no return statement in function returning non-void0(22@50"No return statement in function returning non-void407219433#1254#112#0(6@47"/Users/security/mtclient/src/ai/brainaction.cpp406486274#94#0#94#0#50"no return statement in function returning non-void0(22@50"No return statement in function returning non-void407219433#1475#113#0(6@47"/Users/security/mtclient/src/ai/brainaction.cpp406486274#108#0#108#0#50"no return statement in function returning non-void0(22@40"Control reaches end of non-void function407219434#1588#103#0(6@47"/Users/security/mtclient/src/ai/brainaction.cpp406486274#108#0#108#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function407219434#1806#102#0(6@47"/Users/security/mtclient/src/ai/brainaction.cpp406486274#94#0#94#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function407219434#2021#102#0(6@47"/Users/security/mtclient/src/ai/brainaction.cpp406486274#90#0#90#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function407219434#2242#102#0(6@47"/Users/security/mtclient/src/ai/brainaction.cpp406486274#85#0#85#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function407219434#2468#102#0(6@47"/Users/security/mtclient/src/ai/brainaction.cpp406486274#73#0#73#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function407219434#2679#102#0(6@47"/Users/security/mtclient/src/ai/brainaction.cpp406486274#63#0#63#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function407219434#2895#102#0(6@47"/Users/security/mtclient/src/ai/brainaction.cpp406486274#57#0#57#0#40"control reaches end of non-void function0(0#0#47"/Users/security/mtclient/src/ai/brainaction.cpp8603639520#1431"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/ai/brainaction.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/brainaction.o0#
 
 CCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/c_content.o /Users/security/mtclient/src/script/common/c_content.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s407110006.991265
@@ -5569,6 +5748,21 @@ xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@49"Compile /Users/security/mtclient/src/craftdef.cpp407106996#407107003#0(0"0(0#0#41"/Users/security/mtclient/src/craftdef.cpp8633279328#1422"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/craftdef.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/craftdef.o0#
 
+CCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/dataReader.o /Users/security/mtclient/src/ai/dataReader.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s407219434.290170
+e407219435.543635
+r1
+xCompileC
+xsrc/minetest.build/Release/minetest.build/Objects-normal/i386/dataReader.o
+x/Users/security/mtclient/src/ai/dataReader.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/security/mtclient/src/ai/dataReader.cpp: In member function 'bool dataReader::loadDataFile(const char*, int, int)':
+o/Users/security/mtclient/src/ai/dataReader.cpp:58: warning: unused variable 'vSize'
+lSLF07#2@54"Compile /Users/security/mtclient/src/ai/dataReader.cpp407219434#407219435#0(207"/Users/security/mtclient/src/ai/dataReader.cpp: In member function 'bool dataReader::loadDataFile(const char*, int, int)':/Users/security/mtclient/src/ai/dataReader.cpp:58: warning: unused variable 'vSize'1(22@23"Unused variable 'vSize'407219434#123#84#0(6@46"/Users/security/mtclient/src/ai/dataReader.cpp338681184#58#0#58#0#19"unused variable '*'0(0#0#46"/Users/security/mtclient/src/ai/dataReader.cpp8600022176#1429"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/ai/dataReader.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/dataReader.o0#
+
 CCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/database-dummy.o /Users/security/mtclient/src/database-dummy.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s407106997.112711
 e407107000.205504
@@ -5726,8 +5920,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@48"Compile /Users/security/mtclient/src/filesys.cpp407107021#407107057#0(0"0(0#0#40"/Users/security/mtclient/src/filesys.cpp8632693248#1420"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/filesys.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/filesys.o0#
 
 CCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/game.o /Users/security/mtclient/src/game.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s407183790.829055
-e407183952.509561
+s407218773.354421
+e407219052.069185
 r1
 xCompileC
 xsrc/minetest.build/Release/minetest.build/Objects-normal/i386/game.o
@@ -5738,7 +5932,9 @@ xc++
 xcom.apple.compilers.gcc.4_2
 o/Users/security/mtclient/src/game.cpp: In function 'bool nodePlacementPrediction(Client&, const ItemDefinition&, v3s16, v3s16)':
 o/Users/security/mtclient/src/game.cpp:872: warning: comparison is always true due to limited range of data type
-lSLF07#2@45"Compile /Users/security/mtclient/src/game.cpp407183790#407183952#0(241"/Users/security/mtclient/src/game.cpp: In function 'bool nodePlacementPrediction(Client&, const ItemDefinition&, v3s16, v3s16)':/Users/security/mtclient/src/game.cpp:872: warning: comparison is always true due to limited range of data type1(22@59"Comparison is always true due to limited range of data type407183800#129#112#0(6@37"/Users/security/mtclient/src/game.cpp407182779#872#0#872#0#59"comparison is always true due to limited range of data type0(0#0#37"/Users/security/mtclient/src/game.cpp8607234336#1414"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/game.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/game.o0#
+o/Users/security/mtclient/src/game.cpp: In function 'void the_game(bool&, bool, std::string, std::string, InputHandler*, irr::IrrlichtDevice*, irr::gui::IGUIFont*, std::string, std::string, std::string, std::string, irr::u16, std::wstring&, ChatBackend&, const SubgameSpec&, bool)':
+o/Users/security/mtclient/src/game.cpp:1294: warning: unused variable 'brain'
+lSLF07#2@45"Compile /Users/security/mtclient/src/game.cpp407218773#407219052#0(600"/Users/security/mtclient/src/game.cpp: In function 'bool nodePlacementPrediction(Client&, const ItemDefinition&, v3s16, v3s16)':/Users/security/mtclient/src/game.cpp:872: warning: comparison is always true due to limited range of data type/Users/security/mtclient/src/game.cpp: In function 'void the_game(bool&, bool, std::string, std::string, InputHandler*, irr::IrrlichtDevice*, irr::gui::IGUIFont*, std::string, std::string, std::string, std::string, irr::u16, std::wstring&, ChatBackend&, const SubgameSpec&, bool)':/Users/security/mtclient/src/game.cpp:1294: warning: unused variable 'brain'2(22@59"Comparison is always true due to limited range of data type407218787#129#112#0(6@37"/Users/security/mtclient/src/game.cpp407218701#872#0#872#0#59"comparison is always true due to limited range of data type0(22@23"Unused variable 'brain'407218787#523#77#0(6@37"/Users/security/mtclient/src/game.cpp407218701#1294#0#1294#0#19"unused variable '*'0(0#0#37"/Users/security/mtclient/src/game.cpp8611265408#1414"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/game.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/game.o0#
 
 CCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/genericobject.o /Users/security/mtclient/src/genericobject.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s407107054.494402
@@ -6462,6 +6658,31 @@ xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@45"Compile /Users/security/mtclient/src/mods.cpp407110216#407110224#0(0"0(0#0#37"/Users/security/mtclient/src/mods.cpp8611396416#1414"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/mods.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/mods.o0#
 
+CCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/myinv.o /Users/security/mtclient/src/ai/myinv.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s407219373.382484
+e407219427.777281
+r1
+xCompileC
+xsrc/minetest.build/Release/minetest.build/Objects-normal/i386/myinv.o
+x/Users/security/mtclient/src/ai/myinv.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/security/mtclient/src/ai/myinv.cpp: In member function 'std::string Myinv::getInventoryItem(Client*, int, std::string)':
+o/Users/security/mtclient/src/ai/myinv.cpp:247: warning: unused variable 'itemnumber'
+o/Users/security/mtclient/src/ai/myinv.cpp: In member function 'bool Myinv::moveInventories(Client*, std::string, int, std::string, int, int)':
+o/Users/security/mtclient/src/ai/myinv.cpp:288: warning: no return statement in function returning non-void
+o/Users/security/mtclient/src/ai/myinv.cpp: In member function 'std::pair<int, int> Myinv::getSlotToPutBack(Client*, std::string, std::string, std::string)':
+o/Users/security/mtclient/src/ai/myinv.cpp:765: warning: unused variable 'firstcount'
+o/Users/security/mtclient/src/ai/myinv.cpp: In member function 'bool Myinv::canCraftSomeHow(Client*, std::string, std::string)':
+o/Users/security/mtclient/src/ai/myinv.cpp:957: warning: control reaches end of non-void function
+o/Users/security/mtclient/src/ai/myinv.cpp: In member function 'bool Myinv::craftInvOK(Client*, std::string)':
+o/Users/security/mtclient/src/ai/myinv.cpp:352: warning: control reaches end of non-void function
+o/Users/security/mtclient/src/ai/myinv.cpp: In member function 'bool Myinv::moveInventories(Client*, std::string, int, std::string, int, int)':
+o/Users/security/mtclient/src/ai/myinv.cpp:288: warning: control reaches end of non-void function
+lSLF07#2@49"Compile /Users/security/mtclient/src/ai/myinv.cpp407219373#407219427#0(1377"/Users/security/mtclient/src/ai/myinv.cpp: In member function 'std::string Myinv::getInventoryItem(Client*, int, std::string)':/Users/security/mtclient/src/ai/myinv.cpp:247: warning: unused variable 'itemnumber'/Users/security/mtclient/src/ai/myinv.cpp: In member function 'bool Myinv::moveInventories(Client*, std::string, int, std::string, int, int)':/Users/security/mtclient/src/ai/myinv.cpp:288: warning: no return statement in function returning non-void/Users/security/mtclient/src/ai/myinv.cpp: In member function 'std::pair<int, int> Myinv::getSlotToPutBack(Client*, std::string, std::string, std::string)':/Users/security/mtclient/src/ai/myinv.cpp:765: warning: unused variable 'firstcount'/Users/security/mtclient/src/ai/myinv.cpp: In member function 'bool Myinv::canCraftSomeHow(Client*, std::string, std::string)':/Users/security/mtclient/src/ai/myinv.cpp:957: warning: control reaches end of non-void function/Users/security/mtclient/src/ai/myinv.cpp: In member function 'bool Myinv::craftInvOK(Client*, std::string)':/Users/security/mtclient/src/ai/myinv.cpp:352: warning: control reaches end of non-void function/Users/security/mtclient/src/ai/myinv.cpp: In member function 'bool Myinv::moveInventories(Client*, std::string, int, std::string, int, int)':/Users/security/mtclient/src/ai/myinv.cpp:288: warning: control reaches end of non-void function6(22@28"Unused variable 'itemnumber'407219378#128#85#0(6@41"/Users/security/mtclient/src/ai/myinv.cpp406998662#247#0#247#0#19"unused variable '*'0(22@50"No return statement in function returning non-void407219378#356#107#0(6@41"/Users/security/mtclient/src/ai/myinv.cpp406998662#288#0#288#0#50"no return statement in function returning non-void0(22@28"Unused variable 'firstcount'407219378#620#85#0(6@41"/Users/security/mtclient/src/ai/myinv.cpp406998662#765#0#765#0#19"unused variable '*'0(22@40"Control reaches end of non-void function407219402#833#97#0(6@41"/Users/security/mtclient/src/ai/myinv.cpp406998662#957#0#957#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function407219402#1040#97#0(6@41"/Users/security/mtclient/src/ai/myinv.cpp406998662#352#0#352#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function407219402#1280#97#0(6@41"/Users/security/mtclient/src/ai/myinv.cpp406998662#288#0#288#0#40"control reaches end of non-void function0(0#0#41"/Users/security/mtclient/src/ai/myinv.cpp8603816928#1419"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/ai/myinv.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/myinv.o0#
+
 CCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/nameidmapping.o /Users/security/mtclient/src/nameidmapping.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s407107183.501802
 e407107185.104250
@@ -6474,6 +6695,41 @@ xi386
 xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@54"Compile /Users/security/mtclient/src/nameidmapping.cpp407107183#407107185#0(0"0(0#0#46"/Users/security/mtclient/src/nameidmapping.cpp8633039936#1432"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/nameidmapping.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/nameidmapping.o0#
+
+CCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/neuralNetwork.o /Users/security/mtclient/src/ai/neuralNetwork.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s407219427.777459
+e407219432.313423
+r1
+xCompileC
+xsrc/minetest.build/Release/minetest.build/Objects-normal/i386/neuralNetwork.o
+x/Users/security/mtclient/src/ai/neuralNetwork.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/security/mtclient/src/ai/neuralNetwork.cpp: In member function 'bool neuralNetwork::loadWeights(char*)':
+o/Users/security/mtclient/src/ai/neuralNetwork.cpp:118: warning: comparison between signed and unsigned integer expressions
+lSLF07#2@57"Compile /Users/security/mtclient/src/ai/neuralNetwork.cpp407219427#407219432#0(235"/Users/security/mtclient/src/ai/neuralNetwork.cpp: In member function 'bool neuralNetwork::loadWeights(char*)':/Users/security/mtclient/src/ai/neuralNetwork.cpp:118: warning: comparison between signed and unsigned integer expressions1(22@58"Comparison between signed and unsigned integer expressions407219429#112#123#0(6@49"/Users/security/mtclient/src/ai/neuralNetwork.cpp406722593#118#0#118#0#58"comparison between signed and unsigned integer expressions0(0#0#49"/Users/security/mtclient/src/ai/neuralNetwork.cpp8615485152#1435"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/ai/neuralNetwork.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/neuralNetwork.o0#
+
+CCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/neuralNetworkTrainer.o /Users/security/mtclient/src/ai/neuralNetworkTrainer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s407219435.543730
+e407219437.634858
+r1
+xCompileC
+xsrc/minetest.build/Release/minetest.build/Objects-normal/i386/neuralNetworkTrainer.o
+x/Users/security/mtclient/src/ai/neuralNetworkTrainer.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/security/mtclient/src/ai/neuralNetworkTrainer.h: In constructor 'neuralNetworkTrainer::neuralNetworkTrainer(neuralNetwork*)':
+o/Users/security/mtclient/src/ai/neuralNetworkTrainer.h:43: warning: 'neuralNetworkTrainer::epoch' will be initialized after
+o/Users/security/mtclient/src/ai/neuralNetworkTrainer.h:39: warning:   'double neuralNetworkTrainer::learningRate'
+o/Users/security/mtclient/src/ai/neuralNetworkTrainer.cpp:14: warning:   when initialized here
+o/Users/security/mtclient/src/ai/neuralNetworkTrainer.h:66: warning: 'neuralNetworkTrainer::useBatch' will be initialized after
+o/Users/security/mtclient/src/ai/neuralNetworkTrainer.h:58: warning:   'double neuralNetworkTrainer::trainingSetAccuracy'
+o/Users/security/mtclient/src/ai/neuralNetworkTrainer.cpp:14: warning:   when initialized here
+lSLF07#2@64"Compile /Users/security/mtclient/src/ai/neuralNetworkTrainer.cpp407219435#407219437#0(807"/Users/security/mtclient/src/ai/neuralNetworkTrainer.h: In constructor 'neuralNetworkTrainer::neuralNetworkTrainer(neuralNetwork*)':/Users/security/mtclient/src/ai/neuralNetworkTrainer.h:43: warning: 'neuralNetworkTrainer::epoch' will be initialized after/Users/security/mtclient/src/ai/neuralNetworkTrainer.h:39: warning:   'double neuralNetworkTrainer::learningRate'/Users/security/mtclient/src/ai/neuralNetworkTrainer.cpp:14: warning:   when initialized here/Users/security/mtclient/src/ai/neuralNetworkTrainer.h:66: warning: 'neuralNetworkTrainer::useBatch' will be initialized after/Users/security/mtclient/src/ai/neuralNetworkTrainer.h:58: warning:   'double neuralNetworkTrainer::trainingSetAccuracy'/Users/security/mtclient/src/ai/neuralNetworkTrainer.cpp:14: warning:   when initialized here6(22@55"'neuralNetworkTrainer::epoch' will be initialized after407219436#133#124#0(6@54"/Users/security/mtclient/src/ai/neuralNetworkTrainer.h235752362#43#0#43#0#0"0(22@43"'double neuralNetworkTrainer::learningRate'407219436#257#114#0(6@54"/Users/security/mtclient/src/ai/neuralNetworkTrainer.h235752362#39#0#39#0#0"0(22@21"When initialized here407219436#371#94#0(6@56"/Users/security/mtclient/src/ai/neuralNetworkTrainer.cpp235752384#14#0#14#0#0"0(22@58"'neuralNetworkTrainer::useBatch' will be initialized after407219436#465#127#0(6@54"/Users/security/mtclient/src/ai/neuralNetworkTrainer.h235752362#66#0#66#0#0"0(22@50"'double neuralNetworkTrainer::trainingSetAccuracy'407219436#592#121#0(6@54"/Users/security/mtclient/src/ai/neuralNetworkTrainer.h235752362#58#0#58#0#0"0(22@21"When initialized here407219436#713#94#0(6@56"/Users/security/mtclient/src/ai/neuralNetworkTrainer.cpp235752384#14#0#14#0#0"0(0#0#56"/Users/security/mtclient/src/ai/neuralNetworkTrainer.cpp8615981824#1449"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/ai/neuralNetworkTrainer.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/neuralNetworkTrainer.o0#
 
 CCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/nodedef.o /Users/security/mtclient/src/nodedef.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s407107185.104378
@@ -7069,8 +7325,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@48"Compile /Users/security/mtclient/src/treegen.cpp407107264#407107271#0(0"0(0#0#40"/Users/security/mtclient/src/treegen.cpp8624588992#1420"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/treegen.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/treegen.o0#
 
 CCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/version.o /Users/security/mtclient/src/version.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s407183122.761581
-e407183124.367294
+s407218773.362551
+e407218773.987317
 r1
 xCompileC
 xsrc/minetest.build/Release/minetest.build/Objects-normal/i386/version.o
@@ -7079,7 +7335,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@48"Compile /Users/security/mtclient/src/version.cpp407183122#407183124#0(0"0(0#0#40"/Users/security/mtclient/src/version.cpp8614443232#1420"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/version.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/version.o0#
+lSLF07#2@48"Compile /Users/security/mtclient/src/version.cpp407218773#407218773#0(0"0(0#0#40"/Users/security/mtclient/src/version.cpp8607742464#1420"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/version.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/version.o0#
 
 CCompileC src/minetest.build/Release/minetest.build/Objects-normal/i386/voxel.o /Users/security/mtclient/src/voxel.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s407107269.559275
@@ -7108,14 +7364,19 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@56"Compile /Users/security/mtclient/src/voxelalgorithms.cpp407107271#407107272#0(0"0(0#0#48"/Users/security/mtclient/src/voxelalgorithms.cpp8637075200#1436"    cd /Users/security/mtclient    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -DCMAKE_INTDIR="Release" -DUSE_CMAKE_CONFIG_H -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/security/mtclient/bin/Release/include -I/Users/security/mtclient/src -I/usr/local/include/irrlicht -I/Users/security/mtclient/src/Release -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/UnixImageIO.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OpenAL.framework/Headers -I/opt/local/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Ogg.framework/Headers/ogg -I/Users/security/mtclient/src/lua/src -I/Users/security/mtclient/src/json -I/Users/security/mtclient/src/script -I/Developer/SDKs/MacOSX10.6.sdk/usr/include/curl -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources/i386 -I/Users/security/mtclient/src/minetest.build/Release/minetest.build/DerivedSources -DNDEBUG -Wall -ffast-math -Wall -fomit-frame-pointer -pipe -funroll-loops -c /Users/security/mtclient/src/voxelalgorithms.cpp -o /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/voxelalgorithms.o0#
 
 CLd /Users/security/mtclient/bin/Release/minetest normal i386
-s407183952.595340
-e407183974.163639
-r1
+s407219052.136021
+e407219097.991693
+r0
 xLd
 x/Users/security/mtclient/bin/Release/minetest
 xnormal
 xi386
-lSLF07#2@50"Link /Users/security/mtclient/bin/Release/minetest407183952#407183974#0(0"0(0#0#0"8603080768#1747"    cd /Users/security/mtclient    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/security/mtclient/bin/Release -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -filelist /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/minetest.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -Wl,-search_paths_first -Wl,-headerpad_max_install_names /usr/lib/libz.dylib /usr/local/lib/libIrrlicht.a -framework AGL -framework OpenGL /opt/local/lib/libjpeg.dylib /usr/lib/libbz2.dylib /opt/local/lib/libpng.dylib /usr/lib/libz.dylib /opt/local/lib/libSM.dylib /opt/local/lib/libICE.dylib /opt/local/lib/libX11.dylib /opt/local/lib/libXext.dylib -framework OpenAL /opt/local/lib/libvorbisfile.dylib /opt/local/lib/libvorbis.dylib -framework ogg /usr/lib/libsqlite3.dylib /Users/security/mtclient/src/lua/build/Release/liblua.a /Users/security/mtclient/src/json/Release/libjsoncpp.a -lpthread -framework Carbon -framework Cocoa -framework IOKit -framework CoreFoundation /opt/local/lib/libXxf86vm.dylib /usr/lib/libcurl.dylib /usr/local/lib/libIrrlicht.a -framework AGL -framework OpenGL /opt/local/lib/libjpeg.dylib /usr/lib/libbz2.dylib /opt/local/lib/libpng.dylib /opt/local/lib/libSM.dylib /opt/local/lib/libICE.dylib /opt/local/lib/libX11.dylib /opt/local/lib/libXext.dylib -framework OpenAL /opt/local/lib/libvorbisfile.dylib /opt/local/lib/libvorbis.dylib -framework ogg /usr/lib/libsqlite3.dylib -lpthread -framework Carbon -framework Cocoa -framework IOKit -framework CoreFoundation /opt/local/lib/libXxf86vm.dylib /usr/lib/libcurl.dylib -o /Users/security/mtclient/bin/Release/minetest0#
+oUndefined symbols:
+o  "Brain::Brain(Client*, Camera*)", referenced from:
+o      the_game(bool&, bool, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, InputHandler*, irr::IrrlichtDevice*, irr::gui::IGUIFont*, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, unsigned short, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >&, ChatBackend&, SubgameSpec const&, bool)in game.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@50"Link /Users/security/mtclient/bin/Release/minetest407219052#407219098#0(797"Undefined symbols:  "Brain::Brain(Client*, Camera*)", referenced from:      the_game(bool&, bool, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, InputHandler*, irr::IrrlichtDevice*, irr::gui::IGUIFont*, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, unsigned short, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >&, ChatBackend&, SubgameSpec const&, bool)in game.old: symbol(s) not foundcollect2: ld returned 1 exit status4(4@50""Brain::Brain(Client*, Camera*)", referenced from:407219097#19#53#0(6@0"407219097#0#0#0#0#0"0(13@658"The_game(bool&, bool, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, InputHandler*, irr::IrrlichtDevice*, irr::gui::IGUIFont*, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, unsigned short, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >&, ChatBackend&, SubgameSpec const&, bool)in game.o407219097#72#665#0(6@0"407219097#0#0#0#0#0"0(13@19"Symbol(s) not found407219097#737#24#0(6@0"407219097#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status407219097#761#36#0(6@0"407219097#0#0#0#0#0"0(0#0#0"8610060960#1747"    cd /Users/security/mtclient    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/security/mtclient/bin/Release -F/Users/security/mtclient/bin/Release -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -filelist /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/minetest.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -Wl,-search_paths_first -Wl,-headerpad_max_install_names /usr/lib/libz.dylib /usr/local/lib/libIrrlicht.a -framework AGL -framework OpenGL /opt/local/lib/libjpeg.dylib /usr/lib/libbz2.dylib /opt/local/lib/libpng.dylib /usr/lib/libz.dylib /opt/local/lib/libSM.dylib /opt/local/lib/libICE.dylib /opt/local/lib/libX11.dylib /opt/local/lib/libXext.dylib -framework OpenAL /opt/local/lib/libvorbisfile.dylib /opt/local/lib/libvorbis.dylib -framework ogg /usr/lib/libsqlite3.dylib /Users/security/mtclient/src/lua/build/Release/liblua.a /Users/security/mtclient/src/json/Release/libjsoncpp.a -lpthread -framework Carbon -framework Cocoa -framework IOKit -framework CoreFoundation /opt/local/lib/libXxf86vm.dylib /usr/lib/libcurl.dylib /usr/local/lib/libIrrlicht.a -framework AGL -framework OpenGL /opt/local/lib/libjpeg.dylib /usr/lib/libbz2.dylib /opt/local/lib/libpng.dylib /opt/local/lib/libSM.dylib /opt/local/lib/libICE.dylib /opt/local/lib/libX11.dylib /opt/local/lib/libXext.dylib -framework OpenAL /opt/local/lib/libvorbisfile.dylib /opt/local/lib/libvorbis.dylib -framework ogg /usr/lib/libsqlite3.dylib -lpthread -framework Carbon -framework Cocoa -framework IOKit -framework CoreFoundation /opt/local/lib/libXxf86vm.dylib /usr/lib/libcurl.dylib -o /Users/security/mtclient/bin/Release/minetest1#
 
 CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/minetest.build/Release/minetest.build/Script-02D3C0B66CE54CB09326D58A.sh
 s407167954.094703
@@ -7196,8 +7457,8 @@ omake[1]: Nothing to be done for `PostBuild.minetest.Release'.
 lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407159856#407159856#0(272"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetest.Releasemake[1]: Nothing to be done for `PostBuild.minetest.Release'.4(13@30"echo "Depend check for xcode"407159856#0#30#0(1@0"0(13@23"Depend check for xcode407159856#30#23#0(1@0"0(13@157"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetest.Release407159856#53#157#0(1@0"0(13@62"make[1]: Nothing to be done for `PostBuild.minetest.Release'.407159856#210#62#0(1@0"0(0#0#0"8613327904#149"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/minetest.build/Release/minetest.build/Script-F2CBF413FF3D45E4B7A04957.sh0#
 
 CPhaseScriptExecution "CMake PostBuild Rules" /Users/security/mtclient/src/minetest.build/Release/minetest.build/Script-F55A02A53C2042F9842A5D40.sh
-s407183974.163872
-e407183974.523677
+s407219437.909596
+e407219438.043108
 r1
 xPhaseScriptExecution
 xCMake PostBuild Rules
@@ -7206,5 +7467,5 @@ oecho "Depend check for xcode"
 oDepend check for xcode
 ocd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetest.Release
 omake[1]: Nothing to be done for `PostBuild.minetest.Release'.
-lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407183974#407183974#0(272"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetest.Releasemake[1]: Nothing to be done for `PostBuild.minetest.Release'.4(13@30"echo "Depend check for xcode"407183974#0#30#0(1@0"0(13@23"Depend check for xcode407183974#30#23#0(1@0"0(13@157"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetest.Release407183974#53#157#0(1@0"0(13@62"make[1]: Nothing to be done for `PostBuild.minetest.Release'.407183974#210#62#0(1@0"0(0#0#0"8616708928#149"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/minetest.build/Release/minetest.build/Script-F55A02A53C2042F9842A5D40.sh0#
+lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'407219437#407219438#0(272"echo "Depend check for xcode"Depend check for xcodecd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetest.Releasemake[1]: Nothing to be done for `PostBuild.minetest.Release'.4(13@30"echo "Depend check for xcode"407219437#0#30#0(1@0"0(13@23"Depend check for xcode407219437#30#23#0(1@0"0(13@157"cd /Users/security/mtclient && make -C /Users/security/mtclient -f /Users/security/mtclient/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.minetest.Release407219437#53#157#0(1@0"0(13@62"make[1]: Nothing to be done for `PostBuild.minetest.Release'.407219438#210#62#0(1@0"0(0#0#0"8600823616#149"    cd /Users/security/mtclient    /bin/sh -c /Users/security/mtclient/src/minetest.build/Release/minetest.build/Script-F55A02A53C2042F9842A5D40.sh0#
 

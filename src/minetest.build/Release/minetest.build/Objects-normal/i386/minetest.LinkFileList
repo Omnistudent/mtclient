@@ -139,3 +139,10 @@
 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/version.o
 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/voxel.o
 /Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/voxelalgorithms.o
+/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/brain.o
+/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/myinv.o
+/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/neuralNetwork.o
+/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/actionFactory.o
+/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/brainaction.o
+/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/dataReader.o
+/Users/security/mtclient/src/minetest.build/Release/minetest.build/Objects-normal/i386/neuralNetworkTrainer.o
