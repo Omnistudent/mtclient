@@ -5,6 +5,15 @@ Brain::Brain(Client* c,Camera* k,std::string mastername)
 {
 
 
+	//KeyList keydown;
+	//v2s32 mousepos;
+	//v2s32 mousespeed;
+	//bool leftdown;
+	//bool rightdown;
+	//bool leftclicked;
+	//bool rightclicked;
+	//bool leftreleased;
+	//bool rightreleased;
 
 
     //Manager for inventory
@@ -22,8 +31,9 @@ Brain::Brain(Client* c,Camera* k,std::string mastername)
     happiness=100;
 
     // control
-    LeftB = false;
-    rightbutton=false;
+    //LeftB = false;
+    rightdown=false;
+    //rightbutton=false;
     forwardstate=false;
     backstate=false;
     leftstate=false;
@@ -67,6 +77,8 @@ Brain::Brain(Client* c,Camera* k,std::string mastername)
     clientobj=c;
     kamera=k;
     master=mastername;
+
+
 }
 
 // Functions called from other objects
@@ -85,10 +97,11 @@ return false;
 
 
 const bool Brain::getDigStatus() 
-{ return LeftB; }
+//{ return LeftB; }
+{ return leftdown; }
 
 const bool Brain::getRightButtonState()
-{ return rightbutton; }
+{ return rightdown; }
 
 const f32 Brain::getBotYaw() 
 { return botYaw; }
@@ -97,7 +110,9 @@ const f32 Brain::getBotPitch()
 { return botPitch; }
 
 void Brain::setDigStatus(bool dig) 
-{ LeftB=dig; }
+{ //LeftB=dig; 
+    leftdown=dig;
+}
 
 void Brain::addMessline(ChatLine linnne)
 { currentchatlist.push_back(linnne); }
@@ -640,8 +655,10 @@ myfinished=true;
     }
     else if (checkfinished_act.compare("STOP")==0)
     {
-        (   forwardstate==false && LeftB==false && backstate==false && 
-            rightbutton==false && leftstate==false && rightstate==false && 
+        (   forwardstate==false && leftdown==false && backstate==false && 
+        //(   forwardstate==false && LeftB==false && backstate==false && 
+            rightdown==false && leftstate==false && rightstate==false && 
+            //rightbutton==false && leftstate==false && rightstate==false && 
             jumpstate==false&& specialstate==false)?myfinished=true:myfinished=false;
     }
     else if (checkfinished_act.compare("GET_HOTBAR")==0)
@@ -1058,18 +1075,21 @@ bool Brain::performAction(LocalPlayer *player,Brainaction *ba, ClientEnvironment
     }
     else if (performAct=="MOVE_TO_POSITION_FORWARD")
         {
+        keydown.toggle(getKeySetting("keymap_forward"));
         forwardstate=true;
         leftstate=false;
         rightstate=false;
         backstate=false;
         }
     else if (performAct=="MOVE_TO_POSITION_FORWARD_NO_ENV_CHECK"){
+        keydown.toggle(getKeySetting("keymap_forward"));
         forwardstate=true;
         leftstate=false;
         rightstate=false;
         backstate=false;
         }
     else if (performAct=="MOVE_TO_POSITION_BACKWARD"){
+        keydown.toggle(getKeySetting("keymap_backward"));
         forwardstate=false;
         leftstate=false;
         rightstate=false;
@@ -1077,6 +1097,8 @@ bool Brain::performAction(LocalPlayer *player,Brainaction *ba, ClientEnvironment
         }
     else if (performAct=="MOVE_TO_POSITION_FORWARD_JUMP")
         {
+        keydown.toggle(getKeySetting("keymap_forward"));
+        keydown.toggle(getKeySetting("keymap_jump"));
         forwardstate=true;
         leftstate=false;
         rightstate=false;
@@ -1113,7 +1135,8 @@ bool Brain::performAction(LocalPlayer *player,Brainaction *ba, ClientEnvironment
 
         std::string currentmat=getAsoluteMaterial(player,env,abx,aby,abz);
         if (isDiggable(currentmat))
-        { LeftB = true; }
+        { leftdown = true; }
+        //{ LeftB = true; }
         else
         {ba->finished=true;}
     }
@@ -1317,23 +1340,28 @@ bool Brain::performAction(LocalPlayer *player,Brainaction *ba, ClientEnvironment
     else if (performAct.compare("REAL_RIGHT_CLICK")==0)
     {
         GetRightClicked=true;
+        rightdown=true;
         ba->finished=true; 
     }
 
     else if (performAct.compare("RELEASE_RIGHT_CLICK")==0)
     {
+        rightreleased=true;
+        rightdown=false;
         GetRightClicked=false;
         ba->finished=true; 
     }
 
     else if (performAct.compare("START_SNEAK")==0)
     {
+        keydown.toggle(getKeySetting("keymap_sneak"));
         sneakstate=true;
         ba->finished=true; 
         printf("started sneaking\n");
     }
     else if (performAct.compare("STOP_SNEAK")==0)
     {
+        keydown.toggle(getKeySetting("keymap_sneak"));
         sneakstate=false;
         ba->finished=true; 
         printf("stopped sneaking\n");
@@ -1596,8 +1624,13 @@ double *inputNeurons = new( double[nInput] );
 
     else if (performAct=="STOP")
     {
-        LeftB = false;
-        rightbutton=false;
+        //LeftB = false;
+  
+
+        leftdown=false;
+  
+        rightdown=false;
+        //rightbutton=false;
         forwardstate=false;
         backstate=false;
         leftstate=false;

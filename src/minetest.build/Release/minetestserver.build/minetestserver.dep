@@ -1,6 +1,6 @@
 00000000509ebd7000000000000069bc d58e791856b4893f56e223ec96944605 ffffffffffffffffffffffffffffffff 11092 /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/voxelalgorithms.o
 0000000018cfab2c0000000000007010 1b6f180562116bd19c962b7f09ccdc8c ffffffffffffffffffffffffffffffff 19520 /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/voxel.o
-000000005295b2a300000000000007de 8da836db30fdc73c931637926f7f0465 ffffffffffffffffffffffffffffffff 832 /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/version.o
+000000005297019900000000000007de 8da836db30fdc73c931637926f7f0465 ffffffffffffffffffffffffffffffff 832 /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/version.o
 00000000004bead7000000000001c9b5 ac7a9ab1b0c10245637cc1c5248dd385 ffffffffffffffffffffffffffffffff 59116 /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/treegen.o
 0000000018836ec00000000000012bf9 e772e5bb4199d972636cfb9d3a006f70 ffffffffffffffffffffffffffffffff 30772 /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/tool.o
 000000004a11eb24000000000001e3a6 06070495b7dd9911ffd6019786970bda ffffffffffffffffffffffffffffffff 261332 /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/test.o
@@ -104,4 +104,4 @@
 0000000050b607b700000000000128d2 205a808b9a1738629c0e8b080f3c8fc7 ffffffffffffffffffffffffffffffff 100860 /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/c_content.o
 0000000018e153b100000000000015cf 3bb9fd0e13f833cf26f9a260b6ead956 ffffffffffffffffffffffffffffffff 5880 /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/jthread.o
 0000000000000001000000000000308c 63fd9227cab7a0f1ceeb276f492c353d ffffffffffffffffffffffffffffffff 1628 /Users/security/mtclient/src/minetest.build/Release/minetestserver.build/Objects-normal/i386/jmutex.o
-ad5ef5e8ede1c30f997968dc05e4efab 4a350143e5a4ef8da3500c3b2c8b5349 ffffffffffffffffffffffffffffffff 3601300 /Users/security/mtclient/bin/Release/minetestserver
+ad5ef5e8ede37035997968dc05e4efab 4a350143e5a4ef8da3500c3b2c8b5349 ffffffffffffffffffffffffffffffff 3601300 /Users/security/mtclient/bin/Release/minetestserver

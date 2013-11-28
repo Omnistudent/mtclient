@@ -1294,7 +1294,7 @@ void the_game(
 	if (!camera.successfullyCreated(error_message))
 		return;
         Brain *brain=new Brain(&client,&camera,master);
-        AIInputHandler *aiinput=new AIInputHandler();
+        //AIInputHandler *aiinput=new AIInputHandler();
 
 
 	f32 camera_yaw = 0; // "right/left"

@@ -130,6 +130,21 @@ private:
     bool GetRightClicked;
     bool GetLeftClicked;
 
+
+
+	KeyList keydown;
+	v2s32 mousepos;
+	v2s32 mousespeed;
+	bool leftdown;
+	bool rightdown;
+	bool leftclicked;
+	bool rightclicked;
+	bool leftreleased;
+	bool rightreleased;
+
+
+
+
     // list of materials, in the x range:-1, 0, 1
     std::vector<std::string> last_materialsx;
     // list of materials in the z range -1 0 1
