@@ -4,6 +4,9 @@
 Brain::Brain(Client* c,Camera* k,std::string mastername)                         
 {
 
+
+
+
     //Manager for inventory
     myInvManager=new Myinv(c);
 
@@ -67,6 +70,20 @@ Brain::Brain(Client* c,Camera* k,std::string mastername)
 }
 
 // Functions called from other objects
+
+bool Brain::isKeyDown(const KeyPress &keyCode)
+{
+return false;
+}
+
+bool Brain::wasKeyDown(const KeyPress &keyCode)
+{
+return false;
+}
+
+
+
+
 const bool Brain::getDigStatus() 
 { return LeftB; }
 
@@ -120,6 +137,44 @@ bool Brain::getLeftClicked()
 	
 void Brain::resetLeftClicked()
 { GetLeftClicked=false; }
+
+v2s32 Brain::getMousePos()
+{
+    return v2s32(0,0);
+}
+
+void Brain::setMousePos(s32 x, s32 y)
+{
+   
+}
+bool Brain::getLeftReleased()
+{
+   
+    return false;
+}
+bool Brain::getRightReleased()
+{
+   
+    return false;
+}
+void Brain::resetRightReleased()
+{
+   
+}
+
+void Brain::resetLeftReleased()
+{
+   
+}
+
+
+s32 Brain::getMouseWheel()
+{
+   
+    return 0;
+}
+
+
 
 // Checkaction
 

@@ -25,7 +25,7 @@
 #include "clientmap.h"
 #include "environment.h"
 #include "util/string.h"
-//#include "game.h"
+#include "game.h"
 #include "util/directiontables.h"
 #include "nodedef.h"
 #include "camera.h"
@@ -47,17 +47,43 @@
 
 //class Brain;
 
-class Brain{
+//class Brain 
+class Brain : public InputHandler
+{
+
 public:
-	//Brain2();
+
+
 	Brain(Client* c,Camera* k,std::string mastername);
+
+	virtual bool isKeyDown(const KeyPress &keyCode);
+	virtual bool wasKeyDown(const KeyPress &keyCode);
+	virtual v2s32 getMousePos();
+	virtual void setMousePos(s32 x, s32 y);
+	virtual bool getLeftState();
+	virtual bool getRightState();
+	virtual bool getLeftClicked();
+	virtual bool getRightClicked();
+	virtual void resetLeftClicked();
+	virtual void resetRightClicked();
+	virtual bool getLeftReleased();
+	virtual bool getRightReleased();
+	virtual void resetLeftReleased();
+	virtual void resetRightReleased();
+
+	virtual s32 getMouseWheel();
+
+	void step(float tim);
+        void clearMessline();
+private:
+
+	//Brain2();
 	
 	Client* clientobj;
         Myinv* myInvManager;
         ActionFactory* actionFac; 
 	std::list<ChatLine> currentchatlist;
 	std::list<ChatLine> formerchatlist;
-	void step(float tim);
 
         std::string master;
 	
@@ -72,7 +98,6 @@ public:
     std::list<Brainaction*> brainacts;
     std::list<Brainaction*> currentlist;
 
-    void clearMessline();
     float lastdtime;
 
 
@@ -138,20 +163,21 @@ public:
 	
     bool getForwardState();
     bool getBackState();
-    bool getLeftState();
-    bool getRightState();
+   // bool getLeftState();
+    //bool getRightState();
     bool getJumpState();
     bool getSpecialState();
     bool getSneakState();
     void setChestInventory(Inventory *chestenv); 
-    void resetRightClicked();
-    void resetLeftClicked();
+    //void resetRightClicked();
+    //void resetLeftClicked();
+    //v2s32 getMousePos();
 
 
 
  
-    bool getRightClicked();
-    bool getLeftClicked();
+    //bool getRightClicked();
+    //bool getLeftClicked();
 
     std::string getYawToMaster_string(LocalPlayer *player,ClientEnvironment *m_env);
     v3f getYawToMaster_pos(LocalPlayer *player,ClientEnvironment *m_env,std::string master);

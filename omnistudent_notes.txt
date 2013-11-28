@@ -188,3 +188,18 @@ minetest-0.4.8-dev-osx.dmg
 minetest-mac.xcodeproj/xcuserdata/*
 minetest-mac.xcodeproj/project.xcworkspace/xcuserdata/*
 build/
+
+
+For clienteer
+clientobject::pname and localplayer::getblocktype were removed in .4.8
+so I had to put them back in contentCAO localplayer and clientobject
+
+to localplayer
+std::string LocalPlayer::getBlocktype(v3f posit,Map &map){
+
+	INodeDefManager *nodemgr = m_gamedef->ndef();
+	v3s16 front_node = floatToInt(posit - v3f(0,0,0), BS);
+	std::string front_node_type = nodemgr->get(map.getNodeNoEx(front_node)).name;
+        return front_node_type;
+}
+

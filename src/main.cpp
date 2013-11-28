@@ -454,6 +454,108 @@ private:
 	MyEventReceiver *m_receiver;
 };
 
+
+class AIInputHandler : public InputHandler
+{
+public:
+	AIInputHandler()
+	{
+		leftdown = false;
+		rightdown = false;
+		leftclicked = false;
+		rightclicked = false;
+		leftreleased = false;
+		rightreleased = false;
+		keydown.clear();
+	}
+	virtual bool isKeyDown(const KeyPress &keyCode)
+	{
+		return keydown[keyCode];
+	}
+	virtual bool wasKeyDown(const KeyPress &keyCode)
+	{
+		return false;
+	}
+	virtual v2s32 getMousePos()
+	{
+		v2s32 mousep = v2s32(0,0);
+		return mousep;
+	}
+	virtual void setMousePos(s32 x, s32 y)
+	{
+		mousepos = v2s32(0,0);
+	}
+
+	virtual bool getLeftState()
+	{
+		return false;
+		//return leftdown;
+	}
+	virtual bool getRightState()
+	{
+		return false;
+		//return rightdown;
+	}
+
+	virtual bool getLeftClicked()
+	{
+		return false;
+		//return leftclicked;
+	}
+	virtual bool getRightClicked()
+	{
+		return false;
+		//return rightclicked;
+	}
+	virtual void resetLeftClicked()
+	{
+		//leftclicked = false;
+	}
+	virtual void resetRightClicked()
+	{
+		//rightclicked = false;
+		//rightclicked = false;
+	}
+
+	virtual bool getLeftReleased()
+	{
+		//return leftreleased;
+		return false;
+	}
+	virtual bool getRightReleased()
+	{
+		return false;
+		//return rightreleased;
+	}
+	virtual void resetLeftReleased()
+	{
+		leftreleased = false;
+	}
+	virtual void resetRightReleased()
+	{
+		rightreleased = false;
+	}
+
+	virtual s32 getMouseWheel()
+	{
+		return 0;
+	}
+
+private:
+	KeyList keydown;
+	v2s32 mousepos;
+	v2s32 mousespeed;
+	bool leftdown;
+	bool rightdown;
+	bool leftclicked;
+	bool rightclicked;
+	bool leftreleased;
+	bool rightreleased;
+};
+
+
+
+
 class RandomInputHandler : public InputHandler
 {
 public:

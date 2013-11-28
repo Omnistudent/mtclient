@@ -354,6 +354,8 @@ void LocalPlayer::move(f32 dtime, ClientEnvironment *env, f32 pos_max_d)
 {
 	move(dtime, env, pos_max_d, NULL);
 }
+
+//added by omnistudent
 std::string LocalPlayer::getBlocktype(v3f posit,Map &map){
 
 	INodeDefManager *nodemgr = m_gamedef->ndef();

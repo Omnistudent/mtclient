@@ -63,6 +63,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "sky.h"
 #include "sound.h"
 #include "ai/brain.h"
+#include "ai/aiInputHandler.h"
 #if USE_SOUND
 	#include "sound_openal.h"
 #endif
@@ -626,6 +627,7 @@ public:
 		}
 	}
 };
+
 
 class NodeDugEvent: public MtEvent
 {
@@ -1292,6 +1294,7 @@ void the_game(
 	if (!camera.successfullyCreated(error_message))
 		return;
         Brain *brain=new Brain(&client,&camera,master);
+        AIInputHandler *aiinput=new AIInputHandler();
 
 
 	f32 camera_yaw = 0; // "right/left"
@@ -1705,6 +1708,11 @@ void the_game(
 
 		// Input handler step() (used by the random input generator)
 		input->step(dtime);
+            // input br n or input
+
+                brain->step(dtime);
+                brain->clearMessline();
+
 
 		// Increase timer for doubleclick of "jump"
 		if(g_settings->getBool("doubletap_jump") && jump_timer <= 0.2)
@@ -2094,8 +2102,19 @@ void the_game(
 				first_loop_after_window_activation = false;
 			}
 			else{
-				s32 dx = input->getMousePos().X - displaycenter.X;
-				s32 dy = input->getMousePos().Y - displaycenter.Y;
+                                v2s32 holder=v2s32(0,0);
+				s32 dx = holder.X;
+				s32 dy = holder.Y;
+                                if (input_type.compare("ai"))
+                                {
+				dx = brain->getMousePos().X - displaycenter.X;
+				dy = brain->getMousePos().Y - displaycenter.Y;
+                                }
+                                else
+                                {
+				dx = input->getMousePos().X - displaycenter.X;
+				dy = input->getMousePos().Y - displaycenter.Y;
+                                }
 				if(invert_mouse)
 					dy = -dy;
 				//infostream<<"window active, pos difference "<<dx<<","<<dy<<std::endl;
@@ -3476,5 +3495,10 @@ void the_game(
 		<< driver-> getMaterialRendererCount ()
 		<< " (note: irrlicht doesn't support removing renderers)"<< std::endl;
 }
+
+
+
+
+
 
 
