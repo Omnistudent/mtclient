@@ -1874,8 +1874,8 @@ int main(int argc, char *argv[])
 				Run game
 			*/
 
-		        std::string commander="";
-		        std::string input_type="";
+		        std::string commander="self";
+		        std::string input_type="user";
                         if (cmd_args.exists("master"))
                         {
 		            commander= cmd_args.get("master");

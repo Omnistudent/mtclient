@@ -1707,12 +1707,16 @@ void the_game(
 		}
 
 		// Input handler step() (used by the random input generator)
-		input->step(dtime);
+                brain->clearMessline();
             // input br n or input
 
+                if (input_type.compare("ai")==0)
+                {
+                input=brain;
                 brain->step(dtime);
-                brain->clearMessline();
+                }
 
+		input->step(dtime);
 
 		// Increase timer for doubleclick of "jump"
 		if(g_settings->getBool("doubletap_jump") && jump_timer <= 0.2)
@@ -2105,7 +2109,7 @@ void the_game(
                                 v2s32 holder=v2s32(0,0);
 				s32 dx = holder.X;
 				s32 dy = holder.Y;
-                                if (input_type.compare("ai"))
+                                if (input_type.compare("ai")==0)
                                 {
 				dx = brain->getMousePos().X - displaycenter.X;
 				dy = brain->getMousePos().Y - displaycenter.Y;

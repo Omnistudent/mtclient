@@ -203,3 +203,8 @@ std::string LocalPlayer::getBlocktype(v3f posit,Map &map){
         return front_node_type;
 }
 
+
+There was a bug in the reinstallation of xcode 326, had to change symlinks manually ln -s
+
+had to add framework: irrlicht from /usr something, not the regular library
+/usr/local/lib/libIrrlicht.a 
